@@ -496,6 +496,16 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Update="ICO\ToolBar.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToolBar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\ToolBar.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToolBar.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -874,6 +884,14 @@
     <EmbeddedResource Update="SQL\SDF\UPDATE.resx">
       <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\ToolBar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\ToolBar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
