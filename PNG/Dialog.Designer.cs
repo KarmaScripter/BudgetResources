@@ -93,16 +93,6 @@ namespace BudgetExecution.PNG {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DialogDanger {
-            get {
-                object obj = ResourceManager.GetObject("DialogDanger", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap DialogDownload {
             get {
                 object obj = ResourceManager.GetObject("DialogDownload", resourceCulture);

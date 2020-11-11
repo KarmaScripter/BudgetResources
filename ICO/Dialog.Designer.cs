@@ -63,16 +63,6 @@ namespace BudgetExecution.ICO {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DalogUpload {
-            get {
-                object obj = ResourceManager.GetObject("DalogUpload", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
         internal static System.Drawing.Icon DialogArchive {
             get {
                 object obj = ResourceManager.GetObject("DialogArchive", resourceCulture);
@@ -96,16 +86,6 @@ namespace BudgetExecution.ICO {
         internal static System.Drawing.Icon DialogCaution {
             get {
                 object obj = ResourceManager.GetObject("DialogCaution", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon DialogDanger {
-            get {
-                object obj = ResourceManager.GetObject("DialogDanger", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -246,6 +226,16 @@ namespace BudgetExecution.ICO {
         internal static System.Drawing.Icon DialogSearch {
             get {
                 object obj = ResourceManager.GetObject("DialogSearch", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DialogUpload {
+            get {
+                object obj = ResourceManager.GetObject("DialogUpload", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

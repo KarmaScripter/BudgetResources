@@ -127,9 +127,6 @@
   <data name="DialogCaution" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogCaution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DialogDanger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DialogDanger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DialogDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogDownload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

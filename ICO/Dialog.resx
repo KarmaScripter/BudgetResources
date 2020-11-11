@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DalogUpload" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DalogUpload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DialogArchive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogArchive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -129,9 +126,6 @@
   </data>
   <data name="DialogCaution" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogCaution.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DialogDanger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DialogDanger.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogDownload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,6 +168,9 @@
   </data>
   <data name="DialogSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DialogUpload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DalogUpload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogVerify.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
