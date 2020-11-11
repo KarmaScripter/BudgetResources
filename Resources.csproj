@@ -26,232 +26,232 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ICO\Provider.Designer.cs">
+    <Compile Update="Icons\Provider.Designer.cs">
       <DependentUpon>Provider.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="PNG\Badger.Designer.cs">
+    <Compile Update="Images\Badger.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Badger.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\BudgetObjectClass.Designer.cs">
+    <Compile Update="Images\BudgetObjectClass.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BudgetObjectClass.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\CloseBox.Designer.cs">
+    <Compile Update="Images\CloseBox.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>CloseBox.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Data.Designer.cs">
+    <Compile Update="Images\Data.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Data.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Database.Designer.cs">
+    <Compile Update="Images\Database.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Database.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Dialog.Designer.cs">
+    <Compile Update="Images\Dialog.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Dialog.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Division.Designer.cs">
+    <Compile Update="Images\Division.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Division.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Email.Designer.cs">
+    <Compile Update="Images\Email.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Email.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Employee.Designer.cs">
+    <Compile Update="Images\Employee.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Employee.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\EPA.Designer.cs">
+    <Compile Update="Images\EPA.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>EPA.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\File.Designer.cs">
+    <Compile Update="Images\File.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>File.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Filter.Designer.cs">
+    <Compile Update="Images\Filter.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Filter.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Folder.Designer.cs">
+    <Compile Update="Images\Folder.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Folder.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Fund.Designer.cs">
+    <Compile Update="Images\Fund.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Fund.resx</DependentUpon>
     </Compile>
-    <Compile Update="ICO\Badger.Designer.cs">
+    <Compile Update="Icons\Badger.Designer.cs">
       <DependentUpon>Badger.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\BudgetObjectClass.Designer.cs">
+    <Compile Update="Icons\BudgetObjectClass.Designer.cs">
       <DependentUpon>BudgetObjectClass.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\CloseBox.Designer.cs">
+    <Compile Update="Icons\CloseBox.Designer.cs">
       <DependentUpon>CloseBox.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Data.Designer.cs">
+    <Compile Update="Icons\Data.Designer.cs">
       <DependentUpon>Data.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Database.Designer.cs">
+    <Compile Update="Icons\Database.Designer.cs">
       <DependentUpon>Database.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Dialog.Designer.cs">
+    <Compile Update="Icons\Dialog.Designer.cs">
       <DependentUpon>Dialog.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Division.Designer.cs">
+    <Compile Update="Icons\Division.Designer.cs">
       <DependentUpon>Division.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Email.Designer.cs">
+    <Compile Update="Icons\Email.Designer.cs">
       <DependentUpon>Email.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Employee.Designer.cs">
+    <Compile Update="Icons\Employee.Designer.cs">
       <DependentUpon>Employee.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\EPA.Designer.cs">
+    <Compile Update="Icons\EPA.Designer.cs">
       <DependentUpon>EPA.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\File.Designer.cs">
+    <Compile Update="Icons\File.Designer.cs">
       <DependentUpon>File.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Filter.Designer.cs">
+    <Compile Update="Icons\Filter.Designer.cs">
       <DependentUpon>Filter.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Folder.Designer.cs">
+    <Compile Update="Icons\Folder.Designer.cs">
       <DependentUpon>Folder.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Fund.Designer.cs">
+    <Compile Update="Icons\Fund.Designer.cs">
       <DependentUpon>Fund.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Identification.Designer.cs">
+    <Compile Update="Icons\Identification.Designer.cs">
       <DependentUpon>Identification.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Inteface.Designer.cs">
+    <Compile Update="Icons\Inteface.Designer.cs">
       <DependentUpon>Inteface.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Math.Designer.cs">
+    <Compile Update="Icons\Math.Designer.cs">
       <DependentUpon>Math.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Navigation.Designer.cs">
+    <Compile Update="Icons\Navigation.Designer.cs">
       <DependentUpon>Navigation.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Ninja.Designer.cs">
+    <Compile Update="Icons\Ninja.Designer.cs">
       <DependentUpon>Ninja.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Notification.Designer.cs">
+    <Compile Update="Icons\Notification.Designer.cs">
       <DependentUpon>Notification.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Office.Designer.cs">
+    <Compile Update="Icons\Office.Designer.cs">
       <DependentUpon>Office.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\Outlays.Designer.cs">
+    <Compile Update="Icons\Outlays.Designer.cs">
       <DependentUpon>Outlays.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="PNG\Identification.Designer.cs">
+    <Compile Update="Images\Identification.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Identification.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Inteface.Designer.cs">
+    <Compile Update="Images\Inteface.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Inteface.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Math.Designer.cs">
+    <Compile Update="Images\Math.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Math.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Navigation.Designer.cs">
+    <Compile Update="Images\Navigation.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Navigation.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Ninja.Designer.cs">
+    <Compile Update="Images\Ninja.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Ninja.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Notification.Designer.cs">
+    <Compile Update="Images\Notification.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Notification.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Office.Designer.cs">
+    <Compile Update="Images\Office.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Office.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Outlays.Designer.cs">
+    <Compile Update="Images\Outlays.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Outlays.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\Provider.Designer.cs">
+    <Compile Update="Images\Provider.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Provider.resx</DependentUpon>
@@ -496,12 +496,12 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="ICO\ToolBar.Designer.cs">
+    <Compile Update="Icons\ToolBar.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ToolBar.resx</DependentUpon>
     </Compile>
-    <Compile Update="PNG\ToolBar.Designer.cs">
+    <Compile Update="Images\ToolBar.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ToolBar.resx</DependentUpon>
@@ -509,187 +509,187 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ICO\Provider.resx">
+    <EmbeddedResource Update="Icons\Provider.resx">
       <LastGenOutput>Provider.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Badger.resx">
+    <EmbeddedResource Update="Images\Badger.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Badger.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\BudgetObjectClass.resx">
+    <EmbeddedResource Update="Images\BudgetObjectClass.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BudgetObjectClass.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\CloseBox.resx">
+    <EmbeddedResource Update="Images\CloseBox.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Data.resx">
+    <EmbeddedResource Update="Images\Data.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Data.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Database.resx">
+    <EmbeddedResource Update="Images\Database.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Database.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Dialog.resx">
+    <EmbeddedResource Update="Images\Dialog.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Division.resx">
+    <EmbeddedResource Update="Images\Division.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Division.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Email.resx">
+    <EmbeddedResource Update="Images\Email.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Email.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Employee.resx">
+    <EmbeddedResource Update="Images\Employee.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Employee.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\EPA.resx">
+    <EmbeddedResource Update="Images\EPA.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>EPA.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\File.resx">
+    <EmbeddedResource Update="Images\File.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>File.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Filter.resx">
+    <EmbeddedResource Update="Images\Filter.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Filter.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Folder.resx">
+    <EmbeddedResource Update="Images\Folder.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Folder.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Fund.resx">
+    <EmbeddedResource Update="Images\Fund.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Fund.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Badger.resx">
+    <EmbeddedResource Update="Icons\Badger.resx">
       <LastGenOutput>Badger.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\BudgetObjectClass.resx">
+    <EmbeddedResource Update="Icons\BudgetObjectClass.resx">
       <LastGenOutput>BudgetObjectClass.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\CloseBox.resx">
+    <EmbeddedResource Update="Icons\CloseBox.resx">
       <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Data.resx">
+    <EmbeddedResource Update="Icons\Data.resx">
       <LastGenOutput>Data.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Database.resx">
+    <EmbeddedResource Update="Icons\Database.resx">
       <LastGenOutput>Database.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Dialog.resx">
+    <EmbeddedResource Update="Icons\Dialog.resx">
       <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Division.resx">
+    <EmbeddedResource Update="Icons\Division.resx">
       <LastGenOutput>Division.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Email.resx">
+    <EmbeddedResource Update="Icons\Email.resx">
       <LastGenOutput>Email.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Employee.resx">
+    <EmbeddedResource Update="Icons\Employee.resx">
       <LastGenOutput>Employee.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\EPA.resx">
+    <EmbeddedResource Update="Icons\EPA.resx">
       <LastGenOutput>EPA.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\File.resx">
+    <EmbeddedResource Update="Icons\File.resx">
       <LastGenOutput>File.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Filter.resx">
+    <EmbeddedResource Update="Icons\Filter.resx">
       <LastGenOutput>Filter.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Folder.resx">
+    <EmbeddedResource Update="Icons\Folder.resx">
       <LastGenOutput>Folder.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Fund.resx">
+    <EmbeddedResource Update="Icons\Fund.resx">
       <LastGenOutput>Fund.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Identification.resx">
+    <EmbeddedResource Update="Icons\Identification.resx">
       <LastGenOutput>Identification.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Inteface.resx">
+    <EmbeddedResource Update="Icons\Inteface.resx">
       <LastGenOutput>Inteface.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Math.resx">
+    <EmbeddedResource Update="Icons\Math.resx">
       <LastGenOutput>Math.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Navigation.resx">
+    <EmbeddedResource Update="Icons\Navigation.resx">
       <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Ninja.resx">
+    <EmbeddedResource Update="Icons\Ninja.resx">
       <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Notification.resx">
+    <EmbeddedResource Update="Icons\Notification.resx">
       <LastGenOutput>Notification.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Office.resx">
+    <EmbeddedResource Update="Icons\Office.resx">
       <LastGenOutput>Office.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\Outlays.resx">
+    <EmbeddedResource Update="Icons\Outlays.resx">
       <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Identification.resx">
+    <EmbeddedResource Update="Images\Identification.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Identification.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Inteface.resx">
+    <EmbeddedResource Update="Images\Inteface.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Inteface.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Math.resx">
+    <EmbeddedResource Update="Images\Math.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Math.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Navigation.resx">
+    <EmbeddedResource Update="Images\Navigation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Ninja.resx">
+    <EmbeddedResource Update="Images\Ninja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Notification.resx">
+    <EmbeddedResource Update="Images\Notification.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Notification.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Office.resx">
+    <EmbeddedResource Update="Images\Office.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Office.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Outlays.resx">
+    <EmbeddedResource Update="Images\Outlays.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\Provider.resx">
+    <EmbeddedResource Update="Images\Provider.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Provider.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -885,11 +885,11 @@
       <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ICO\ToolBar.resx">
+    <EmbeddedResource Update="Icons\ToolBar.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="PNG\ToolBar.resx">
+    <EmbeddedResource Update="Images\ToolBar.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
     </EmbeddedResource>
