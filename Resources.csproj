@@ -1,0 +1,880 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>BudgetExecution</RootNamespace>
+    <ApplicationIcon>DbNinja.ico</ApplicationIcon>
+    <AssemblyName>BudgetResources</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PDF\FCO\FundsControlManual.pdf" />
+    <None Remove="XLSX\Budget\Control.xlsx" />
+    <None Remove="XLSX\Report\Report.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="PDF\FCO\FundsControlManual.pdf" />
+    <Content Include="XLSX\Budget\Control.xlsx" />
+    <Content Include="XLSX\Report\Report.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SQL\ACCDB\CREATE\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ICO\Provider.Designer.cs">
+      <DependentUpon>Provider.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="PNG\Badger.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Badger.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\BudgetObjectClass.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BudgetObjectClass.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\CloseBox.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseBox.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Data.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Data.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Database.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Database.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Dialog.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Dialog.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Division.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Division.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Email.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Email.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Employee.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Employee.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\EPA.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EPA.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\File.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>File.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Filter.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Filter.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Folder.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Folder.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Fund.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Fund.resx</DependentUpon>
+    </Compile>
+    <Compile Update="ICO\Badger.Designer.cs">
+      <DependentUpon>Badger.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\BudgetObjectClass.Designer.cs">
+      <DependentUpon>BudgetObjectClass.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\CloseBox.Designer.cs">
+      <DependentUpon>CloseBox.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Data.Designer.cs">
+      <DependentUpon>Data.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Database.Designer.cs">
+      <DependentUpon>Database.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Dialog.Designer.cs">
+      <DependentUpon>Dialog.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Division.Designer.cs">
+      <DependentUpon>Division.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Email.Designer.cs">
+      <DependentUpon>Email.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Employee.Designer.cs">
+      <DependentUpon>Employee.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\EPA.Designer.cs">
+      <DependentUpon>EPA.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\File.Designer.cs">
+      <DependentUpon>File.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Filter.Designer.cs">
+      <DependentUpon>Filter.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Folder.Designer.cs">
+      <DependentUpon>Folder.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Fund.Designer.cs">
+      <DependentUpon>Fund.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Identification.Designer.cs">
+      <DependentUpon>Identification.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Inteface.Designer.cs">
+      <DependentUpon>Inteface.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Math.Designer.cs">
+      <DependentUpon>Math.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Navigation.Designer.cs">
+      <DependentUpon>Navigation.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Ninja.Designer.cs">
+      <DependentUpon>Ninja.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Notification.Designer.cs">
+      <DependentUpon>Notification.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Office.Designer.cs">
+      <DependentUpon>Office.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ICO\Outlays.Designer.cs">
+      <DependentUpon>Outlays.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="PNG\Identification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Identification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Inteface.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Inteface.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Math.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Math.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Navigation.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Navigation.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Ninja.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Ninja.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Notification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Notification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Office.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Office.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Outlays.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Outlays.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PNG\Provider.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Provider.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\ACCDB\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DELETE.Designer.cs">
+      <DependentUpon>DELETE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\DB\ALTER\RENAME.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RENAME.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\DATABASE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DATABASE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\TABLE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TABLE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\VIEW.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>VIEW.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DETACH.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DETACH.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\DB\INSERT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>INSERT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\SELECT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SELECT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\TABLE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TABLE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\UPDATE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UPDATE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CREATE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\VIEW.Designer.cs">
+      <DependentUpon>VIEW.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\VIEW.Designer.cs">
+      <DependentUpon>VIEW.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDF\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\SELECT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SELECT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDF\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DELETE.Designer.cs">
+      <DependentUpon>DELETE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ICO\Provider.resx">
+      <LastGenOutput>Provider.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Badger.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Badger.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\BudgetObjectClass.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BudgetObjectClass.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\CloseBox.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Data.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Database.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Database.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Dialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Division.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Division.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Email.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Email.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Employee.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Employee.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\EPA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\File.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>File.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Filter.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Filter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Folder.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Folder.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Fund.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fund.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Badger.resx">
+      <LastGenOutput>Badger.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\BudgetObjectClass.resx">
+      <LastGenOutput>BudgetObjectClass.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\CloseBox.resx">
+      <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Data.resx">
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Database.resx">
+      <LastGenOutput>Database.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Dialog.resx">
+      <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Division.resx">
+      <LastGenOutput>Division.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Email.resx">
+      <LastGenOutput>Email.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Employee.resx">
+      <LastGenOutput>Employee.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\EPA.resx">
+      <LastGenOutput>EPA.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\File.resx">
+      <LastGenOutput>File.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Filter.resx">
+      <LastGenOutput>Filter.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Folder.resx">
+      <LastGenOutput>Folder.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Fund.resx">
+      <LastGenOutput>Fund.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Identification.resx">
+      <LastGenOutput>Identification.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Inteface.resx">
+      <LastGenOutput>Inteface.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Math.resx">
+      <LastGenOutput>Math.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Navigation.resx">
+      <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Ninja.resx">
+      <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Notification.resx">
+      <LastGenOutput>Notification.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Office.resx">
+      <LastGenOutput>Office.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ICO\Outlays.resx">
+      <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Identification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Identification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Inteface.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Inteface.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Math.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Math.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Navigation.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Ninja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Notification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Office.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Office.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Outlays.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PNG\Provider.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Provider.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DELETE.resx">
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\ALTER\RENAME.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\DATABASE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\TABLE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\VIEW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DETACH.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\INSERT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\SELECT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\TABLE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\UPDATE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CREATE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\VIEW.resx">
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\VIEW.resx">
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\SELECT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DELETE.resx">
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
