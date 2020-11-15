@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DataAddColumn {
+        internal static System.Drawing.Icon DataColumnAdd {
             get {
-                object obj = ResourceManager.GetObject("DataAddColumn", resourceCulture);
+                object obj = ResourceManager.GetObject("DataColumnAdd", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,19 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DataAddFilter {
+        internal static System.Drawing.Icon DataColumnDelete {
             get {
-                object obj = ResourceManager.GetObject("DataAddFilter", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon DataAddRow {
-            get {
-                object obj = ResourceManager.GetObject("DataAddRow", resourceCulture);
+                object obj = ResourceManager.GetObject("DataColumnDelete", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -136,26 +126,6 @@ namespace BudgetExecution.Icons {
         internal static System.Drawing.Icon DataDelete {
             get {
                 object obj = ResourceManager.GetObject("DataDelete", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon DataDeleteColumn {
-            get {
-                object obj = ResourceManager.GetObject("DataDeleteColumn", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon DataDeleteRow {
-            get {
-                object obj = ResourceManager.GetObject("DataDeleteRow", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -223,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DataFirstRow {
+        internal static System.Drawing.Icon DataFilterAdd {
             get {
-                object obj = ResourceManager.GetObject("DataFirstRow", resourceCulture);
+                object obj = ResourceManager.GetObject("DataFilterAdd", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -296,6 +266,26 @@ namespace BudgetExecution.Icons {
         internal static System.Drawing.Icon DataRestricted {
             get {
                 object obj = ResourceManager.GetObject("DataRestricted", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DataRowAdd {
+            get {
+                object obj = ResourceManager.GetObject("DataRowAdd", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DataRowDelete {
+            get {
+                object obj = ResourceManager.GetObject("DataRowDelete", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

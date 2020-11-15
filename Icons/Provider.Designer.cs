@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Access {
+        internal static System.Drawing.Icon ProviderAccess {
             get {
-                object obj = ResourceManager.GetObject("Access", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderAccess", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CSV {
+        internal static System.Drawing.Icon ProviderCsv {
             get {
-                object obj = ResourceManager.GetObject("CSV", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderCsv", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Excel {
+        internal static System.Drawing.Icon ProviderExcel {
             get {
-                object obj = ResourceManager.GetObject("Excel", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderExcel", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon OleDb {
+        internal static System.Drawing.Icon ProviderOleDb {
             get {
-                object obj = ResourceManager.GetObject("OleDb", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderOleDb", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon SqlCe {
+        internal static System.Drawing.Icon ProviderSqlCe {
             get {
-                object obj = ResourceManager.GetObject("SqlCe", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderSqlCe", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon SQLite {
+        internal static System.Drawing.Icon ProviderSQLite {
             get {
-                object obj = ResourceManager.GetObject("SQLite", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderSQLite", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon SqlServer {
+        internal static System.Drawing.Icon ProviderSqlServer {
             get {
-                object obj = ResourceManager.GetObject("SqlServer", resourceCulture);
+                object obj = ResourceManager.GetObject("ProviderSqlServer", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

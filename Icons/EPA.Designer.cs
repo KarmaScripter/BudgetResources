@@ -63,6 +63,16 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
+        internal static System.Drawing.Icon EpaCircle {
+            get {
+                object obj = ResourceManager.GetObject("EpaCircle", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
         internal static System.Drawing.Icon EpaHorizontal {
             get {
                 object obj = ResourceManager.GetObject("EpaHorizontal", resourceCulture);

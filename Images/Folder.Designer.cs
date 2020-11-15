@@ -183,6 +183,16 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FolderShared {
+            get {
+                object obj = ResourceManager.GetObject("FolderShared", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FolderTemp {
             get {
                 object obj = ResourceManager.GetObject("FolderTemp", resourceCulture);
@@ -196,16 +206,6 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap FolderUpload {
             get {
                 object obj = ResourceManager.GetObject("FolderUpload", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SharedFolder {
-            get {
-                object obj = ResourceManager.GetObject("SharedFolder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -63,16 +63,6 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DatabaseCloudSecure {
-            get {
-                object obj = ResourceManager.GetObject("DatabaseCloudSecure", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap DatabaseCopy {
             get {
                 object obj = ResourceManager.GetObject("DatabaseCopy", resourceCulture);

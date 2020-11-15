@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AddOrPlus {
+        internal static System.Drawing.Bitmap InterfaceAdd {
             get {
-                object obj = ResourceManager.GetObject("AddOrPlus", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceAdd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Analysis {
+        internal static System.Drawing.Bitmap InterfaceAnalysis {
             get {
-                object obj = ResourceManager.GetObject("Analysis", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceAnalysis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AppropriatedFunds {
+        internal static System.Drawing.Bitmap InterfaceAppropriation {
             get {
-                object obj = ResourceManager.GetObject("AppropriatedFunds", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceAppropriation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ask {
+        internal static System.Drawing.Bitmap InterfaceAsk {
             get {
-                object obj = ResourceManager.GetObject("Ask", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceAsk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AutoSizeColumns {
+        internal static System.Drawing.Bitmap InterfaceAutoSizeColumns {
             get {
-                object obj = ResourceManager.GetObject("AutoSizeColumns", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceAutoSizeColumns", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bluetooth {
+        internal static System.Drawing.Bitmap InterfaceBluetooth {
             get {
-                object obj = ResourceManager.GetObject("Bluetooth", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceBluetooth", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Branch {
+        internal static System.Drawing.Bitmap InterfaceBucket {
             get {
-                object obj = ResourceManager.GetObject("Branch", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceBucket", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bucket {
+        internal static System.Drawing.Bitmap InterfaceCalculator {
             get {
-                object obj = ResourceManager.GetObject("Bucket", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceCalculator", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Calculator {
+        internal static System.Drawing.Bitmap InterfaceCalendar {
             get {
-                object obj = ResourceManager.GetObject("Calculator", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceCalendar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Calendar {
+        internal static System.Drawing.Bitmap InterfaceCategory {
             get {
-                object obj = ResourceManager.GetObject("Calendar", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceCategory", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Category {
+        internal static System.Drawing.Bitmap InterfaceCertify {
             get {
-                object obj = ResourceManager.GetObject("Category", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceCertify", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Chart {
+        internal static System.Drawing.Bitmap InterfaceChart {
             get {
-                object obj = ResourceManager.GetObject("Chart", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceChart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleAdd {
+        internal static System.Drawing.Bitmap InterfaceCircleAdd {
             get {
-                object obj = ResourceManager.GetObject("CircleAdd", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceCircleAdd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircledMail {
+        internal static System.Drawing.Bitmap InterfaceClean {
             get {
-                object obj = ResourceManager.GetObject("CircledMail", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceClean", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Clean {
+        internal static System.Drawing.Bitmap InterfaceConfiguration {
             get {
-                object obj = ResourceManager.GetObject("Clean", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceConfiguration", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Configuration {
+        internal static System.Drawing.Bitmap InterfaceConstruction {
             get {
-                object obj = ResourceManager.GetObject("Configuration", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceConstruction", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Construction {
+        internal static System.Drawing.Bitmap InterfaceContacts {
             get {
-                object obj = ResourceManager.GetObject("Construction", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceContacts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Contacts {
+        internal static System.Drawing.Bitmap InterfaceDivisions {
             get {
-                object obj = ResourceManager.GetObject("Contacts", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceDivisions", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ecology {
+        internal static System.Drawing.Bitmap InterfacedMail {
             get {
-                object obj = ResourceManager.GetObject("Ecology", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfacedMail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EditButton {
+        internal static System.Drawing.Bitmap InterfaceEcology {
             get {
-                object obj = ResourceManager.GetObject("EditButton", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceEcology", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ErrorMessage {
+        internal static System.Drawing.Bitmap InterfaceEdit {
             get {
-                object obj = ResourceManager.GetObject("ErrorMessage", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceEdit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Exchange {
+        internal static System.Drawing.Bitmap InterfaceEmployee {
             get {
-                object obj = ResourceManager.GetObject("Exchange", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceEmployee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Execute {
+        internal static System.Drawing.Bitmap InterfaceEpa {
             get {
-                object obj = ResourceManager.GetObject("Execute", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceEpa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Explosion {
+        internal static System.Drawing.Bitmap InterfaceErrorMessage {
             get {
-                object obj = ResourceManager.GetObject("Explosion", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceErrorMessage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Flag {
+        internal static System.Drawing.Bitmap InterfaceExchange {
             get {
-                object obj = ResourceManager.GetObject("Flag", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceExchange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Flower {
+        internal static System.Drawing.Bitmap InterfaceExecute {
             get {
-                object obj = ResourceManager.GetObject("Flower", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceExecute", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Fund {
+        internal static System.Drawing.Bitmap InterfaceExplosion {
             get {
-                object obj = ResourceManager.GetObject("Fund", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceExplosion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +333,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GreenIdea {
+        internal static System.Drawing.Bitmap InterfaceFlag {
             get {
-                object obj = ResourceManager.GetObject("GreenIdea", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceFlag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +343,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap House {
+        internal static System.Drawing.Bitmap InterfaceFund {
             get {
-                object obj = ResourceManager.GetObject("House", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceFund", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,49 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Information {
+        internal static System.Drawing.Bitmap InterfaceHome {
             get {
-                object obj = ResourceManager.GetObject("Information", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceHome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterfaceIdea {
+            get {
+                object obj = ResourceManager.GetObject("InterfaceIdea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterfaceIndoorAir {
+            get {
+                object obj = ResourceManager.GetObject("InterfaceIndoorAir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterfaceInfo {
+            get {
+                object obj = ResourceManager.GetObject("InterfaceInfo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterfaceLock {
+            get {
+                object obj = ResourceManager.GetObject("InterfaceLock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +413,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Lock {
+        internal static System.Drawing.Bitmap InterfaceLogout {
             get {
-                object obj = ResourceManager.GetObject("Lock", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceLogout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +423,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logout {
+        internal static System.Drawing.Bitmap InterfaceMainForm {
             get {
-                object obj = ResourceManager.GetObject("Logout", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceMainForm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +433,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MainForm {
+        internal static System.Drawing.Bitmap InterfaceMap {
             get {
-                object obj = ResourceManager.GetObject("MainForm", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceMap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +443,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Map {
+        internal static System.Drawing.Bitmap InterfaceNetwork {
             get {
-                object obj = ResourceManager.GetObject("Map", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceNetwork", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,9 +453,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MenuInterface {
+        internal static System.Drawing.Bitmap InterfaceNinja {
             get {
-                object obj = ResourceManager.GetObject("MenuInterface", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceNinja", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +463,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Network {
+        internal static System.Drawing.Bitmap InterfaceNotes {
             get {
-                object obj = ResourceManager.GetObject("Network", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceNotes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +473,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap NetworkSharing {
+        internal static System.Drawing.Bitmap InterfaceNotify {
             get {
-                object obj = ResourceManager.GetObject("NetworkSharing", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceNotify", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,9 +483,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ninja {
+        internal static System.Drawing.Bitmap InterfaceOk {
             get {
-                object obj = ResourceManager.GetObject("Ninja", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceOk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +493,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Notes {
+        internal static System.Drawing.Bitmap InterfaceQuestion {
             get {
-                object obj = ResourceManager.GetObject("Notes", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceQuestion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +503,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Notify {
+        internal static System.Drawing.Bitmap InterfaceQuestionMark {
             get {
-                object obj = ResourceManager.GetObject("Notify", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceQuestionMark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +513,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ok {
+        internal static System.Drawing.Bitmap InterfaceRegionalOffice {
             get {
-                object obj = ResourceManager.GetObject("Ok", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceRegionalOffice", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -483,9 +523,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Question {
+        internal static System.Drawing.Bitmap InterfaceRemoteLocation {
             get {
-                object obj = ResourceManager.GetObject("Question", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceRemoteLocation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,9 +533,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Recertify {
+        internal static System.Drawing.Bitmap InterfaceSearch {
             get {
-                object obj = ResourceManager.GetObject("Recertify", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceSearch", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +543,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RegionalOffice {
+        internal static System.Drawing.Bitmap InterfaceSettings {
             get {
-                object obj = ResourceManager.GetObject("RegionalOffice", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceSettings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,9 +553,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RemoteLocation {
+        internal static System.Drawing.Bitmap InterfaceSleep {
             get {
-                object obj = ResourceManager.GetObject("RemoteLocation", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceSleep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,9 +563,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SearchButton {
+        internal static System.Drawing.Bitmap InterfaceTarget {
             get {
-                object obj = ResourceManager.GetObject("SearchButton", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceTarget", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,9 +573,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Section {
+        internal static System.Drawing.Bitmap InterfaceTransfer {
             get {
-                object obj = ResourceManager.GetObject("Section", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceTransfer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +583,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Setting {
+        internal static System.Drawing.Bitmap InterfaceUnlock {
             get {
-                object obj = ResourceManager.GetObject("Setting", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceUnlock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -553,9 +593,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Signin {
+        internal static System.Drawing.Bitmap InterfaceUploadSuccess {
             get {
-                object obj = ResourceManager.GetObject("Signin", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceUploadSuccess", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +603,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Signout {
+        internal static System.Drawing.Bitmap InterfaceVerify {
             get {
-                object obj = ResourceManager.GetObject("Signout", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceVerify", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,9 +613,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sleep {
+        internal static System.Drawing.Bitmap InterfaceWebSearch {
             get {
-                object obj = ResourceManager.GetObject("Sleep", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceWebSearch", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -583,79 +623,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Target {
+        internal static System.Drawing.Bitmap InterfaceWorkLocation {
             get {
-                object obj = ResourceManager.GetObject("Target", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Transfer {
-            get {
-                object obj = ResourceManager.GetObject("Transfer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Unlock {
-            get {
-                object obj = ResourceManager.GetObject("Unlock", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap UploadSuccess {
-            get {
-                object obj = ResourceManager.GetObject("UploadSuccess", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Verify {
-            get {
-                object obj = ResourceManager.GetObject("Verify", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WebSearch {
-            get {
-                object obj = ResourceManager.GetObject("WebSearch", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Worker {
-            get {
-                object obj = ResourceManager.GetObject("Worker", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WorkLocation {
-            get {
-                object obj = ResourceManager.GetObject("WorkLocation", resourceCulture);
+                object obj = ResourceManager.GetObject("InterfaceWorkLocation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

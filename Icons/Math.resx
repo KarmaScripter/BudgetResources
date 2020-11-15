@@ -118,82 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Alpha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Alpha.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathAlpha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathAlpha.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Approximate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Approximate.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathApproximate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathApproximate.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Average" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Average.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathAverage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathAverage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Beta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Beta.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathBeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathBeta.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Delta.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathDelta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathDelta.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Division" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Division.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathDivision" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathDivision.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exponent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exponent.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathExponent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathExponent.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Function.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathFunction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathFunction.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GreaterThanEqualTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreaterThanEqualTo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathGreaterThanEqualTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathGreaterThanEqualTo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Inequality" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Inequality.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathInfinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathInfinity.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Infinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Infinity.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathIntegral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathIntegral.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Integral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Integral.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathLessThanEqualTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathLessThanEqualTo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LessThanEqualTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LessThanEqualTo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathMu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathMu.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mu.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathNotEqual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathNotEqual.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Number" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Number.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathNumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathNumber.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Omega" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Omega.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathOmega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathOmega.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Percntage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Percntage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathPercntage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathPercntage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Phi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Phi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathPhi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathPhi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathPi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathPi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PlusMinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlusMinus.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathPlusOrMinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathPlusOrMinus.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ranking" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ranking.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathRanking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathRanking.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sample" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sample.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathSample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathSample.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sigma.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathSigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathSigma.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Squared" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Squared.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathStatistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathStatistics.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Statistics.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Variance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Variance.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathVariance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathVariance.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -121,9 +121,6 @@
   <data name="DbFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DbFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DbFileSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DbFileSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FileAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FileAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -162,6 +159,9 @@
   </data>
   <data name="FileSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FileSave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FileSecurity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FileSecurity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

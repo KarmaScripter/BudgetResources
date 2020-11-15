@@ -121,14 +121,11 @@
   <data name="DataAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataAddColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddColumn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataColumnAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataColumnAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataAddFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataAddRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddRow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataColumnDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataColumnDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataConnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -137,13 +134,10 @@
     <value>..\Resources\DataCopy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataDatabase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataDeleteRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataDeleteRow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataDownload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -152,25 +146,25 @@
     <value>..\Resources\DataEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataEditFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataEditFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\EditFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataError" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataError.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataExport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataFirstRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataFirstRow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataFilterAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataFilterAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataGrouping" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataGrouping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataImport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataInsert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataInsert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,8 +178,14 @@
   <data name="DataRefresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataRefresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataRestrict" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataRestrict.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataRestricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataRestricted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataRowAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataRowAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataRowDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataRowDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -198,11 +198,5 @@
   </data>
   <data name="DataTransfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataTransfer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataWarning" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataWarning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DeleteColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DeleteColumn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

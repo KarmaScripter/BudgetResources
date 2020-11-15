@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ACCDB {
+        internal static System.Drawing.Bitmap OfficeAccess {
             get {
-                object obj = ResourceManager.GetObject("ACCDB", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAccess", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Admin {
+        internal static System.Drawing.Bitmap OfficeAdmin {
             get {
-                object obj = ResourceManager.GetObject("Admin", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAdmin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Adobe {
+        internal static System.Drawing.Bitmap OfficeAndroid {
             get {
-                object obj = ResourceManager.GetObject("Adobe", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAndroid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Android {
+        internal static System.Drawing.Bitmap OfficeContacts {
             get {
-                object obj = ResourceManager.GetObject("Android", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeContacts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CsvExport {
+        internal static System.Drawing.Bitmap OfficeCsv {
             get {
-                object obj = ResourceManager.GetObject("CsvExport", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeCsv", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CsvFile {
+        internal static System.Drawing.Bitmap OfficeCsvExport {
             get {
-                object obj = ResourceManager.GetObject("CsvFile", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeCsvExport", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DbContacts {
+        internal static System.Drawing.Bitmap OfficeDelve {
             get {
-                object obj = ResourceManager.GetObject("DbContacts", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeDelve", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Delve {
+        internal static System.Drawing.Bitmap OfficeExcelExport {
             get {
-                object obj = ResourceManager.GetObject("Delve", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeExcelExport", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DOC {
+        internal static System.Drawing.Bitmap OfficeFacebook {
             get {
-                object obj = ResourceManager.GetObject("DOC", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFacebook", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DOCX {
+        internal static System.Drawing.Bitmap OfficeFax {
             get {
-                object obj = ResourceManager.GetObject("DOCX", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFax", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExcelExport {
+        internal static System.Drawing.Bitmap OfficeFirefox {
             get {
-                object obj = ResourceManager.GetObject("ExcelExport", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFirefox", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Facebook {
+        internal static System.Drawing.Bitmap OfficeFlashDrive {
             get {
-                object obj = ResourceManager.GetObject("Facebook", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFlashDrive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Fax {
+        internal static System.Drawing.Bitmap OfficeGmail {
             get {
-                object obj = ResourceManager.GetObject("Fax", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Firefox {
+        internal static System.Drawing.Bitmap OfficeGoogle {
             get {
-                object obj = ResourceManager.GetObject("Firefox", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGoogle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FlashDrive {
+        internal static System.Drawing.Bitmap OfficeGoogleDrive {
             get {
-                object obj = ResourceManager.GetObject("FlashDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGoogleDrive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GMail {
+        internal static System.Drawing.Bitmap OfficeLinux {
             get {
-                object obj = ResourceManager.GetObject("GMail", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeLinux", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Google {
+        internal static System.Drawing.Bitmap OfficeOneDrive {
             get {
-                object obj = ResourceManager.GetObject("Google", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOneDrive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GoogleDrive {
+        internal static System.Drawing.Bitmap OfficeOneNote {
             get {
-                object obj = ResourceManager.GetObject("GoogleDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOneNote", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Linux {
+        internal static System.Drawing.Bitmap OfficeOutlook {
             get {
-                object obj = ResourceManager.GetObject("Linux", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOutlook", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MDB {
+        internal static System.Drawing.Bitmap OfficePdf {
             get {
-                object obj = ResourceManager.GetObject("MDB", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePdf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OneDrive {
+        internal static System.Drawing.Bitmap OfficePowerPoint {
             get {
-                object obj = ResourceManager.GetObject("OneDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePowerPoint", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OneNote {
+        internal static System.Drawing.Bitmap OfficePrint {
             get {
-                object obj = ResourceManager.GetObject("OneNote", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePrint", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Outlook {
+        internal static System.Drawing.Bitmap OfficeProject {
             get {
-                object obj = ResourceManager.GetObject("Outlook", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeProject", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PowerPoint {
+        internal static System.Drawing.Bitmap OfficePublisher {
             get {
-                object obj = ResourceManager.GetObject("PowerPoint", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePublisher", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Printer {
+        internal static System.Drawing.Bitmap OfficeSharePoint {
             get {
-                object obj = ResourceManager.GetObject("Printer", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeSharePoint", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Project {
+        internal static System.Drawing.Bitmap OfficeSkype {
             get {
-                object obj = ResourceManager.GetObject("Project", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeSkype", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Publisher {
+        internal static System.Drawing.Bitmap OfficeWord {
             get {
-                object obj = ResourceManager.GetObject("Publisher", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeWord", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,49 +333,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SharePoint {
+        internal static System.Drawing.Bitmap OfficeXlsx {
             get {
-                object obj = ResourceManager.GetObject("SharePoint", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Skype {
-            get {
-                object obj = ResourceManager.GetObject("Skype", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sway {
-            get {
-                object obj = ResourceManager.GetObject("Sway", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap XLS {
-            get {
-                object obj = ResourceManager.GetObject("XLS", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap XLSX {
-            get {
-                object obj = ResourceManager.GetObject("XLSX", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeXlsx", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

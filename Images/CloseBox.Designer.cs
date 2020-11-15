@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CloseForm {
+        internal static System.Drawing.Bitmap CloseBoxClose {
             get {
-                object obj = ResourceManager.GetObject("CloseForm", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxClose", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EnterApp {
+        internal static System.Drawing.Bitmap CloseBoxEnter {
             get {
-                object obj = ResourceManager.GetObject("EnterApp", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxEnter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExitApp {
+        internal static System.Drawing.Bitmap CloseBoxExit {
             get {
-                object obj = ResourceManager.GetObject("ExitApp", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxExit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FullScreen {
+        internal static System.Drawing.Bitmap CloseBoxMaximize {
             get {
-                object obj = ResourceManager.GetObject("FullScreen", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxMaximize", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MaximizeForm {
+        internal static System.Drawing.Bitmap CloseBoxMinimize {
             get {
-                object obj = ResourceManager.GetObject("MaximizeForm", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxMinimize", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,19 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MinimizeForm {
+        internal static System.Drawing.Bitmap CloseBoxShutdown {
             get {
-                object obj = ResourceManager.GetObject("MinimizeForm", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap PowerOff {
-            get {
-                object obj = ResourceManager.GetObject("PowerOff", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxShutdown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

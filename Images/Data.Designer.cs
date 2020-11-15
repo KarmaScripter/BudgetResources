@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DataAddColumn {
+        internal static System.Drawing.Bitmap DataColumnAdd {
             get {
-                object obj = ResourceManager.GetObject("DataAddColumn", resourceCulture);
+                object obj = ResourceManager.GetObject("DataColumnAdd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,19 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DataAddFilter {
+        internal static System.Drawing.Bitmap DataColumnDelete {
             get {
-                object obj = ResourceManager.GetObject("DataAddFilter", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DataAddRow {
-            get {
-                object obj = ResourceManager.GetObject("DataAddRow", resourceCulture);
+                object obj = ResourceManager.GetObject("DataColumnDelete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,16 +126,6 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap DataDelete {
             get {
                 object obj = ResourceManager.GetObject("DataDelete", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DataDeleteRow {
-            get {
-                object obj = ResourceManager.GetObject("DataDeleteRow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DataFirstRow {
+        internal static System.Drawing.Bitmap DataFilterAdd {
             get {
-                object obj = ResourceManager.GetObject("DataFirstRow", resourceCulture);
+                object obj = ResourceManager.GetObject("DataFilterAdd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +263,29 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DataRestrict {
+        internal static System.Drawing.Bitmap DataRestricted {
             get {
-                object obj = ResourceManager.GetObject("DataRestrict", resourceCulture);
+                object obj = ResourceManager.GetObject("DataRestricted", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DataRowAdd {
+            get {
+                object obj = ResourceManager.GetObject("DataRowAdd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DataRowDelete {
+            get {
+                object obj = ResourceManager.GetObject("DataRowDelete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,26 +326,6 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap DataTransfer {
             get {
                 object obj = ResourceManager.GetObject("DataTransfer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DataWarning {
-            get {
-                object obj = ResourceManager.GetObject("DataWarning", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DeleteColumn {
-            get {
-                object obj = ResourceManager.GetObject("DeleteColumn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

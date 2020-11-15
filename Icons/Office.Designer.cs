@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon ACCDB {
+        internal static System.Drawing.Icon OfficeAccess {
             get {
-                object obj = ResourceManager.GetObject("ACCDB", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAccess", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Admin {
+        internal static System.Drawing.Icon OfficeAdmin {
             get {
-                object obj = ResourceManager.GetObject("Admin", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAdmin", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Adobe {
+        internal static System.Drawing.Icon OfficeAndroid {
             get {
-                object obj = ResourceManager.GetObject("Adobe", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeAndroid", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Android {
+        internal static System.Drawing.Icon OfficeContacts {
             get {
-                object obj = ResourceManager.GetObject("Android", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeContacts", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Contacts {
+        internal static System.Drawing.Icon OfficeCsv {
             get {
-                object obj = ResourceManager.GetObject("Contacts", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeCsv", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CsvExport {
+        internal static System.Drawing.Icon OfficeCsvExport {
             get {
-                object obj = ResourceManager.GetObject("CsvExport", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeCsvExport", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CsvFile {
+        internal static System.Drawing.Icon OfficeDelve {
             get {
-                object obj = ResourceManager.GetObject("CsvFile", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeDelve", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Delve {
+        internal static System.Drawing.Icon OfficeExcelExport {
             get {
-                object obj = ResourceManager.GetObject("Delve", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeExcelExport", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DOC {
+        internal static System.Drawing.Icon OfficeFacebook {
             get {
-                object obj = ResourceManager.GetObject("DOC", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFacebook", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DOCX {
+        internal static System.Drawing.Icon OfficeFax {
             get {
-                object obj = ResourceManager.GetObject("DOCX", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFax", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon ExcelExport {
+        internal static System.Drawing.Icon OfficeFirefox {
             get {
-                object obj = ResourceManager.GetObject("ExcelExport", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFirefox", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Facebook {
+        internal static System.Drawing.Icon OfficeFlashDrive {
             get {
-                object obj = ResourceManager.GetObject("Facebook", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeFlashDrive", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Fax {
+        internal static System.Drawing.Icon OfficeGmail {
             get {
-                object obj = ResourceManager.GetObject("Fax", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGmail", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Firefox {
+        internal static System.Drawing.Icon OfficeGoogle {
             get {
-                object obj = ResourceManager.GetObject("Firefox", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGoogle", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FlashDrive {
+        internal static System.Drawing.Icon OfficeGoogleDrive {
             get {
-                object obj = ResourceManager.GetObject("FlashDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeGoogleDrive", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon GMail {
+        internal static System.Drawing.Icon OfficeLinux {
             get {
-                object obj = ResourceManager.GetObject("GMail", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeLinux", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Google {
+        internal static System.Drawing.Icon OfficeOneDrive {
             get {
-                object obj = ResourceManager.GetObject("Google", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOneDrive", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon GoogleDrive {
+        internal static System.Drawing.Icon OfficeOneNote {
             get {
-                object obj = ResourceManager.GetObject("GoogleDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOneNote", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Linux {
+        internal static System.Drawing.Icon OfficeOutlook {
             get {
-                object obj = ResourceManager.GetObject("Linux", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeOutlook", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon MDB {
+        internal static System.Drawing.Icon OfficePdf {
             get {
-                object obj = ResourceManager.GetObject("MDB", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePdf", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon OneDrive {
+        internal static System.Drawing.Icon OfficePowerPoint {
             get {
-                object obj = ResourceManager.GetObject("OneDrive", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePowerPoint", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon OneNote {
+        internal static System.Drawing.Icon OfficePrint {
             get {
-                object obj = ResourceManager.GetObject("OneNote", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePrint", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Outlook {
+        internal static System.Drawing.Icon OfficeProject {
             get {
-                object obj = ResourceManager.GetObject("Outlook", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeProject", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon PowerPoint {
+        internal static System.Drawing.Icon OfficePublisher {
             get {
-                object obj = ResourceManager.GetObject("PowerPoint", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficePublisher", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Printer {
+        internal static System.Drawing.Icon OfficeSharePoint {
             get {
-                object obj = ResourceManager.GetObject("Printer", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeSharePoint", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Project {
+        internal static System.Drawing.Icon OfficeSkype {
             get {
-                object obj = ResourceManager.GetObject("Project", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeSkype", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Publisher {
+        internal static System.Drawing.Icon OfficeWord {
             get {
-                object obj = ResourceManager.GetObject("Publisher", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeWord", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -333,49 +333,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon SharePoint {
+        internal static System.Drawing.Icon OfficeXlsx {
             get {
-                object obj = ResourceManager.GetObject("SharePoint", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Skype {
-            get {
-                object obj = ResourceManager.GetObject("Skype", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Sway {
-            get {
-                object obj = ResourceManager.GetObject("Sway", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon XLS {
-            get {
-                object obj = ResourceManager.GetObject("XLS", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon XLSX {
-            get {
-                object obj = ResourceManager.GetObject("XLSX", resourceCulture);
+                object obj = ResourceManager.GetObject("OfficeXlsx", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

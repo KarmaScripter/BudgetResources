@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Alpha {
+        internal static System.Drawing.Icon MathAlpha {
             get {
-                object obj = ResourceManager.GetObject("Alpha", resourceCulture);
+                object obj = ResourceManager.GetObject("MathAlpha", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Approximate {
+        internal static System.Drawing.Icon MathApproximate {
             get {
-                object obj = ResourceManager.GetObject("Approximate", resourceCulture);
+                object obj = ResourceManager.GetObject("MathApproximate", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Average {
+        internal static System.Drawing.Icon MathAverage {
             get {
-                object obj = ResourceManager.GetObject("Average", resourceCulture);
+                object obj = ResourceManager.GetObject("MathAverage", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Beta {
+        internal static System.Drawing.Icon MathBeta {
             get {
-                object obj = ResourceManager.GetObject("Beta", resourceCulture);
+                object obj = ResourceManager.GetObject("MathBeta", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Delta {
+        internal static System.Drawing.Icon MathDelta {
             get {
-                object obj = ResourceManager.GetObject("Delta", resourceCulture);
+                object obj = ResourceManager.GetObject("MathDelta", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Division {
+        internal static System.Drawing.Icon MathDivision {
             get {
-                object obj = ResourceManager.GetObject("Division", resourceCulture);
+                object obj = ResourceManager.GetObject("MathDivision", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Exponent {
+        internal static System.Drawing.Icon MathExponent {
             get {
-                object obj = ResourceManager.GetObject("Exponent", resourceCulture);
+                object obj = ResourceManager.GetObject("MathExponent", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Function {
+        internal static System.Drawing.Icon MathFunction {
             get {
-                object obj = ResourceManager.GetObject("Function", resourceCulture);
+                object obj = ResourceManager.GetObject("MathFunction", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon GreaterThanEqualTo {
+        internal static System.Drawing.Icon MathGreaterThanEqualTo {
             get {
-                object obj = ResourceManager.GetObject("GreaterThanEqualTo", resourceCulture);
+                object obj = ResourceManager.GetObject("MathGreaterThanEqualTo", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Inequality {
+        internal static System.Drawing.Icon MathInfinity {
             get {
-                object obj = ResourceManager.GetObject("Inequality", resourceCulture);
+                object obj = ResourceManager.GetObject("MathInfinity", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Infinity {
+        internal static System.Drawing.Icon MathIntegral {
             get {
-                object obj = ResourceManager.GetObject("Infinity", resourceCulture);
+                object obj = ResourceManager.GetObject("MathIntegral", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Integral {
+        internal static System.Drawing.Icon MathLessThanEqualTo {
             get {
-                object obj = ResourceManager.GetObject("Integral", resourceCulture);
+                object obj = ResourceManager.GetObject("MathLessThanEqualTo", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon LessThanEqualTo {
+        internal static System.Drawing.Icon MathMu {
             get {
-                object obj = ResourceManager.GetObject("LessThanEqualTo", resourceCulture);
+                object obj = ResourceManager.GetObject("MathMu", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Mu {
+        internal static System.Drawing.Icon MathNotEqual {
             get {
-                object obj = ResourceManager.GetObject("Mu", resourceCulture);
+                object obj = ResourceManager.GetObject("MathNotEqual", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Number {
+        internal static System.Drawing.Icon MathNumber {
             get {
-                object obj = ResourceManager.GetObject("Number", resourceCulture);
+                object obj = ResourceManager.GetObject("MathNumber", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Omega {
+        internal static System.Drawing.Icon MathOmega {
             get {
-                object obj = ResourceManager.GetObject("Omega", resourceCulture);
+                object obj = ResourceManager.GetObject("MathOmega", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Percntage {
+        internal static System.Drawing.Icon MathPercntage {
             get {
-                object obj = ResourceManager.GetObject("Percntage", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPercntage", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Phi {
+        internal static System.Drawing.Icon MathPhi {
             get {
-                object obj = ResourceManager.GetObject("Phi", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPhi", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Pi {
+        internal static System.Drawing.Icon MathPi {
             get {
-                object obj = ResourceManager.GetObject("Pi", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPi", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon PlusMinus {
+        internal static System.Drawing.Icon MathPlusOrMinus {
             get {
-                object obj = ResourceManager.GetObject("PlusMinus", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPlusOrMinus", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Ranking {
+        internal static System.Drawing.Icon MathRanking {
             get {
-                object obj = ResourceManager.GetObject("Ranking", resourceCulture);
+                object obj = ResourceManager.GetObject("MathRanking", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Sample {
+        internal static System.Drawing.Icon MathSample {
             get {
-                object obj = ResourceManager.GetObject("Sample", resourceCulture);
+                object obj = ResourceManager.GetObject("MathSample", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Sigma {
+        internal static System.Drawing.Icon MathSigma {
             get {
-                object obj = ResourceManager.GetObject("Sigma", resourceCulture);
+                object obj = ResourceManager.GetObject("MathSigma", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Squared {
+        internal static System.Drawing.Icon MathStatistics {
             get {
-                object obj = ResourceManager.GetObject("Squared", resourceCulture);
+                object obj = ResourceManager.GetObject("MathStatistics", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -303,19 +303,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Statistics {
+        internal static System.Drawing.Icon MathVariance {
             get {
-                object obj = ResourceManager.GetObject("Statistics", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Variance {
-            get {
-                object obj = ResourceManager.GetObject("Variance", resourceCulture);
+                object obj = ResourceManager.GetObject("MathVariance", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

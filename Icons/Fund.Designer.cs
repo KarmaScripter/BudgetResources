@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon ARRA {
+        internal static System.Drawing.Icon FundARRA {
             get {
-                object obj = ResourceManager.GetObject("ARRA", resourceCulture);
+                object obj = ResourceManager.GetObject("FundARRA", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon BRAC {
+        internal static System.Drawing.Icon FundBRAC {
             get {
-                object obj = ResourceManager.GetObject("BRAC", resourceCulture);
+                object obj = ResourceManager.GetObject("FundBRAC", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CaresAct {
+        internal static System.Drawing.Icon FundCaresAct {
             get {
-                object obj = ResourceManager.GetObject("CaresAct", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCaresAct", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CategoricalGrants {
+        internal static System.Drawing.Icon FundCategoricalGrants {
             get {
-                object obj = ResourceManager.GetObject("CategoricalGrants", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCategoricalGrants", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CWSRF {
+        internal static System.Drawing.Icon FundCWSRF {
             get {
-                object obj = ResourceManager.GetObject("CWSRF", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCWSRF", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DWSRF {
+        internal static System.Drawing.Icon FundDWSRF {
             get {
-                object obj = ResourceManager.GetObject("DWSRF", resourceCulture);
+                object obj = ResourceManager.GetObject("FundDWSRF", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Earmarks {
+        internal static System.Drawing.Icon FundEarmarks {
             get {
-                object obj = ResourceManager.GetObject("Earmarks", resourceCulture);
+                object obj = ResourceManager.GetObject("FundEarmarks", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon EPM {
+        internal static System.Drawing.Icon FundEPM {
             get {
-                object obj = ResourceManager.GetObject("EPM", resourceCulture);
+                object obj = ResourceManager.GetObject("FundEPM", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon OilSpill {
+        internal static System.Drawing.Icon FundLUST {
             get {
-                object obj = ResourceManager.GetObject("OilSpill", resourceCulture);
+                object obj = ResourceManager.GetObject("FundLUST", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon SpecialProjects {
+        internal static System.Drawing.Icon FundOilSpill {
             get {
-                object obj = ResourceManager.GetObject("SpecialProjects", resourceCulture);
+                object obj = ResourceManager.GetObject("FundOilSpill", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon STAG {
+        internal static System.Drawing.Icon FundSpecialProjects {
             get {
-                object obj = ResourceManager.GetObject("STAG", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSpecialProjects", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Superfund {
+        internal static System.Drawing.Icon FundSTAG {
             get {
-                object obj = ResourceManager.GetObject("Superfund", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSTAG", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Supplemental {
+        internal static System.Drawing.Icon FundSuperfund {
             get {
-                object obj = ResourceManager.GetObject("Supplemental", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSuperfund", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon UST {
+        internal static System.Drawing.Icon FundSupplemental {
             get {
-                object obj = ResourceManager.GetObject("UST", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSupplemental", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

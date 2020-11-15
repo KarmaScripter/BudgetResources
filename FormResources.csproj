@@ -1,0 +1,2493 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>BudgetExecution</RootNamespace>
+    <ApplicationIcon>DbNinja.ico</ApplicationIcon>
+    <AssemblyName>BudgetResources</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PDF\FCO\FundsControlManual.pdf" />
+    <None Remove="Resources\BadgerIcon.ico" />
+    <None Remove="Resources\BadgerIcon.png" />
+    <None Remove="Resources\BlueNinja.ico" />
+    <None Remove="Resources\BlueNinja.png" />
+    <None Remove="Resources\BudExNinja.ico" />
+    <None Remove="Resources\BudExNinja.png" />
+    <None Remove="Resources\CloseBoxClose.ico" />
+    <None Remove="Resources\CloseBoxClose.png" />
+    <None Remove="Resources\CloseBoxEnter.ico" />
+    <None Remove="Resources\CloseBoxEnter.png" />
+    <None Remove="Resources\CloseBoxExit.ico" />
+    <None Remove="Resources\CloseBoxExit.png" />
+    <None Remove="Resources\CloseBoxMaximize.ico" />
+    <None Remove="Resources\CloseBoxMaximize.png" />
+    <None Remove="Resources\CloseBoxMinimize.ico" />
+    <None Remove="Resources\CloseBoxMinimize.png" />
+    <None Remove="Resources\CloseBoxShutdown.ico" />
+    <None Remove="Resources\CloseBoxShutdown.png" />
+    <None Remove="Resources\DataAdd.ico" />
+    <None Remove="Resources\DataAdd.png" />
+    <None Remove="Resources\Database.ico" />
+    <None Remove="Resources\Database.png" />
+    <None Remove="Resources\DatabaseCopy.ico" />
+    <None Remove="Resources\DatabaseCopy.png" />
+    <None Remove="Resources\DatabaseDelete.ico" />
+    <None Remove="Resources\DatabaseDelete.png" />
+    <None Remove="Resources\DatabaseDownload.ico" />
+    <None Remove="Resources\DatabaseDownload.png" />
+    <None Remove="Resources\DatabaseNetwork.ico" />
+    <None Remove="Resources\DatabaseNetwork.png" />
+    <None Remove="Resources\DatabaseSettings.ico" />
+    <None Remove="Resources\DatabaseSettings.png" />
+    <None Remove="Resources\DatabaseTransfer.ico" />
+    <None Remove="Resources\DatabaseTransfer.png" />
+    <None Remove="Resources\DataColumnAdd.ico" />
+    <None Remove="Resources\DataColumnAdd.png" />
+    <None Remove="Resources\DataColumnDelete.ico" />
+    <None Remove="Resources\DataColumnDelete.png" />
+    <None Remove="Resources\DataConnect.ico" />
+    <None Remove="Resources\DataConnect.png" />
+    <None Remove="Resources\DataCopy.ico" />
+    <None Remove="Resources\DataCopy.png" />
+    <None Remove="Resources\DataDelete.ico" />
+    <None Remove="Resources\DataDelete.png" />
+    <None Remove="Resources\DataDownload.ico" />
+    <None Remove="Resources\DataDownload.png" />
+    <None Remove="Resources\DataEdit.ico" />
+    <None Remove="Resources\DataEdit.png" />
+    <None Remove="Resources\DataError.ico" />
+    <None Remove="Resources\DataError.png" />
+    <None Remove="Resources\DataFilter.ico" />
+    <None Remove="Resources\DataFilter.png" />
+    <None Remove="Resources\DataFilterAdd.ico" />
+    <None Remove="Resources\DataFilterAdd.png" />
+    <None Remove="Resources\DataGrouping.ico" />
+    <None Remove="Resources\DataGrouping.png" />
+    <None Remove="Resources\DataInsert.ico" />
+    <None Remove="Resources\DataInsert.png" />
+    <None Remove="Resources\DataLastRow.ico" />
+    <None Remove="Resources\DataLastRow.png" />
+    <None Remove="Resources\DataQuery.ico" />
+    <None Remove="Resources\DataQuery.png" />
+    <None Remove="Resources\DataRefresh.ico" />
+    <None Remove="Resources\DataRefresh.png" />
+    <None Remove="Resources\DataRestricted.ico" />
+    <None Remove="Resources\DataRestricted.png" />
+    <None Remove="Resources\DataRowAdd.ico" />
+    <None Remove="Resources\DataRowAdd.png" />
+    <None Remove="Resources\DataRowDelete.ico" />
+    <None Remove="Resources\DataRowDelete.png" />
+    <None Remove="Resources\DataServer.ico" />
+    <None Remove="Resources\DataServer.png" />
+    <None Remove="Resources\DataSettings.ico" />
+    <None Remove="Resources\DataSettings.png" />
+    <None Remove="Resources\DataSort.ico" />
+    <None Remove="Resources\DataSort.png" />
+    <None Remove="Resources\DataTransfer.ico" />
+    <None Remove="Resources\DataTransfer.png" />
+    <None Remove="Resources\DbEmail.ico" />
+    <None Remove="Resources\DbEmail.png" />
+    <None Remove="Resources\DbFile.ico" />
+    <None Remove="Resources\DbFile.png" />
+    <None Remove="Resources\DbNinja.ico" />
+    <None Remove="Resources\DbNinja.png" />
+    <None Remove="Resources\DialogArchive.ico" />
+    <None Remove="Resources\DialogArchive.png" />
+    <None Remove="Resources\DialogBrowseFolder.ico" />
+    <None Remove="Resources\DialogBrowseFolder.png" />
+    <None Remove="Resources\DialogCaution.ico" />
+    <None Remove="Resources\DialogCaution.png" />
+    <None Remove="Resources\DialogDataSearch.ico" />
+    <None Remove="Resources\DialogDataSearch.png" />
+    <None Remove="Resources\DialogDataWarning.ico" />
+    <None Remove="Resources\DialogDataWarning.png" />
+    <None Remove="Resources\DialogDownload.ico" />
+    <None Remove="Resources\DialogDownload.png" />
+    <None Remove="Resources\DialogEmail.ico" />
+    <None Remove="Resources\DialogEmail.png" />
+    <None Remove="Resources\DialogError.ico" />
+    <None Remove="Resources\DialogError.png" />
+    <None Remove="Resources\DialogFileSearch.ico" />
+    <None Remove="Resources\DialogFileSearch.png" />
+    <None Remove="Resources\DialogFind.ico" />
+    <None Remove="Resources\DialogFind.png" />
+    <None Remove="Resources\DialogGroupMessage.ico" />
+    <None Remove="Resources\DialogGroupMessage.png" />
+    <None Remove="Resources\DialogIdea.ico" />
+    <None Remove="Resources\DialogIdea.png" />
+    <None Remove="Resources\DialogInfo.ico" />
+    <None Remove="Resources\DialogInfo.png" />
+    <None Remove="Resources\DialogLogin.ico" />
+    <None Remove="Resources\DialogLogin.png" />
+    <None Remove="Resources\DialogLogout.ico" />
+    <None Remove="Resources\DialogLogout.png" />
+    <None Remove="Resources\DialogMessage.ico" />
+    <None Remove="Resources\DialogMessage.png" />
+    <None Remove="Resources\DialogPrint.ico" />
+    <None Remove="Resources\DialogPrint.png" />
+    <None Remove="Resources\DialogQuestion.ico" />
+    <None Remove="Resources\DialogQuestion.png" />
+    <None Remove="Resources\DialogSave.ico" />
+    <None Remove="Resources\DialogSave.png" />
+    <None Remove="Resources\DialogSearch.ico" />
+    <None Remove="Resources\DialogSearch.png" />
+    <None Remove="Resources\DialogSearchFolder.ico" />
+    <None Remove="Resources\DialogSearchFolder.png" />
+    <None Remove="Resources\DialogUpload.ico" />
+    <None Remove="Resources\DialogUpload.png" />
+    <None Remove="Resources\DialogVerify.ico" />
+    <None Remove="Resources\DialogVerify.png" />
+    <None Remove="Resources\DialogWarning.ico" />
+    <None Remove="Resources\DialogWarning.png" />
+    <None Remove="Resources\DivisionARD.ico" />
+    <None Remove="Resources\DivisionARD.png" />
+    <None Remove="Resources\DivisionD6.ico" />
+    <None Remove="Resources\DivisionD6.png" />
+    <None Remove="Resources\DivisionECAD.ico" />
+    <None Remove="Resources\DivisionECAD.png" />
+    <None Remove="Resources\DivisionEJ.ico" />
+    <None Remove="Resources\DivisionEJ.png" />
+    <None Remove="Resources\DivisionLCARD.ico" />
+    <None Remove="Resources\DivisionLCARD.png" />
+    <None Remove="Resources\DivisionLSASD.ico" />
+    <None Remove="Resources\DivisionLSASD.png" />
+    <None Remove="Resources\DivisionMSD.ico" />
+    <None Remove="Resources\DivisionMSD.png" />
+    <None Remove="Resources\DivisionMSR.ico" />
+    <None Remove="Resources\DivisionMSR.png" />
+    <None Remove="Resources\DivisionORA.ico" />
+    <None Remove="Resources\DivisionORA.png" />
+    <None Remove="Resources\DivisionORC.ico" />
+    <None Remove="Resources\DivisionORC.png" />
+    <None Remove="Resources\DivisionSEMD.ico" />
+    <None Remove="Resources\DivisionSEMD.png" />
+    <None Remove="Resources\DivisionWCF.ico" />
+    <None Remove="Resources\DivisionWCF.png" />
+    <None Remove="Resources\DivisionWD.ico" />
+    <None Remove="Resources\DivisionWD.png" />
+    <None Remove="Resources\DivisionWSA.ico" />
+    <None Remove="Resources\DivisionWSA.png" />
+    <None Remove="Resources\DivisionXA.ico" />
+    <None Remove="Resources\DivisionXA.png" />
+    <None Remove="Resources\EditFilter.ico" />
+    <None Remove="Resources\EditFilter.png" />
+    <None Remove="Resources\EmailAdd.ico" />
+    <None Remove="Resources\EmailAdd.png" />
+    <None Remove="Resources\EmailBrowse.ico" />
+    <None Remove="Resources\EmailBrowse.png" />
+    <None Remove="Resources\EmailDelete.ico" />
+    <None Remove="Resources\EmailDelete.png" />
+    <None Remove="Resources\EmailDownload.ico" />
+    <None Remove="Resources\EmailDownload.png" />
+    <None Remove="Resources\EmailFavourites.ico" />
+    <None Remove="Resources\EmailFavourites.png" />
+    <None Remove="Resources\EmailFilter.ico" />
+    <None Remove="Resources\EmailFilter.png" />
+    <None Remove="Resources\EmailForward.ico" />
+    <None Remove="Resources\EmailFrom.ico" />
+    <None Remove="Resources\EmailFrom.png" />
+    <None Remove="Resources\EmailHelp.ico" />
+    <None Remove="Resources\EmailHelp.png" />
+    <None Remove="Resources\EmailInbox.ico" />
+    <None Remove="Resources\EmailInbox.png" />
+    <None Remove="Resources\EmailInfo.ico" />
+    <None Remove="Resources\EmailInfo.png" />
+    <None Remove="Resources\EmailNew.ico" />
+    <None Remove="Resources\EmailNew.png" />
+    <None Remove="Resources\EmailNext.ico" />
+    <None Remove="Resources\EmailNext.png" />
+    <None Remove="Resources\EmailOpen.ico" />
+    <None Remove="Resources\EmailOpen.png" />
+    <None Remove="Resources\EmailPrevious.ico" />
+    <None Remove="Resources\EmailPrevious.png" />
+    <None Remove="Resources\EmailRefresh.ico" />
+    <None Remove="Resources\EmailRefresh.png" />
+    <None Remove="Resources\EmailRemove.ico" />
+    <None Remove="Resources\EmailRemove.png" />
+    <None Remove="Resources\EmailSave.ico" />
+    <None Remove="Resources\EmailSave.png" />
+    <None Remove="Resources\EmailSearch.ico" />
+    <None Remove="Resources\EmailSearch.png" />
+    <None Remove="Resources\EmailSecure.ico" />
+    <None Remove="Resources\EmailSecure.png" />
+    <None Remove="Resources\EmailSend.ico" />
+    <None Remove="Resources\EmailSend.png" />
+    <None Remove="Resources\EmailSettings.ico" />
+    <None Remove="Resources\EmailSettings.png" />
+    <None Remove="Resources\EmailTo.ico" />
+    <None Remove="Resources\EmailTo.png" />
+    <None Remove="Resources\EmailUnlock.ico" />
+    <None Remove="Resources\EmailUnlock.png" />
+    <None Remove="Resources\EmailUpload.ico" />
+    <None Remove="Resources\EmailUpload.png" />
+    <None Remove="Resources\EmailVerify.ico" />
+    <None Remove="Resources\EmailVerify.png" />
+    <None Remove="Resources\EmployeeAdd.ico" />
+    <None Remove="Resources\EmployeeAdd.png" />
+    <None Remove="Resources\EmployeeDelete.ico" />
+    <None Remove="Resources\EmployeeDelete.png" />
+    <None Remove="Resources\EmployeeDownload.ico" />
+    <None Remove="Resources\EmployeeDownload.png" />
+    <None Remove="Resources\EmployeeEdiit.ico" />
+    <None Remove="Resources\EmployeeEdit.png" />
+    <None Remove="Resources\EmployeeHelp.ico" />
+    <None Remove="Resources\EmployeeHelp.png" />
+    <None Remove="Resources\EmployeeInfo.ico" />
+    <None Remove="Resources\EmployeeInfo.png" />
+    <None Remove="Resources\EmployeeLocked.ico" />
+    <None Remove="Resources\EmployeeLocked.png" />
+    <None Remove="Resources\EmployeeNext.ico" />
+    <None Remove="Resources\EmployeeNext.png" />
+    <None Remove="Resources\EmployeeOk.ico" />
+    <None Remove="Resources\EmployeeOk.png" />
+    <None Remove="Resources\EmployeeProfile.ico" />
+    <None Remove="Resources\EmployeeProfile.png" />
+    <None Remove="Resources\EmployeeRemove.ico" />
+    <None Remove="Resources\EmployeeRemove.png" />
+    <None Remove="Resources\EmployeeSave.ico" />
+    <None Remove="Resources\EmployeeSave.png" />
+    <None Remove="Resources\EmployeeSearch.ico" />
+    <None Remove="Resources\EmployeeSearch.png" />
+    <None Remove="Resources\EmployeeSettings.ico" />
+    <None Remove="Resources\EmployeeSettings.png" />
+    <None Remove="Resources\EmployeeSync.ico" />
+    <None Remove="Resources\EmployeeSync.png" />
+    <None Remove="Resources\EmployeeUnlocked.ico" />
+    <None Remove="Resources\EmployeeUnlocked.png" />
+    <None Remove="Resources\EmployeeUpload.ico" />
+    <None Remove="Resources\EmployeeUpload.png" />
+    <None Remove="Resources\EmployeeUser.ico" />
+    <None Remove="Resources\EmployeeUser.png" />
+    <None Remove="Resources\EpaBadger.ico" />
+    <None Remove="Resources\EpaBadger.png" />
+    <None Remove="Resources\EpaCircle.ico" />
+    <None Remove="Resources\EpaCircle.png" />
+    <None Remove="Resources\EpaHorizontal.ico" />
+    <None Remove="Resources\EpaHorizontal.png" />
+    <None Remove="Resources\Export.ico" />
+    <None Remove="Resources\Export.png" />
+    <None Remove="Resources\FileAdd.ico" />
+    <None Remove="Resources\FileAdd.png" />
+    <None Remove="Resources\FileCopy.ico" />
+    <None Remove="Resources\FileCopy.png" />
+    <None Remove="Resources\FileDelete.ico" />
+    <None Remove="Resources\FileDelete.png" />
+    <None Remove="Resources\FileDownload.ico" />
+    <None Remove="Resources\FileDownload.png" />
+    <None Remove="Resources\FileEdit.ico" />
+    <None Remove="Resources\FileEdit.png" />
+    <None Remove="Resources\FileHelp.ico" />
+    <None Remove="Resources\FileHelp.png" />
+    <None Remove="Resources\FileInfo.ico" />
+    <None Remove="Resources\FileInfo.png" />
+    <None Remove="Resources\FileLock.ico" />
+    <None Remove="Resources\FileLock.png" />
+    <None Remove="Resources\FileLog.ico" />
+    <None Remove="Resources\FileLog.png" />
+    <None Remove="Resources\FileQuery.ico" />
+    <None Remove="Resources\FileQuery.png" />
+    <None Remove="Resources\FileRefresh.ico" />
+    <None Remove="Resources\FileRefresh.png" />
+    <None Remove="Resources\FileRemove.ico" />
+    <None Remove="Resources\FileRemove.png" />
+    <None Remove="Resources\FileSave.ico" />
+    <None Remove="Resources\FileSave.png" />
+    <None Remove="Resources\FileSearch.ico" />
+    <None Remove="Resources\FileSearch.png" />
+    <None Remove="Resources\FileSecurity.ico" />
+    <None Remove="Resources\FileSecurity.png" />
+    <None Remove="Resources\FileSettings.ico" />
+    <None Remove="Resources\FileSettings.png" />
+    <None Remove="Resources\FileTransfer.ico" />
+    <None Remove="Resources\FileTransfer.png" />
+    <None Remove="Resources\FileUpload.ico" />
+    <None Remove="Resources\FileUpload.png" />
+    <None Remove="Resources\FileVerify.ico" />
+    <None Remove="Resources\FileVerify.png" />
+    <None Remove="Resources\FiltersAdd.ico" />
+    <None Remove="Resources\FIltersDbFilter.ico" />
+    <None Remove="Resources\FiltersDelete.ico" />
+    <None Remove="Resources\FiltersEmail.ico" />
+    <None Remove="Resources\FiltersNew.ico" />
+    <None Remove="Resources\FiltersServer.ico" />
+    <None Remove="Resources\FiltersSettings.ico" />
+    <None Remove="Resources\FiltersSort.ico" />
+    <None Remove="Resources\FolderAdd.ico" />
+    <None Remove="Resources\FolderAdd.png" />
+    <None Remove="Resources\FolderCopy.ico" />
+    <None Remove="Resources\FolderCopy.png" />
+    <None Remove="Resources\FolderDelete.ico" />
+    <None Remove="Resources\FolderDelete.png" />
+    <None Remove="Resources\FolderDownload.ico" />
+    <None Remove="Resources\FolderDownload.png" />
+    <None Remove="Resources\FolderEdit.ico" />
+    <None Remove="Resources\FolderEdit.png" />
+    <None Remove="Resources\FolderInformation.ico" />
+    <None Remove="Resources\FolderInformation.png" />
+    <None Remove="Resources\FolderOk.ico" />
+    <None Remove="Resources\FolderOk.png" />
+    <None Remove="Resources\FolderOpen.ico" />
+    <None Remove="Resources\FolderOpen.png" />
+    <None Remove="Resources\FolderPicture.ico" />
+    <None Remove="Resources\FolderPicture.png" />
+    <None Remove="Resources\FolderRefresh.ico" />
+    <None Remove="Resources\FolderRefresh.png" />
+    <None Remove="Resources\FolderSearch.ico" />
+    <None Remove="Resources\FolderSearch.png" />
+    <None Remove="Resources\FolderSettings.ico" />
+    <None Remove="Resources\FolderSettings.png" />
+    <None Remove="Resources\FolderShared.ico" />
+    <None Remove="Resources\FolderShared.png" />
+    <None Remove="Resources\FolderTemp.ico" />
+    <None Remove="Resources\FolderTemp.png" />
+    <None Remove="Resources\FolderUpload.ico" />
+    <None Remove="Resources\FolderUpload.png" />
+    <None Remove="Resources\FundARRA.ico" />
+    <None Remove="Resources\FundARRA.png" />
+    <None Remove="Resources\FundBRAC.ico" />
+    <None Remove="Resources\FundBRAC.png" />
+    <None Remove="Resources\FundCaresAct.ico" />
+    <None Remove="Resources\FundCaresAct.png" />
+    <None Remove="Resources\FundCategoricalGrants.ico" />
+    <None Remove="Resources\FundCategoricalGrants.png" />
+    <None Remove="Resources\FundCWSRF.ico" />
+    <None Remove="Resources\FundCWSRF.png" />
+    <None Remove="Resources\FundDWSRF.ico" />
+    <None Remove="Resources\FundDWSRF.png" />
+    <None Remove="Resources\FundEarmarks.ico" />
+    <None Remove="Resources\FundEarmarks.png" />
+    <None Remove="Resources\FundEPM.ico" />
+    <None Remove="Resources\FundEPM.png" />
+    <None Remove="Resources\FundLUST.ico" />
+    <None Remove="Resources\FundLUST.png" />
+    <None Remove="Resources\FundOilSpill.ico" />
+    <None Remove="Resources\FundOilSpill.png" />
+    <None Remove="Resources\FundSpecialProjects.ico" />
+    <None Remove="Resources\FundSpecialProjects.png" />
+    <None Remove="Resources\FundSTAG.ico" />
+    <None Remove="Resources\FundSTAG.png" />
+    <None Remove="Resources\FundSuperfund.ico" />
+    <None Remove="Resources\FundSuperfund.png" />
+    <None Remove="Resources\FundSupplemental.ico" />
+    <None Remove="Resources\FundSupplemental.png" />
+    <None Remove="Resources\IdentificationAdd.ico" />
+    <None Remove="Resources\IdentificationAdd.png" />
+    <None Remove="Resources\IdentificationContact.ico" />
+    <None Remove="Resources\IdentificationContact.png" />
+    <None Remove="Resources\IdentificationDelete.ico" />
+    <None Remove="Resources\IdentificationDelete.png" />
+    <None Remove="Resources\IdentificationError.ico" />
+    <None Remove="Resources\IdentificationError.png" />
+    <None Remove="Resources\IdentificationID.ico" />
+    <None Remove="Resources\IdentificationID.png" />
+    <None Remove="Resources\IdentificationRemove.ico" />
+    <None Remove="Resources\IdentificationRemove.png" />
+    <None Remove="Resources\IdentificationSearch.ico" />
+    <None Remove="Resources\IdentificationSearch.png" />
+    <None Remove="Resources\IdentificationVerify.ico" />
+    <None Remove="Resources\IdentificationVerify.png" />
+    <None Remove="Resources\Import.ico" />
+    <None Remove="Resources\Import.png" />
+    <None Remove="Resources\InterfaceAdd.ico" />
+    <None Remove="Resources\InterfaceAdd.png" />
+    <None Remove="Resources\InterfaceAnalysis.ico" />
+    <None Remove="Resources\InterfaceAnalysis.png" />
+    <None Remove="Resources\InterfaceAppropriation.ico" />
+    <None Remove="Resources\InterfaceAppropriation.png" />
+    <None Remove="Resources\InterfaceAsk.ico" />
+    <None Remove="Resources\InterfaceAsk.png" />
+    <None Remove="Resources\InterfaceAutoSizeColumns.ico" />
+    <None Remove="Resources\InterfaceAutoSizeColumns.png" />
+    <None Remove="Resources\InterfaceBluetooth.ico" />
+    <None Remove="Resources\InterfaceBluetooth.png" />
+    <None Remove="Resources\InterfaceBucket.ico" />
+    <None Remove="Resources\InterfaceBucket.png" />
+    <None Remove="Resources\InterfaceCalculator.ico" />
+    <None Remove="Resources\InterfaceCalculator.png" />
+    <None Remove="Resources\InterfaceCalendar.ico" />
+    <None Remove="Resources\InterfaceCalendar.png" />
+    <None Remove="Resources\InterfaceCategory.ico" />
+    <None Remove="Resources\InterfaceCategory.png" />
+    <None Remove="Resources\InterfaceCertify.ico" />
+    <None Remove="Resources\InterfaceCertify.png" />
+    <None Remove="Resources\InterfaceChart.ico" />
+    <None Remove="Resources\InterfaceChart.png" />
+    <None Remove="Resources\InterfaceCircleAdd.ico" />
+    <None Remove="Resources\InterfaceCircleAdd.png" />
+    <None Remove="Resources\InterfaceClean.ico" />
+    <None Remove="Resources\InterfaceClean.png" />
+    <None Remove="Resources\InterfaceConfiguration.ico" />
+    <None Remove="Resources\InterfaceConfiguration.png" />
+    <None Remove="Resources\InterfaceConstruction.ico" />
+    <None Remove="Resources\InterfaceConstruction.png" />
+    <None Remove="Resources\InterfaceContacts.ico" />
+    <None Remove="Resources\InterfaceContacts.png" />
+    <None Remove="Resources\InterfaceDivisions.ico" />
+    <None Remove="Resources\InterfaceDivisions.png" />
+    <None Remove="Resources\InterfacedMail.ico" />
+    <None Remove="Resources\InterfacedMail.png" />
+    <None Remove="Resources\InterfaceEcology.ico" />
+    <None Remove="Resources\InterfaceEcology.png" />
+    <None Remove="Resources\InterfaceEdit.ico" />
+    <None Remove="Resources\InterfaceEdit.png" />
+    <None Remove="Resources\InterfaceEmployee.ico" />
+    <None Remove="Resources\InterfaceEmployee.png" />
+    <None Remove="Resources\InterfaceEpa.ico" />
+    <None Remove="Resources\InterfaceEpa.png" />
+    <None Remove="Resources\InterfaceErrorMessage.ico" />
+    <None Remove="Resources\InterfaceErrorMessage.png" />
+    <None Remove="Resources\InterfaceExchange.ico" />
+    <None Remove="Resources\InterfaceExchange.png" />
+    <None Remove="Resources\InterfaceExecute.ico" />
+    <None Remove="Resources\InterfaceExecute.png" />
+    <None Remove="Resources\InterfaceExplosion.ico" />
+    <None Remove="Resources\InterfaceExplosion.png" />
+    <None Remove="Resources\InterfaceFlag.ico" />
+    <None Remove="Resources\InterfaceFlag.png" />
+    <None Remove="Resources\InterfaceFund.ico" />
+    <None Remove="Resources\InterfaceFund.png" />
+    <None Remove="Resources\InterfaceHome.ico" />
+    <None Remove="Resources\InterfaceHome.png" />
+    <None Remove="Resources\InterfaceIdea.ico" />
+    <None Remove="Resources\InterfaceIdea.png" />
+    <None Remove="Resources\InterfaceIndoorAir.ico" />
+    <None Remove="Resources\InterfaceIndoorAir.png" />
+    <None Remove="Resources\InterfaceInfo.ico" />
+    <None Remove="Resources\InterfaceInfo.png" />
+    <None Remove="Resources\InterfaceLock.ico" />
+    <None Remove="Resources\InterfaceLock.png" />
+    <None Remove="Resources\InterfaceLogin.ico" />
+    <None Remove="Resources\InterfaceLogin.png" />
+    <None Remove="Resources\InterfaceLogout.ico" />
+    <None Remove="Resources\InterfaceLogout.png" />
+    <None Remove="Resources\InterfaceMainForm.ico" />
+    <None Remove="Resources\InterfaceMainForm.png" />
+    <None Remove="Resources\InterfaceMap.ico" />
+    <None Remove="Resources\InterfaceMap.png" />
+    <None Remove="Resources\InterfaceNetwork.ico" />
+    <None Remove="Resources\InterfaceNetwork.png" />
+    <None Remove="Resources\InterfaceNinja.ico" />
+    <None Remove="Resources\InterfaceNinja.png" />
+    <None Remove="Resources\InterfaceNotes.ico" />
+    <None Remove="Resources\InterfaceNotes.png" />
+    <None Remove="Resources\InterfaceNotify.ico" />
+    <None Remove="Resources\InterfaceNotify.png" />
+    <None Remove="Resources\InterfaceOk.ico" />
+    <None Remove="Resources\InterfaceOk.png" />
+    <None Remove="Resources\InterfaceQuestion.ico" />
+    <None Remove="Resources\InterfaceQuestion.png" />
+    <None Remove="Resources\InterfaceQuestionMark.ico" />
+    <None Remove="Resources\InterfaceQuestionMark.png" />
+    <None Remove="Resources\InterfaceRegionalOffice.ico" />
+    <None Remove="Resources\InterfaceRegionalOffice.png" />
+    <None Remove="Resources\InterfaceRemoteLocation.ico" />
+    <None Remove="Resources\InterfaceRemoteLocation.png" />
+    <None Remove="Resources\InterfaceSearch.ico" />
+    <None Remove="Resources\InterfaceSearch.png" />
+    <None Remove="Resources\InterfaceSettings.ico" />
+    <None Remove="Resources\InterfaceSettings.png" />
+    <None Remove="Resources\InterfaceSleep.ico" />
+    <None Remove="Resources\InterfaceSleep.png" />
+    <None Remove="Resources\InterfaceTarget.ico" />
+    <None Remove="Resources\InterfaceTarget.png" />
+    <None Remove="Resources\InterfaceTransfer.ico" />
+    <None Remove="Resources\InterfaceTransfer.png" />
+    <None Remove="Resources\InterfaceUnlock.ico" />
+    <None Remove="Resources\InterfaceUnlock.png" />
+    <None Remove="Resources\InterfaceUploadSuccess.ico" />
+    <None Remove="Resources\InterfaceUploadSuccess.png" />
+    <None Remove="Resources\InterfaceVerify.ico" />
+    <None Remove="Resources\InterfaceVerify.png" />
+    <None Remove="Resources\InterfaceWebSearch.ico" />
+    <None Remove="Resources\InterfaceWebSearch.png" />
+    <None Remove="Resources\InterfaceWorkLocation.ico" />
+    <None Remove="Resources\InterfaceWorkLocation.png" />
+    <None Remove="Resources\MathAlpha.ico" />
+    <None Remove="Resources\MathAlpha.png" />
+    <None Remove="Resources\MathApproximate.ico" />
+    <None Remove="Resources\MathApproximate.png" />
+    <None Remove="Resources\MathAverage.ico" />
+    <None Remove="Resources\MathAverage.png" />
+    <None Remove="Resources\MathBeta.ico" />
+    <None Remove="Resources\MathBeta.png" />
+    <None Remove="Resources\MathDelta.ico" />
+    <None Remove="Resources\MathDelta.png" />
+    <None Remove="Resources\MathDivision.ico" />
+    <None Remove="Resources\MathDivision.png" />
+    <None Remove="Resources\MathExponent.ico" />
+    <None Remove="Resources\MathExponent.png" />
+    <None Remove="Resources\MathFunction.ico" />
+    <None Remove="Resources\MathFunction.png" />
+    <None Remove="Resources\MathGreaterThanEqualTo.ico" />
+    <None Remove="Resources\MathGreaterThanEqualTo.png" />
+    <None Remove="Resources\MathInfinity.ico" />
+    <None Remove="Resources\MathInfinity.png" />
+    <None Remove="Resources\MathIntegral.ico" />
+    <None Remove="Resources\MathIntegral.png" />
+    <None Remove="Resources\MathLessThanEqualTo.ico" />
+    <None Remove="Resources\MathLessThanEqualTo.png" />
+    <None Remove="Resources\MathMu.ico" />
+    <None Remove="Resources\MathMu.png" />
+    <None Remove="Resources\MathNotEqual.ico" />
+    <None Remove="Resources\MathNotEqual.png" />
+    <None Remove="Resources\MathNumber.ico" />
+    <None Remove="Resources\MathNumber.png" />
+    <None Remove="Resources\MathOmega.ico" />
+    <None Remove="Resources\MathOmega.png" />
+    <None Remove="Resources\MathPercntage.ico" />
+    <None Remove="Resources\MathPercntage.png" />
+    <None Remove="Resources\MathPhi.ico" />
+    <None Remove="Resources\MathPhi.png" />
+    <None Remove="Resources\MathPi.ico" />
+    <None Remove="Resources\MathPi.png" />
+    <None Remove="Resources\MathPlusOrMinus.ico" />
+    <None Remove="Resources\MathPlusOrMinus.png" />
+    <None Remove="Resources\MathRanking.ico" />
+    <None Remove="Resources\MathRanking.png" />
+    <None Remove="Resources\MathSample.ico" />
+    <None Remove="Resources\MathSample.png" />
+    <None Remove="Resources\MathSigma.ico" />
+    <None Remove="Resources\MathSigma.png" />
+    <None Remove="Resources\MathStatistics.ico" />
+    <None Remove="Resources\MathStatistics.png" />
+    <None Remove="Resources\MathVariance.ico" />
+    <None Remove="Resources\MathVariance.png" />
+    <None Remove="Resources\NavigationBlock.ico" />
+    <None Remove="Resources\NavigationBlock.png" />
+    <None Remove="Resources\NavigationBottomLeft.ico" />
+    <None Remove="Resources\NavigationBottomLeft.png" />
+    <None Remove="Resources\NavigationBottomRight.ico" />
+    <None Remove="Resources\NavigationBottomRight.png" />
+    <None Remove="Resources\NavigationCircleCheckBox.ico" />
+    <None Remove="Resources\NavigationCircleCheckBox.png" />
+    <None Remove="Resources\NavigationCircleDown.ico" />
+    <None Remove="Resources\NavigationCircleDown.png" />
+    <None Remove="Resources\NavigationCircleForward.ico" />
+    <None Remove="Resources\NavigationCircleForward.png" />
+    <None Remove="Resources\NavigationCircleNext.ico" />
+    <None Remove="Resources\NavigationCircleNext.png" />
+    <None Remove="Resources\NavigationCirclePause.ico" />
+    <None Remove="Resources\NavigationCirclePause.png" />
+    <None Remove="Resources\NavigationCirclePrevious.ico" />
+    <None Remove="Resources\NavigationCirclePrevious.png" />
+    <None Remove="Resources\NavigationCircleRewind.ico" />
+    <None Remove="Resources\NavigationCircleRewind.png" />
+    <None Remove="Resources\NavigationCircleStop.ico" />
+    <None Remove="Resources\NavigationCircleStop.png" />
+    <None Remove="Resources\NavigationCircleUp.ico" />
+    <None Remove="Resources\NavigationCircleUp.png" />
+    <None Remove="Resources\NavigationCirlcePlay.ico" />
+    <None Remove="Resources\NavigationCirlcePlay.png" />
+    <None Remove="Resources\NavigationDown.ico" />
+    <None Remove="Resources\NavigationDown.png" />
+    <None Remove="Resources\NavigationEnd.ico" />
+    <None Remove="Resources\NavigationEnd.png" />
+    <None Remove="Resources\NavigationFirst.ico" />
+    <None Remove="Resources\NavigationFirst.png" />
+    <None Remove="Resources\NavigationForward.ico" />
+    <None Remove="Resources\NavigationForward.png" />
+    <None Remove="Resources\NavigationHome.ico" />
+    <None Remove="Resources\NavigationHome.png" />
+    <None Remove="Resources\NavigationInterface.ico" />
+    <None Remove="Resources\NavigationInterface.png" />
+    <None Remove="Resources\NavigationKey.ico" />
+    <None Remove="Resources\NavigationKey.png" />
+    <None Remove="Resources\NavigationLast.ico" />
+    <None Remove="Resources\NavigationLast.png" />
+    <None Remove="Resources\NavigationLeft.ico" />
+    <None Remove="Resources\NavigationLeft.png" />
+    <None Remove="Resources\NavigationLocation.ico" />
+    <None Remove="Resources\NavigationLocation.png" />
+    <None Remove="Resources\NavigationMap.ico" />
+    <None Remove="Resources\NavigationMap.png" />
+    <None Remove="Resources\NavigationMenu.ico" />
+    <None Remove="Resources\NavigationMenu.png" />
+    <None Remove="Resources\NavigationPause.ico" />
+    <None Remove="Resources\NavigationPause.png" />
+    <None Remove="Resources\NavigationPlay.ico" />
+    <None Remove="Resources\NavigationPlay.png" />
+    <None Remove="Resources\NavigationRewind.ico" />
+    <None Remove="Resources\NavigationRewind.png" />
+    <None Remove="Resources\NavigationRight.ico" />
+    <None Remove="Resources\NavigationRight.png" />
+    <None Remove="Resources\NavigationStart.ico" />
+    <None Remove="Resources\NavigationStart.png" />
+    <None Remove="Resources\NavigationStop.ico" />
+    <None Remove="Resources\NavigationStop.png" />
+    <None Remove="Resources\NavigationTopLeft.ico" />
+    <None Remove="Resources\NavigationTopLeft.png" />
+    <None Remove="Resources\NavigationTopRight.ico" />
+    <None Remove="Resources\NavigationTopRight.png" />
+    <None Remove="Resources\NavigationUndo.ico" />
+    <None Remove="Resources\NavigationUndo.png" />
+    <None Remove="Resources\NavigationUp.ico" />
+    <None Remove="Resources\NavigationUp.png" />
+    <None Remove="Resources\NotificationError.ico" />
+    <None Remove="Resources\NotificationError.png" />
+    <None Remove="Resources\NotificationInfo.ico" />
+    <None Remove="Resources\NotificationInfo.png" />
+    <None Remove="Resources\NotificationQuestion.ico" />
+    <None Remove="Resources\NotificationQuestion.png" />
+    <None Remove="Resources\NotificationWarning.ico" />
+    <None Remove="Resources\NotificationWarning.png" />
+    <None Remove="Resources\ObjectClassContracts.ico" />
+    <None Remove="Resources\ObjectClassContracts.png" />
+    <None Remove="Resources\ObjectClassExpenses.ico" />
+    <None Remove="Resources\ObjectClassExpenses.png" />
+    <None Remove="Resources\ObjectClassFte.ico" />
+    <None Remove="Resources\ObjectClassFte.png" />
+    <None Remove="Resources\ObjectClassGrants.ico" />
+    <None Remove="Resources\ObjectClassGrants.png" />
+    <None Remove="Resources\ObjectClassPayroll.ico" />
+    <None Remove="Resources\ObjectClassPayroll.png" />
+    <None Remove="Resources\ObjectClassSiteTravel.ico" />
+    <None Remove="Resources\ObjectClassSiteTravel.png" />
+    <None Remove="Resources\ObjectClassTravel.ico" />
+    <None Remove="Resources\ObjectClassTravel.png" />
+    <None Remove="Resources\ObjectClassWcf.ico" />
+    <None Remove="Resources\ObjectClassWcf.png" />
+    <None Remove="Resources\OfficeAccess.ico" />
+    <None Remove="Resources\OfficeAccess.png" />
+    <None Remove="Resources\OfficeAdmin.ico" />
+    <None Remove="Resources\OfficeAdmin.png" />
+    <None Remove="Resources\OfficeAndroid.ico" />
+    <None Remove="Resources\OfficeAndroid.png" />
+    <None Remove="Resources\OfficeContacts.ico" />
+    <None Remove="Resources\OfficeContacts.png" />
+    <None Remove="Resources\OfficeCsv.ico" />
+    <None Remove="Resources\OfficeCsv.png" />
+    <None Remove="Resources\OfficeCsvExport.ico" />
+    <None Remove="Resources\OfficeCsvExport.png" />
+    <None Remove="Resources\OfficeDelve.ico" />
+    <None Remove="Resources\OfficeDelve.png" />
+    <None Remove="Resources\OfficeExcelExport.ico" />
+    <None Remove="Resources\OfficeExcelExport.png" />
+    <None Remove="Resources\OfficeFacebook.ico" />
+    <None Remove="Resources\OfficeFacebook.png" />
+    <None Remove="Resources\OfficeFax.ico" />
+    <None Remove="Resources\OfficeFax.png" />
+    <None Remove="Resources\OfficeFirefox.ico" />
+    <None Remove="Resources\OfficeFirefox.png" />
+    <None Remove="Resources\OfficeFlashDrive.ico" />
+    <None Remove="Resources\OfficeFlashDrive.png" />
+    <None Remove="Resources\OfficeGmail.ico" />
+    <None Remove="Resources\OfficeGmail.png" />
+    <None Remove="Resources\OfficeGoogle.ico" />
+    <None Remove="Resources\OfficeGoogle.png" />
+    <None Remove="Resources\OfficeGoogleDrive.ico" />
+    <None Remove="Resources\OfficeGoogleDrive.png" />
+    <None Remove="Resources\OfficeLinux.ico" />
+    <None Remove="Resources\OfficeLinux.png" />
+    <None Remove="Resources\OfficeOneDrive.ico" />
+    <None Remove="Resources\OfficeOneDrive.png" />
+    <None Remove="Resources\OfficeOneNote.ico" />
+    <None Remove="Resources\OfficeOneNote.png" />
+    <None Remove="Resources\OfficeOutlook.ico" />
+    <None Remove="Resources\OfficeOutlook.png" />
+    <None Remove="Resources\OfficePdf.ico" />
+    <None Remove="Resources\OfficePdf.png" />
+    <None Remove="Resources\OfficePowerPoint.ico" />
+    <None Remove="Resources\OfficePowerPoint.png" />
+    <None Remove="Resources\OfficePrint.ico" />
+    <None Remove="Resources\OfficePrint.png" />
+    <None Remove="Resources\OfficeProject.ico" />
+    <None Remove="Resources\OfficeProject.png" />
+    <None Remove="Resources\OfficePublisher.ico" />
+    <None Remove="Resources\OfficePublisher.png" />
+    <None Remove="Resources\OfficeSharePoint.ico" />
+    <None Remove="Resources\OfficeSharePoint.png" />
+    <None Remove="Resources\OfficeSkype.ico" />
+    <None Remove="Resources\OfficeSkype.png" />
+    <None Remove="Resources\OfficeWord.ico" />
+    <None Remove="Resources\OfficeWord.png" />
+    <None Remove="Resources\OfficeXlsx.ico" />
+    <None Remove="Resources\OfficeXlsx.png" />
+    <None Remove="Resources\OutlayAvailable.ico" />
+    <None Remove="Resources\OutlayAvailable.png" />
+    <None Remove="Resources\OutlayAvailableBalance.ico" />
+    <None Remove="Resources\OutlayAvailableBalance.png" />
+    <None Remove="Resources\OutlayAwards.ico" />
+    <None Remove="Resources\OutlayAwards.png" />
+    <None Remove="Resources\OutlayBankCardPurchase.ico" />
+    <None Remove="Resources\OutlayBankCardPurchase.png" />
+    <None Remove="Resources\OutlayCommitments.ico" />
+    <None Remove="Resources\OutlayCommitments.png" />
+    <None Remove="Resources\OutlayDeobligations.ico" />
+    <None Remove="Resources\OutlayDeobligations.png" />
+    <None Remove="Resources\OutlayExpenditures.ico" />
+    <None Remove="Resources\OutlayExpenditures.png" />
+    <None Remove="Resources\OutlayInvoice.ico" />
+    <None Remove="Resources\OutlayInvoice.png" />
+    <None Remove="Resources\OutlayLoans.ico" />
+    <None Remove="Resources\OutlayLoans.png" />
+    <None Remove="Resources\OutlayMoney.ico" />
+    <None Remove="Resources\OutlayMoney.png" />
+    <None Remove="Resources\OutlayObligations.ico" />
+    <None Remove="Resources\OutlayObligations.png" />
+    <None Remove="Resources\OutlayOpenCommitments.ico" />
+    <None Remove="Resources\OutlayOpenCommitments.png" />
+    <None Remove="Resources\OutlayPayments.ico" />
+    <None Remove="Resources\OutlayPayments.png" />
+    <None Remove="Resources\OutlayProcurements.ico" />
+    <None Remove="Resources\OutlayProcurements.png" />
+    <None Remove="Resources\OutlayPurchaseRequest.ico" />
+    <None Remove="Resources\OutlayPurchaseRequest.png" />
+    <None Remove="Resources\OutlayPurchases.ico" />
+    <None Remove="Resources\OutlayPurchases.png" />
+    <None Remove="Resources\OutlayTransit.ico" />
+    <None Remove="Resources\OutlayTransit.png" />
+    <None Remove="Resources\OutlayTravelObligations.ico" />
+    <None Remove="Resources\OutlayTravelObligations.png" />
+    <None Remove="Resources\OutlayVendor.ico" />
+    <None Remove="Resources\OutlayVendor.png" />
+    <None Remove="Resources\ProviderAccess.ico" />
+    <None Remove="Resources\ProviderAccess.png" />
+    <None Remove="Resources\ProviderCsv.ico" />
+    <None Remove="Resources\ProviderCsv.png" />
+    <None Remove="Resources\ProviderExcel.ico" />
+    <None Remove="Resources\ProviderExcel.png" />
+    <None Remove="Resources\ProviderOleDb.ico" />
+    <None Remove="Resources\ProviderOleDb.png" />
+    <None Remove="Resources\ProviderSqlCe.ico" />
+    <None Remove="Resources\ProviderSqlCe.png" />
+    <None Remove="Resources\ProviderSQLite.ico" />
+    <None Remove="Resources\ProviderSQLite.png" />
+    <None Remove="Resources\ProviderSqlServer.ico" />
+    <None Remove="Resources\ProviderSqlServer.png" />
+    <None Remove="Resources\ToolBarAccessDb.ico" />
+    <None Remove="Resources\ToolBarAccessDb.png" />
+    <None Remove="Resources\ToolBarAdd.ico" />
+    <None Remove="Resources\ToolBarAdd.png" />
+    <None Remove="Resources\ToolBarAddRow.ico" />
+    <None Remove="Resources\ToolBarAddRow.png" />
+    <None Remove="Resources\ToolBarClean.ico" />
+    <None Remove="Resources\ToolBarClean.png" />
+    <None Remove="Resources\ToolBarDataBrowse.ico" />
+    <None Remove="Resources\ToolBarDataBrowse.png" />
+    <None Remove="Resources\ToolBarDataEdit.ico" />
+    <None Remove="Resources\ToolBarDataEdit.png" />
+    <None Remove="Resources\ToolBarDataTable.ico" />
+    <None Remove="Resources\ToolBarDataTable.png" />
+    <None Remove="Resources\ToolBarDelete.ico" />
+    <None Remove="Resources\ToolBarDelete.png" />
+    <None Remove="Resources\ToolBarDirectoryBrowse.ico" />
+    <None Remove="Resources\ToolBarDirectoryBrowse.png" />
+    <None Remove="Resources\ToolBarEmail.ico" />
+    <None Remove="Resources\ToolBarEmail.png" />
+    <None Remove="Resources\ToolBarExcel.ico" />
+    <None Remove="Resources\ToolBarExcel.png" />
+    <None Remove="Resources\ToolBarFileBrowse.ico" />
+    <None Remove="Resources\ToolBarFileBrowse.png" />
+    <None Remove="Resources\ToolBarFirst.ico" />
+    <None Remove="Resources\ToolBarFirst.png" />
+    <None Remove="Resources\ToolBarInsert.ico" />
+    <None Remove="Resources\ToolBarInsert.png" />
+    <None Remove="Resources\ToolBarInsertColumn.ico" />
+    <None Remove="Resources\ToolBarInsertColumn.png" />
+    <None Remove="Resources\ToolBarLast.ico" />
+    <None Remove="Resources\ToolBarLast.png" />
+    <None Remove="Resources\ToolBarLogout.ico" />
+    <None Remove="Resources\ToolBarLogout.png" />
+    <None Remove="Resources\ToolBarNext.ico" />
+    <None Remove="Resources\ToolBarNext.png" />
+    <None Remove="Resources\ToolBarPdfExport.ico" />
+    <None Remove="Resources\ToolBarPdfExport.png" />
+    <None Remove="Resources\ToolBarPower.ico" />
+    <None Remove="Resources\ToolBarPower.png" />
+    <None Remove="Resources\ToolBarPrevious.ico" />
+    <None Remove="Resources\ToolBarPrevious.png" />
+    <None Remove="Resources\ToolBarSave.ico" />
+    <None Remove="Resources\ToolBarSave.png" />
+    <None Remove="Resources\ToolBarTrash.ico" />
+    <None Remove="Resources\ToolBarTrash.png" />
+    <None Remove="Resources\ToolBarWord.ico" />
+    <None Remove="Resources\ToolBarWord.png" />
+    <None Remove="Resources\USEPA.ico" />
+    <None Remove="Templates\Budget\Control.xlsx" />
+    <None Remove="Templates\Report\Report.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="PDF\FCO\FundsControlManual.pdf" />
+    <Content Include="Templates\Budget\Control.xlsx" />
+    <Content Include="Templates\Report\Report.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BadgerIcon.ico" />
+    <EmbeddedResource Include="Resources\BadgerIcon.png" />
+    <EmbeddedResource Include="Resources\BlueNinja.ico" />
+    <EmbeddedResource Include="Resources\BlueNinja.png" />
+    <EmbeddedResource Include="Resources\BudExNinja.ico" />
+    <EmbeddedResource Include="Resources\BudExNinja.png" />
+    <EmbeddedResource Include="Resources\CloseBoxClose.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxClose.png" />
+    <EmbeddedResource Include="Resources\CloseBoxEnter.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxEnter.png" />
+    <EmbeddedResource Include="Resources\CloseBoxExit.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxExit.png" />
+    <EmbeddedResource Include="Resources\CloseBoxMaximize.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxMaximize.png" />
+    <EmbeddedResource Include="Resources\CloseBoxMinimize.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxMinimize.png" />
+    <EmbeddedResource Include="Resources\CloseBoxShutdown.ico" />
+    <EmbeddedResource Include="Resources\CloseBoxShutdown.png" />
+    <EmbeddedResource Include="Resources\DataAdd.ico" />
+    <EmbeddedResource Include="Resources\DataAdd.png" />
+    <EmbeddedResource Include="Resources\Database.ico" />
+    <EmbeddedResource Include="Resources\Database.png" />
+    <EmbeddedResource Include="Resources\DatabaseCopy.ico" />
+    <EmbeddedResource Include="Resources\DatabaseCopy.png" />
+    <EmbeddedResource Include="Resources\DatabaseDelete.ico" />
+    <EmbeddedResource Include="Resources\DatabaseDelete.png" />
+    <EmbeddedResource Include="Resources\DatabaseDownload.ico" />
+    <EmbeddedResource Include="Resources\DatabaseDownload.png" />
+    <EmbeddedResource Include="Resources\DatabaseNetwork.ico" />
+    <EmbeddedResource Include="Resources\DatabaseNetwork.png" />
+    <EmbeddedResource Include="Resources\DatabaseSettings.ico" />
+    <EmbeddedResource Include="Resources\DatabaseSettings.png" />
+    <EmbeddedResource Include="Resources\DatabaseTransfer.ico" />
+    <EmbeddedResource Include="Resources\DatabaseTransfer.png" />
+    <EmbeddedResource Include="Resources\DataColumnAdd.ico" />
+    <EmbeddedResource Include="Resources\DataColumnAdd.png" />
+    <EmbeddedResource Include="Resources\DataColumnDelete.ico" />
+    <EmbeddedResource Include="Resources\DataColumnDelete.png" />
+    <EmbeddedResource Include="Resources\DataConnect.ico" />
+    <EmbeddedResource Include="Resources\DataConnect.png" />
+    <EmbeddedResource Include="Resources\DataCopy.ico" />
+    <EmbeddedResource Include="Resources\DataCopy.png" />
+    <EmbeddedResource Include="Resources\DataDelete.ico" />
+    <EmbeddedResource Include="Resources\DataDelete.png" />
+    <EmbeddedResource Include="Resources\DataDownload.ico" />
+    <EmbeddedResource Include="Resources\DataDownload.png" />
+    <EmbeddedResource Include="Resources\DataEdit.ico" />
+    <EmbeddedResource Include="Resources\DataEdit.png" />
+    <EmbeddedResource Include="Resources\DataError.ico" />
+    <EmbeddedResource Include="Resources\DataError.png" />
+    <EmbeddedResource Include="Resources\DataFilter.ico" />
+    <EmbeddedResource Include="Resources\DataFilter.png" />
+    <EmbeddedResource Include="Resources\DataFilterAdd.ico" />
+    <EmbeddedResource Include="Resources\DataFilterAdd.png" />
+    <EmbeddedResource Include="Resources\DataGrouping.ico" />
+    <EmbeddedResource Include="Resources\DataGrouping.png" />
+    <EmbeddedResource Include="Resources\DataInsert.ico" />
+    <EmbeddedResource Include="Resources\DataInsert.png" />
+    <EmbeddedResource Include="Resources\DataLastRow.ico" />
+    <EmbeddedResource Include="Resources\DataLastRow.png" />
+    <EmbeddedResource Include="Resources\DataQuery.ico" />
+    <EmbeddedResource Include="Resources\DataQuery.png" />
+    <EmbeddedResource Include="Resources\DataRefresh.ico" />
+    <EmbeddedResource Include="Resources\DataRefresh.png" />
+    <EmbeddedResource Include="Resources\DataRestricted.ico" />
+    <EmbeddedResource Include="Resources\DataRestricted.png" />
+    <EmbeddedResource Include="Resources\DataRowAdd.ico" />
+    <EmbeddedResource Include="Resources\DataRowAdd.png" />
+    <EmbeddedResource Include="Resources\DataRowDelete.ico" />
+    <EmbeddedResource Include="Resources\DataRowDelete.png" />
+    <EmbeddedResource Include="Resources\DataServer.ico" />
+    <EmbeddedResource Include="Resources\DataServer.png" />
+    <EmbeddedResource Include="Resources\DataSettings.ico" />
+    <EmbeddedResource Include="Resources\DataSettings.png" />
+    <EmbeddedResource Include="Resources\DataSort.ico" />
+    <EmbeddedResource Include="Resources\DataSort.png" />
+    <EmbeddedResource Include="Resources\DataTransfer.ico" />
+    <EmbeddedResource Include="Resources\DataTransfer.png" />
+    <EmbeddedResource Include="Resources\DbEmail.ico" />
+    <EmbeddedResource Include="Resources\DbEmail.png" />
+    <EmbeddedResource Include="Resources\DbFile.ico" />
+    <EmbeddedResource Include="Resources\DbFile.png" />
+    <EmbeddedResource Include="Resources\DbNinja.ico" />
+    <EmbeddedResource Include="Resources\DbNinja.png" />
+    <EmbeddedResource Include="Resources\DialogArchive.ico" />
+    <EmbeddedResource Include="Resources\DialogArchive.png" />
+    <EmbeddedResource Include="Resources\DialogBrowseFolder.ico" />
+    <EmbeddedResource Include="Resources\DialogBrowseFolder.png" />
+    <EmbeddedResource Include="Resources\DialogCaution.ico" />
+    <EmbeddedResource Include="Resources\DialogCaution.png" />
+    <EmbeddedResource Include="Resources\DialogDataSearch.ico" />
+    <EmbeddedResource Include="Resources\DialogDataSearch.png" />
+    <EmbeddedResource Include="Resources\DialogDataWarning.ico" />
+    <EmbeddedResource Include="Resources\DialogDataWarning.png" />
+    <EmbeddedResource Include="Resources\DialogDownload.ico" />
+    <EmbeddedResource Include="Resources\DialogDownload.png" />
+    <EmbeddedResource Include="Resources\DialogEmail.ico" />
+    <EmbeddedResource Include="Resources\DialogEmail.png" />
+    <EmbeddedResource Include="Resources\DialogError.ico" />
+    <EmbeddedResource Include="Resources\DialogError.png" />
+    <EmbeddedResource Include="Resources\DialogFileSearch.ico" />
+    <EmbeddedResource Include="Resources\DialogFileSearch.png" />
+    <EmbeddedResource Include="Resources\DialogFind.ico" />
+    <EmbeddedResource Include="Resources\DialogFind.png" />
+    <EmbeddedResource Include="Resources\DialogGroupMessage.ico" />
+    <EmbeddedResource Include="Resources\DialogGroupMessage.png" />
+    <EmbeddedResource Include="Resources\DialogIdea.ico" />
+    <EmbeddedResource Include="Resources\DialogIdea.png" />
+    <EmbeddedResource Include="Resources\DialogInfo.ico" />
+    <EmbeddedResource Include="Resources\DialogInfo.png" />
+    <EmbeddedResource Include="Resources\DialogLogin.ico" />
+    <EmbeddedResource Include="Resources\DialogLogin.png" />
+    <EmbeddedResource Include="Resources\DialogLogout.ico" />
+    <EmbeddedResource Include="Resources\DialogLogout.png" />
+    <EmbeddedResource Include="Resources\DialogMessage.ico" />
+    <EmbeddedResource Include="Resources\DialogMessage.png" />
+    <EmbeddedResource Include="Resources\DialogPrint.ico" />
+    <EmbeddedResource Include="Resources\DialogPrint.png" />
+    <EmbeddedResource Include="Resources\DialogQuestion.ico" />
+    <EmbeddedResource Include="Resources\DialogQuestion.png" />
+    <EmbeddedResource Include="Resources\DialogSave.ico" />
+    <EmbeddedResource Include="Resources\DialogSave.png" />
+    <EmbeddedResource Include="Resources\DialogSearch.ico" />
+    <EmbeddedResource Include="Resources\DialogSearch.png" />
+    <EmbeddedResource Include="Resources\DialogSearchFolder.ico" />
+    <EmbeddedResource Include="Resources\DialogSearchFolder.png" />
+    <EmbeddedResource Include="Resources\DialogUpload.ico" />
+    <EmbeddedResource Include="Resources\DialogUpload.png" />
+    <EmbeddedResource Include="Resources\DialogVerify.ico" />
+    <EmbeddedResource Include="Resources\DialogVerify.png" />
+    <EmbeddedResource Include="Resources\DialogWarning.ico" />
+    <EmbeddedResource Include="Resources\DialogWarning.png" />
+    <EmbeddedResource Include="Resources\DivisionARD.ico" />
+    <EmbeddedResource Include="Resources\DivisionARD.png" />
+    <EmbeddedResource Include="Resources\DivisionD6.ico" />
+    <EmbeddedResource Include="Resources\DivisionD6.png" />
+    <EmbeddedResource Include="Resources\DivisionECAD.ico" />
+    <EmbeddedResource Include="Resources\DivisionECAD.png" />
+    <EmbeddedResource Include="Resources\DivisionEJ.ico" />
+    <EmbeddedResource Include="Resources\DivisionEJ.png" />
+    <EmbeddedResource Include="Resources\DivisionLCARD.ico" />
+    <EmbeddedResource Include="Resources\DivisionLCARD.png" />
+    <EmbeddedResource Include="Resources\DivisionLSASD.ico" />
+    <EmbeddedResource Include="Resources\DivisionLSASD.png" />
+    <EmbeddedResource Include="Resources\DivisionMSD.ico" />
+    <EmbeddedResource Include="Resources\DivisionMSD.png" />
+    <EmbeddedResource Include="Resources\DivisionMSR.ico" />
+    <EmbeddedResource Include="Resources\DivisionMSR.png" />
+    <EmbeddedResource Include="Resources\DivisionORA.ico" />
+    <EmbeddedResource Include="Resources\DivisionORA.png" />
+    <EmbeddedResource Include="Resources\DivisionORC.ico" />
+    <EmbeddedResource Include="Resources\DivisionORC.png" />
+    <EmbeddedResource Include="Resources\DivisionSEMD.ico" />
+    <EmbeddedResource Include="Resources\DivisionSEMD.png" />
+    <EmbeddedResource Include="Resources\DivisionWCF.ico" />
+    <EmbeddedResource Include="Resources\DivisionWCF.png" />
+    <EmbeddedResource Include="Resources\DivisionWD.ico" />
+    <EmbeddedResource Include="Resources\DivisionWD.png" />
+    <EmbeddedResource Include="Resources\DivisionWSA.ico" />
+    <EmbeddedResource Include="Resources\DivisionWSA.png" />
+    <EmbeddedResource Include="Resources\DivisionXA.ico" />
+    <EmbeddedResource Include="Resources\DivisionXA.png" />
+    <EmbeddedResource Include="Resources\EditFilter.ico" />
+    <EmbeddedResource Include="Resources\EditFilter.png" />
+    <EmbeddedResource Include="Resources\EmailAdd.ico" />
+    <EmbeddedResource Include="Resources\EmailAdd.png" />
+    <EmbeddedResource Include="Resources\EmailBrowse.ico" />
+    <EmbeddedResource Include="Resources\EmailBrowse.png" />
+    <EmbeddedResource Include="Resources\EmailDelete.ico" />
+    <EmbeddedResource Include="Resources\EmailDelete.png" />
+    <EmbeddedResource Include="Resources\EmailDownload.ico" />
+    <EmbeddedResource Include="Resources\EmailDownload.png" />
+    <EmbeddedResource Include="Resources\EmailFavourites.ico" />
+    <EmbeddedResource Include="Resources\EmailFavourites.png" />
+    <EmbeddedResource Include="Resources\EmailFilter.ico" />
+    <EmbeddedResource Include="Resources\EmailFilter.png" />
+    <EmbeddedResource Include="Resources\EmailForward.ico" />
+    <EmbeddedResource Include="Resources\EmailFrom.ico" />
+    <EmbeddedResource Include="Resources\EmailFrom.png" />
+    <EmbeddedResource Include="Resources\EmailHelp.ico" />
+    <EmbeddedResource Include="Resources\EmailHelp.png" />
+    <EmbeddedResource Include="Resources\EmailInbox.ico" />
+    <EmbeddedResource Include="Resources\EmailInbox.png" />
+    <EmbeddedResource Include="Resources\EmailInfo.ico" />
+    <EmbeddedResource Include="Resources\EmailInfo.png" />
+    <EmbeddedResource Include="Resources\EmailNew.ico" />
+    <EmbeddedResource Include="Resources\EmailNew.png" />
+    <EmbeddedResource Include="Resources\EmailNext.ico" />
+    <EmbeddedResource Include="Resources\EmailNext.png" />
+    <EmbeddedResource Include="Resources\EmailOpen.ico" />
+    <EmbeddedResource Include="Resources\EmailOpen.png" />
+    <EmbeddedResource Include="Resources\EmailPrevious.ico" />
+    <EmbeddedResource Include="Resources\EmailPrevious.png" />
+    <EmbeddedResource Include="Resources\EmailRefresh.ico" />
+    <EmbeddedResource Include="Resources\EmailRefresh.png" />
+    <EmbeddedResource Include="Resources\EmailRemove.ico" />
+    <EmbeddedResource Include="Resources\EmailRemove.png" />
+    <EmbeddedResource Include="Resources\EmailSave.ico" />
+    <EmbeddedResource Include="Resources\EmailSave.png" />
+    <EmbeddedResource Include="Resources\EmailSearch.ico" />
+    <EmbeddedResource Include="Resources\EmailSearch.png" />
+    <EmbeddedResource Include="Resources\EmailSecure.ico" />
+    <EmbeddedResource Include="Resources\EmailSecure.png" />
+    <EmbeddedResource Include="Resources\EmailSend.ico" />
+    <EmbeddedResource Include="Resources\EmailSend.png" />
+    <EmbeddedResource Include="Resources\EmailSettings.ico" />
+    <EmbeddedResource Include="Resources\EmailSettings.png" />
+    <EmbeddedResource Include="Resources\EmailTo.ico" />
+    <EmbeddedResource Include="Resources\EmailTo.png" />
+    <EmbeddedResource Include="Resources\EmailUnlock.ico" />
+    <EmbeddedResource Include="Resources\EmailUnlock.png" />
+    <EmbeddedResource Include="Resources\EmailUpload.ico" />
+    <EmbeddedResource Include="Resources\EmailUpload.png" />
+    <EmbeddedResource Include="Resources\EmailVerify.ico" />
+    <EmbeddedResource Include="Resources\EmailVerify.png" />
+    <EmbeddedResource Include="Resources\EmployeeAdd.ico" />
+    <EmbeddedResource Include="Resources\EmployeeAdd.png" />
+    <EmbeddedResource Include="Resources\EmployeeDelete.ico" />
+    <EmbeddedResource Include="Resources\EmployeeDelete.png" />
+    <EmbeddedResource Include="Resources\EmployeeDownload.ico" />
+    <EmbeddedResource Include="Resources\EmployeeDownload.png" />
+    <EmbeddedResource Include="Resources\EmployeeEdiit.ico" />
+    <EmbeddedResource Include="Resources\EmployeeEdit.png" />
+    <EmbeddedResource Include="Resources\EmployeeHelp.ico" />
+    <EmbeddedResource Include="Resources\EmployeeHelp.png" />
+    <EmbeddedResource Include="Resources\EmployeeInfo.ico" />
+    <EmbeddedResource Include="Resources\EmployeeInfo.png" />
+    <EmbeddedResource Include="Resources\EmployeeLocked.ico" />
+    <EmbeddedResource Include="Resources\EmployeeLocked.png" />
+    <EmbeddedResource Include="Resources\EmployeeNext.ico" />
+    <EmbeddedResource Include="Resources\EmployeeNext.png" />
+    <EmbeddedResource Include="Resources\EmployeeOk.ico" />
+    <EmbeddedResource Include="Resources\EmployeeOk.png" />
+    <EmbeddedResource Include="Resources\EmployeeProfile.ico" />
+    <EmbeddedResource Include="Resources\EmployeeProfile.png" />
+    <EmbeddedResource Include="Resources\EmployeeRemove.ico" />
+    <EmbeddedResource Include="Resources\EmployeeRemove.png" />
+    <EmbeddedResource Include="Resources\EmployeeSave.ico" />
+    <EmbeddedResource Include="Resources\EmployeeSave.png" />
+    <EmbeddedResource Include="Resources\EmployeeSearch.ico" />
+    <EmbeddedResource Include="Resources\EmployeeSearch.png" />
+    <EmbeddedResource Include="Resources\EmployeeSettings.ico" />
+    <EmbeddedResource Include="Resources\EmployeeSettings.png" />
+    <EmbeddedResource Include="Resources\EmployeeSync.ico" />
+    <EmbeddedResource Include="Resources\EmployeeSync.png" />
+    <EmbeddedResource Include="Resources\EmployeeUnlocked.ico" />
+    <EmbeddedResource Include="Resources\EmployeeUnlocked.png" />
+    <EmbeddedResource Include="Resources\EmployeeUpload.ico" />
+    <EmbeddedResource Include="Resources\EmployeeUpload.png" />
+    <EmbeddedResource Include="Resources\EmployeeUser.ico" />
+    <EmbeddedResource Include="Resources\EmployeeUser.png" />
+    <EmbeddedResource Include="Resources\EpaBadger.ico" />
+    <EmbeddedResource Include="Resources\EpaBadger.png" />
+    <EmbeddedResource Include="Resources\EpaCircle.ico" />
+    <EmbeddedResource Include="Resources\EpaCircle.png" />
+    <EmbeddedResource Include="Resources\EpaHorizontal.ico" />
+    <EmbeddedResource Include="Resources\EpaHorizontal.png" />
+    <EmbeddedResource Include="Resources\Export.ico" />
+    <EmbeddedResource Include="Resources\Export.png" />
+    <EmbeddedResource Include="Resources\FileAdd.ico" />
+    <EmbeddedResource Include="Resources\FileAdd.png" />
+    <EmbeddedResource Include="Resources\FileCopy.ico" />
+    <EmbeddedResource Include="Resources\FileCopy.png" />
+    <EmbeddedResource Include="Resources\FileDelete.ico" />
+    <EmbeddedResource Include="Resources\FileDelete.png" />
+    <EmbeddedResource Include="Resources\FileDownload.ico" />
+    <EmbeddedResource Include="Resources\FileDownload.png" />
+    <EmbeddedResource Include="Resources\FileEdit.ico" />
+    <EmbeddedResource Include="Resources\FileEdit.png" />
+    <EmbeddedResource Include="Resources\FileHelp.ico" />
+    <EmbeddedResource Include="Resources\FileHelp.png" />
+    <EmbeddedResource Include="Resources\FileInfo.ico" />
+    <EmbeddedResource Include="Resources\FileInfo.png" />
+    <EmbeddedResource Include="Resources\FileLock.ico" />
+    <EmbeddedResource Include="Resources\FileLock.png" />
+    <EmbeddedResource Include="Resources\FileLog.ico" />
+    <EmbeddedResource Include="Resources\FileLog.png" />
+    <EmbeddedResource Include="Resources\FileQuery.ico" />
+    <EmbeddedResource Include="Resources\FileQuery.png" />
+    <EmbeddedResource Include="Resources\FileRefresh.ico" />
+    <EmbeddedResource Include="Resources\FileRefresh.png" />
+    <EmbeddedResource Include="Resources\FileRemove.ico" />
+    <EmbeddedResource Include="Resources\FileRemove.png" />
+    <EmbeddedResource Include="Resources\FileSave.ico" />
+    <EmbeddedResource Include="Resources\FileSave.png" />
+    <EmbeddedResource Include="Resources\FileSearch.ico" />
+    <EmbeddedResource Include="Resources\FileSearch.png" />
+    <EmbeddedResource Include="Resources\FileSecurity.ico" />
+    <EmbeddedResource Include="Resources\FileSecurity.png" />
+    <EmbeddedResource Include="Resources\FileSettings.ico" />
+    <EmbeddedResource Include="Resources\FileSettings.png" />
+    <EmbeddedResource Include="Resources\FileTransfer.ico" />
+    <EmbeddedResource Include="Resources\FileTransfer.png" />
+    <EmbeddedResource Include="Resources\FileUpload.ico" />
+    <EmbeddedResource Include="Resources\FileUpload.png" />
+    <EmbeddedResource Include="Resources\FileVerify.ico" />
+    <EmbeddedResource Include="Resources\FileVerify.png" />
+    <EmbeddedResource Include="Resources\FiltersAdd.ico" />
+    <EmbeddedResource Include="Resources\FIltersDbFilter.ico" />
+    <EmbeddedResource Include="Resources\FiltersDelete.ico" />
+    <EmbeddedResource Include="Resources\FiltersEmail.ico" />
+    <EmbeddedResource Include="Resources\FiltersNew.ico" />
+    <EmbeddedResource Include="Resources\FiltersServer.ico" />
+    <EmbeddedResource Include="Resources\FiltersSettings.ico" />
+    <EmbeddedResource Include="Resources\FiltersSort.ico" />
+    <EmbeddedResource Include="Resources\FolderAdd.ico" />
+    <EmbeddedResource Include="Resources\FolderAdd.png" />
+    <EmbeddedResource Include="Resources\FolderCopy.ico" />
+    <EmbeddedResource Include="Resources\FolderCopy.png" />
+    <EmbeddedResource Include="Resources\FolderDelete.ico" />
+    <EmbeddedResource Include="Resources\FolderDelete.png" />
+    <EmbeddedResource Include="Resources\FolderDownload.ico" />
+    <EmbeddedResource Include="Resources\FolderDownload.png" />
+    <EmbeddedResource Include="Resources\FolderEdit.ico" />
+    <EmbeddedResource Include="Resources\FolderEdit.png" />
+    <EmbeddedResource Include="Resources\FolderInformation.ico" />
+    <EmbeddedResource Include="Resources\FolderInformation.png" />
+    <EmbeddedResource Include="Resources\FolderOk.ico" />
+    <EmbeddedResource Include="Resources\FolderOk.png" />
+    <EmbeddedResource Include="Resources\FolderOpen.ico" />
+    <EmbeddedResource Include="Resources\FolderOpen.png" />
+    <EmbeddedResource Include="Resources\FolderPicture.ico" />
+    <EmbeddedResource Include="Resources\FolderPicture.png" />
+    <EmbeddedResource Include="Resources\FolderRefresh.ico" />
+    <EmbeddedResource Include="Resources\FolderRefresh.png" />
+    <EmbeddedResource Include="Resources\FolderSearch.ico" />
+    <EmbeddedResource Include="Resources\FolderSearch.png" />
+    <EmbeddedResource Include="Resources\FolderSettings.ico" />
+    <EmbeddedResource Include="Resources\FolderSettings.png" />
+    <EmbeddedResource Include="Resources\FolderShared.ico" />
+    <EmbeddedResource Include="Resources\FolderShared.png" />
+    <EmbeddedResource Include="Resources\FolderTemp.ico" />
+    <EmbeddedResource Include="Resources\FolderTemp.png" />
+    <EmbeddedResource Include="Resources\FolderUpload.ico" />
+    <EmbeddedResource Include="Resources\FolderUpload.png" />
+    <EmbeddedResource Include="Resources\FundARRA.ico" />
+    <EmbeddedResource Include="Resources\FundARRA.png" />
+    <EmbeddedResource Include="Resources\FundBRAC.ico" />
+    <EmbeddedResource Include="Resources\FundBRAC.png" />
+    <EmbeddedResource Include="Resources\FundCaresAct.ico" />
+    <EmbeddedResource Include="Resources\FundCaresAct.png" />
+    <EmbeddedResource Include="Resources\FundCategoricalGrants.ico" />
+    <EmbeddedResource Include="Resources\FundCategoricalGrants.png" />
+    <EmbeddedResource Include="Resources\FundCWSRF.ico" />
+    <EmbeddedResource Include="Resources\FundCWSRF.png" />
+    <EmbeddedResource Include="Resources\FundDWSRF.ico" />
+    <EmbeddedResource Include="Resources\FundDWSRF.png" />
+    <EmbeddedResource Include="Resources\FundEarmarks.ico" />
+    <EmbeddedResource Include="Resources\FundEarmarks.png" />
+    <EmbeddedResource Include="Resources\FundEPM.ico" />
+    <EmbeddedResource Include="Resources\FundEPM.png" />
+    <EmbeddedResource Include="Resources\FundLUST.ico" />
+    <EmbeddedResource Include="Resources\FundLUST.png" />
+    <EmbeddedResource Include="Resources\FundOilSpill.ico" />
+    <EmbeddedResource Include="Resources\FundOilSpill.png" />
+    <EmbeddedResource Include="Resources\FundSpecialProjects.ico" />
+    <EmbeddedResource Include="Resources\FundSpecialProjects.png" />
+    <EmbeddedResource Include="Resources\FundSTAG.ico" />
+    <EmbeddedResource Include="Resources\FundSTAG.png" />
+    <EmbeddedResource Include="Resources\FundSuperfund.ico" />
+    <EmbeddedResource Include="Resources\FundSuperfund.png" />
+    <EmbeddedResource Include="Resources\FundSupplemental.ico" />
+    <EmbeddedResource Include="Resources\FundSupplemental.png" />
+    <EmbeddedResource Include="Resources\IdentificationAdd.ico" />
+    <EmbeddedResource Include="Resources\IdentificationAdd.png" />
+    <EmbeddedResource Include="Resources\IdentificationContact.ico" />
+    <EmbeddedResource Include="Resources\IdentificationContact.png" />
+    <EmbeddedResource Include="Resources\IdentificationDelete.ico" />
+    <EmbeddedResource Include="Resources\IdentificationDelete.png" />
+    <EmbeddedResource Include="Resources\IdentificationError.ico" />
+    <EmbeddedResource Include="Resources\IdentificationError.png" />
+    <EmbeddedResource Include="Resources\IdentificationID.ico" />
+    <EmbeddedResource Include="Resources\IdentificationID.png" />
+    <EmbeddedResource Include="Resources\IdentificationRemove.ico" />
+    <EmbeddedResource Include="Resources\IdentificationRemove.png" />
+    <EmbeddedResource Include="Resources\IdentificationSearch.ico" />
+    <EmbeddedResource Include="Resources\IdentificationSearch.png" />
+    <EmbeddedResource Include="Resources\IdentificationVerify.ico" />
+    <EmbeddedResource Include="Resources\IdentificationVerify.png" />
+    <EmbeddedResource Include="Resources\Import.ico" />
+    <EmbeddedResource Include="Resources\Import.png" />
+    <EmbeddedResource Include="Resources\InterfaceAdd.ico" />
+    <EmbeddedResource Include="Resources\InterfaceAdd.png" />
+    <EmbeddedResource Include="Resources\InterfaceAnalysis.ico" />
+    <EmbeddedResource Include="Resources\InterfaceAnalysis.png" />
+    <EmbeddedResource Include="Resources\InterfaceAppropriation.ico" />
+    <EmbeddedResource Include="Resources\InterfaceAppropriation.png" />
+    <EmbeddedResource Include="Resources\InterfaceAsk.ico" />
+    <EmbeddedResource Include="Resources\InterfaceAsk.png" />
+    <EmbeddedResource Include="Resources\InterfaceAutoSizeColumns.ico" />
+    <EmbeddedResource Include="Resources\InterfaceAutoSizeColumns.png" />
+    <EmbeddedResource Include="Resources\InterfaceBluetooth.ico" />
+    <EmbeddedResource Include="Resources\InterfaceBluetooth.png" />
+    <EmbeddedResource Include="Resources\InterfaceBucket.ico" />
+    <EmbeddedResource Include="Resources\InterfaceBucket.png" />
+    <EmbeddedResource Include="Resources\InterfaceCalculator.ico" />
+    <EmbeddedResource Include="Resources\InterfaceCalculator.png" />
+    <EmbeddedResource Include="Resources\InterfaceCalendar.ico" />
+    <EmbeddedResource Include="Resources\InterfaceCalendar.png" />
+    <EmbeddedResource Include="Resources\InterfaceCategory.ico" />
+    <EmbeddedResource Include="Resources\InterfaceCategory.png" />
+    <EmbeddedResource Include="Resources\InterfaceCertify.ico" />
+    <EmbeddedResource Include="Resources\InterfaceCertify.png" />
+    <EmbeddedResource Include="Resources\InterfaceChart.ico" />
+    <EmbeddedResource Include="Resources\InterfaceChart.png" />
+    <EmbeddedResource Include="Resources\InterfaceCircleAdd.ico" />
+    <EmbeddedResource Include="Resources\InterfaceCircleAdd.png" />
+    <EmbeddedResource Include="Resources\InterfaceClean.ico" />
+    <EmbeddedResource Include="Resources\InterfaceClean.png" />
+    <EmbeddedResource Include="Resources\InterfaceConfiguration.ico" />
+    <EmbeddedResource Include="Resources\InterfaceConfiguration.png" />
+    <EmbeddedResource Include="Resources\InterfaceConstruction.ico" />
+    <EmbeddedResource Include="Resources\InterfaceConstruction.png" />
+    <EmbeddedResource Include="Resources\InterfaceContacts.ico" />
+    <EmbeddedResource Include="Resources\InterfaceContacts.png" />
+    <EmbeddedResource Include="Resources\InterfaceDivisions.ico" />
+    <EmbeddedResource Include="Resources\InterfaceDivisions.png" />
+    <EmbeddedResource Include="Resources\InterfacedMail.ico" />
+    <EmbeddedResource Include="Resources\InterfacedMail.png" />
+    <EmbeddedResource Include="Resources\InterfaceEcology.ico" />
+    <EmbeddedResource Include="Resources\InterfaceEcology.png" />
+    <EmbeddedResource Include="Resources\InterfaceEdit.ico" />
+    <EmbeddedResource Include="Resources\InterfaceEdit.png" />
+    <EmbeddedResource Include="Resources\InterfaceEmployee.ico" />
+    <EmbeddedResource Include="Resources\InterfaceEmployee.png" />
+    <EmbeddedResource Include="Resources\InterfaceEpa.ico" />
+    <EmbeddedResource Include="Resources\InterfaceEpa.png" />
+    <EmbeddedResource Include="Resources\InterfaceErrorMessage.ico" />
+    <EmbeddedResource Include="Resources\InterfaceErrorMessage.png" />
+    <EmbeddedResource Include="Resources\InterfaceExchange.ico" />
+    <EmbeddedResource Include="Resources\InterfaceExchange.png" />
+    <EmbeddedResource Include="Resources\InterfaceExecute.ico" />
+    <EmbeddedResource Include="Resources\InterfaceExecute.png" />
+    <EmbeddedResource Include="Resources\InterfaceExplosion.ico" />
+    <EmbeddedResource Include="Resources\InterfaceExplosion.png" />
+    <EmbeddedResource Include="Resources\InterfaceFlag.ico" />
+    <EmbeddedResource Include="Resources\InterfaceFlag.png" />
+    <EmbeddedResource Include="Resources\InterfaceFund.ico" />
+    <EmbeddedResource Include="Resources\InterfaceFund.png" />
+    <EmbeddedResource Include="Resources\InterfaceHome.ico" />
+    <EmbeddedResource Include="Resources\InterfaceHome.png" />
+    <EmbeddedResource Include="Resources\InterfaceIdea.ico" />
+    <EmbeddedResource Include="Resources\InterfaceIdea.png" />
+    <EmbeddedResource Include="Resources\InterfaceIndoorAir.ico" />
+    <EmbeddedResource Include="Resources\InterfaceIndoorAir.png" />
+    <EmbeddedResource Include="Resources\InterfaceInfo.ico" />
+    <EmbeddedResource Include="Resources\InterfaceInfo.png" />
+    <EmbeddedResource Include="Resources\InterfaceLock.ico" />
+    <EmbeddedResource Include="Resources\InterfaceLock.png" />
+    <EmbeddedResource Include="Resources\InterfaceLogin.ico" />
+    <EmbeddedResource Include="Resources\InterfaceLogin.png" />
+    <EmbeddedResource Include="Resources\InterfaceLogout.ico" />
+    <EmbeddedResource Include="Resources\InterfaceLogout.png" />
+    <EmbeddedResource Include="Resources\InterfaceMainForm.ico" />
+    <EmbeddedResource Include="Resources\InterfaceMainForm.png" />
+    <EmbeddedResource Include="Resources\InterfaceMap.ico" />
+    <EmbeddedResource Include="Resources\InterfaceMap.png" />
+    <EmbeddedResource Include="Resources\InterfaceNetwork.ico" />
+    <EmbeddedResource Include="Resources\InterfaceNetwork.png" />
+    <EmbeddedResource Include="Resources\InterfaceNinja.ico" />
+    <EmbeddedResource Include="Resources\InterfaceNinja.png" />
+    <EmbeddedResource Include="Resources\InterfaceNotes.ico" />
+    <EmbeddedResource Include="Resources\InterfaceNotes.png" />
+    <EmbeddedResource Include="Resources\InterfaceNotify.ico" />
+    <EmbeddedResource Include="Resources\InterfaceNotify.png" />
+    <EmbeddedResource Include="Resources\InterfaceOk.ico" />
+    <EmbeddedResource Include="Resources\InterfaceOk.png" />
+    <EmbeddedResource Include="Resources\InterfaceQuestion.ico" />
+    <EmbeddedResource Include="Resources\InterfaceQuestion.png" />
+    <EmbeddedResource Include="Resources\InterfaceQuestionMark.ico" />
+    <EmbeddedResource Include="Resources\InterfaceQuestionMark.png" />
+    <EmbeddedResource Include="Resources\InterfaceRegionalOffice.ico" />
+    <EmbeddedResource Include="Resources\InterfaceRegionalOffice.png" />
+    <EmbeddedResource Include="Resources\InterfaceRemoteLocation.ico" />
+    <EmbeddedResource Include="Resources\InterfaceRemoteLocation.png" />
+    <EmbeddedResource Include="Resources\InterfaceSearch.ico" />
+    <EmbeddedResource Include="Resources\InterfaceSearch.png" />
+    <EmbeddedResource Include="Resources\InterfaceSettings.ico" />
+    <EmbeddedResource Include="Resources\InterfaceSettings.png" />
+    <EmbeddedResource Include="Resources\InterfaceSleep.ico" />
+    <EmbeddedResource Include="Resources\InterfaceSleep.png" />
+    <EmbeddedResource Include="Resources\InterfaceTarget.ico" />
+    <EmbeddedResource Include="Resources\InterfaceTarget.png" />
+    <EmbeddedResource Include="Resources\InterfaceTransfer.ico" />
+    <EmbeddedResource Include="Resources\InterfaceTransfer.png" />
+    <EmbeddedResource Include="Resources\InterfaceUnlock.ico" />
+    <EmbeddedResource Include="Resources\InterfaceUnlock.png" />
+    <EmbeddedResource Include="Resources\InterfaceUploadSuccess.ico" />
+    <EmbeddedResource Include="Resources\InterfaceUploadSuccess.png" />
+    <EmbeddedResource Include="Resources\InterfaceVerify.ico" />
+    <EmbeddedResource Include="Resources\InterfaceVerify.png" />
+    <EmbeddedResource Include="Resources\InterfaceWebSearch.ico" />
+    <EmbeddedResource Include="Resources\InterfaceWebSearch.png" />
+    <EmbeddedResource Include="Resources\InterfaceWorkLocation.ico" />
+    <EmbeddedResource Include="Resources\InterfaceWorkLocation.png" />
+    <EmbeddedResource Include="Resources\MathAlpha.ico" />
+    <EmbeddedResource Include="Resources\MathAlpha.png" />
+    <EmbeddedResource Include="Resources\MathApproximate.ico" />
+    <EmbeddedResource Include="Resources\MathApproximate.png" />
+    <EmbeddedResource Include="Resources\MathAverage.ico" />
+    <EmbeddedResource Include="Resources\MathAverage.png" />
+    <EmbeddedResource Include="Resources\MathBeta.ico" />
+    <EmbeddedResource Include="Resources\MathBeta.png" />
+    <EmbeddedResource Include="Resources\MathDelta.ico" />
+    <EmbeddedResource Include="Resources\MathDelta.png" />
+    <EmbeddedResource Include="Resources\MathDivision.ico" />
+    <EmbeddedResource Include="Resources\MathDivision.png" />
+    <EmbeddedResource Include="Resources\MathExponent.ico" />
+    <EmbeddedResource Include="Resources\MathExponent.png" />
+    <EmbeddedResource Include="Resources\MathFunction.ico" />
+    <EmbeddedResource Include="Resources\MathFunction.png" />
+    <EmbeddedResource Include="Resources\MathGreaterThanEqualTo.ico" />
+    <EmbeddedResource Include="Resources\MathGreaterThanEqualTo.png" />
+    <EmbeddedResource Include="Resources\MathInfinity.ico" />
+    <EmbeddedResource Include="Resources\MathInfinity.png" />
+    <EmbeddedResource Include="Resources\MathIntegral.ico" />
+    <EmbeddedResource Include="Resources\MathIntegral.png" />
+    <EmbeddedResource Include="Resources\MathLessThanEqualTo.ico" />
+    <EmbeddedResource Include="Resources\MathLessThanEqualTo.png" />
+    <EmbeddedResource Include="Resources\MathMu.ico" />
+    <EmbeddedResource Include="Resources\MathMu.png" />
+    <EmbeddedResource Include="Resources\MathNotEqual.ico" />
+    <EmbeddedResource Include="Resources\MathNotEqual.png" />
+    <EmbeddedResource Include="Resources\MathNumber.ico" />
+    <EmbeddedResource Include="Resources\MathNumber.png" />
+    <EmbeddedResource Include="Resources\MathOmega.ico" />
+    <EmbeddedResource Include="Resources\MathOmega.png" />
+    <EmbeddedResource Include="Resources\MathPercntage.ico" />
+    <EmbeddedResource Include="Resources\MathPercntage.png" />
+    <EmbeddedResource Include="Resources\MathPhi.ico" />
+    <EmbeddedResource Include="Resources\MathPhi.png" />
+    <EmbeddedResource Include="Resources\MathPi.ico" />
+    <EmbeddedResource Include="Resources\MathPi.png" />
+    <EmbeddedResource Include="Resources\MathPlusOrMinus.ico" />
+    <EmbeddedResource Include="Resources\MathPlusOrMinus.png" />
+    <EmbeddedResource Include="Resources\MathRanking.ico" />
+    <EmbeddedResource Include="Resources\MathRanking.png" />
+    <EmbeddedResource Include="Resources\MathSample.ico" />
+    <EmbeddedResource Include="Resources\MathSample.png" />
+    <EmbeddedResource Include="Resources\MathSigma.ico" />
+    <EmbeddedResource Include="Resources\MathSigma.png" />
+    <EmbeddedResource Include="Resources\MathStatistics.ico" />
+    <EmbeddedResource Include="Resources\MathStatistics.png" />
+    <EmbeddedResource Include="Resources\MathVariance.ico" />
+    <EmbeddedResource Include="Resources\MathVariance.png" />
+    <EmbeddedResource Include="Resources\NavigationBlock.ico" />
+    <EmbeddedResource Include="Resources\NavigationBlock.png" />
+    <EmbeddedResource Include="Resources\NavigationBottomLeft.ico" />
+    <EmbeddedResource Include="Resources\NavigationBottomLeft.png" />
+    <EmbeddedResource Include="Resources\NavigationBottomRight.ico" />
+    <EmbeddedResource Include="Resources\NavigationBottomRight.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleCheckBox.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleCheckBox.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleDown.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleDown.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleForward.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleForward.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleNext.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleNext.png" />
+    <EmbeddedResource Include="Resources\NavigationCirclePause.ico" />
+    <EmbeddedResource Include="Resources\NavigationCirclePause.png" />
+    <EmbeddedResource Include="Resources\NavigationCirclePrevious.ico" />
+    <EmbeddedResource Include="Resources\NavigationCirclePrevious.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleRewind.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleRewind.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleStop.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleStop.png" />
+    <EmbeddedResource Include="Resources\NavigationCircleUp.ico" />
+    <EmbeddedResource Include="Resources\NavigationCircleUp.png" />
+    <EmbeddedResource Include="Resources\NavigationCirlcePlay.ico" />
+    <EmbeddedResource Include="Resources\NavigationCirlcePlay.png" />
+    <EmbeddedResource Include="Resources\NavigationDown.ico" />
+    <EmbeddedResource Include="Resources\NavigationDown.png" />
+    <EmbeddedResource Include="Resources\NavigationEnd.ico" />
+    <EmbeddedResource Include="Resources\NavigationEnd.png" />
+    <EmbeddedResource Include="Resources\NavigationFirst.ico" />
+    <EmbeddedResource Include="Resources\NavigationFirst.png" />
+    <EmbeddedResource Include="Resources\NavigationForward.ico" />
+    <EmbeddedResource Include="Resources\NavigationForward.png" />
+    <EmbeddedResource Include="Resources\NavigationHome.ico" />
+    <EmbeddedResource Include="Resources\NavigationHome.png" />
+    <EmbeddedResource Include="Resources\NavigationInterface.ico" />
+    <EmbeddedResource Include="Resources\NavigationInterface.png" />
+    <EmbeddedResource Include="Resources\NavigationKey.ico" />
+    <EmbeddedResource Include="Resources\NavigationKey.png" />
+    <EmbeddedResource Include="Resources\NavigationLast.ico" />
+    <EmbeddedResource Include="Resources\NavigationLast.png" />
+    <EmbeddedResource Include="Resources\NavigationLeft.ico" />
+    <EmbeddedResource Include="Resources\NavigationLeft.png" />
+    <EmbeddedResource Include="Resources\NavigationLocation.ico" />
+    <EmbeddedResource Include="Resources\NavigationLocation.png" />
+    <EmbeddedResource Include="Resources\NavigationMap.ico" />
+    <EmbeddedResource Include="Resources\NavigationMap.png" />
+    <EmbeddedResource Include="Resources\NavigationMenu.ico" />
+    <EmbeddedResource Include="Resources\NavigationMenu.png" />
+    <EmbeddedResource Include="Resources\NavigationPause.ico" />
+    <EmbeddedResource Include="Resources\NavigationPause.png" />
+    <EmbeddedResource Include="Resources\NavigationPlay.ico" />
+    <EmbeddedResource Include="Resources\NavigationPlay.png" />
+    <EmbeddedResource Include="Resources\NavigationRewind.ico" />
+    <EmbeddedResource Include="Resources\NavigationRewind.png" />
+    <EmbeddedResource Include="Resources\NavigationRight.ico" />
+    <EmbeddedResource Include="Resources\NavigationRight.png" />
+    <EmbeddedResource Include="Resources\NavigationStart.ico" />
+    <EmbeddedResource Include="Resources\NavigationStart.png" />
+    <EmbeddedResource Include="Resources\NavigationStop.ico" />
+    <EmbeddedResource Include="Resources\NavigationStop.png" />
+    <EmbeddedResource Include="Resources\NavigationTopLeft.ico" />
+    <EmbeddedResource Include="Resources\NavigationTopLeft.png" />
+    <EmbeddedResource Include="Resources\NavigationTopRight.ico" />
+    <EmbeddedResource Include="Resources\NavigationTopRight.png" />
+    <EmbeddedResource Include="Resources\NavigationUndo.ico" />
+    <EmbeddedResource Include="Resources\NavigationUndo.png" />
+    <EmbeddedResource Include="Resources\NavigationUp.ico" />
+    <EmbeddedResource Include="Resources\NavigationUp.png" />
+    <EmbeddedResource Include="Resources\NotificationError.ico" />
+    <EmbeddedResource Include="Resources\NotificationError.png" />
+    <EmbeddedResource Include="Resources\NotificationInfo.ico" />
+    <EmbeddedResource Include="Resources\NotificationInfo.png" />
+    <EmbeddedResource Include="Resources\NotificationQuestion.ico" />
+    <EmbeddedResource Include="Resources\NotificationQuestion.png" />
+    <EmbeddedResource Include="Resources\NotificationWarning.ico" />
+    <EmbeddedResource Include="Resources\NotificationWarning.png" />
+    <EmbeddedResource Include="Resources\ObjectClassContracts.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassContracts.png" />
+    <EmbeddedResource Include="Resources\ObjectClassExpenses.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassExpenses.png" />
+    <EmbeddedResource Include="Resources\ObjectClassFte.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassFte.png" />
+    <EmbeddedResource Include="Resources\ObjectClassGrants.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassGrants.png" />
+    <EmbeddedResource Include="Resources\ObjectClassPayroll.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassPayroll.png" />
+    <EmbeddedResource Include="Resources\ObjectClassSiteTravel.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassSiteTravel.png" />
+    <EmbeddedResource Include="Resources\ObjectClassTravel.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassTravel.png" />
+    <EmbeddedResource Include="Resources\ObjectClassWcf.ico" />
+    <EmbeddedResource Include="Resources\ObjectClassWcf.png" />
+    <EmbeddedResource Include="Resources\OfficeAccess.ico" />
+    <EmbeddedResource Include="Resources\OfficeAccess.png" />
+    <EmbeddedResource Include="Resources\OfficeAdmin.ico" />
+    <EmbeddedResource Include="Resources\OfficeAdmin.png" />
+    <EmbeddedResource Include="Resources\OfficeAndroid.ico" />
+    <EmbeddedResource Include="Resources\OfficeAndroid.png" />
+    <EmbeddedResource Include="Resources\OfficeContacts.ico" />
+    <EmbeddedResource Include="Resources\OfficeContacts.png" />
+    <EmbeddedResource Include="Resources\OfficeCsv.ico" />
+    <EmbeddedResource Include="Resources\OfficeCsv.png" />
+    <EmbeddedResource Include="Resources\OfficeCsvExport.ico" />
+    <EmbeddedResource Include="Resources\OfficeCsvExport.png" />
+    <EmbeddedResource Include="Resources\OfficeDelve.ico" />
+    <EmbeddedResource Include="Resources\OfficeDelve.png" />
+    <EmbeddedResource Include="Resources\OfficeExcelExport.ico" />
+    <EmbeddedResource Include="Resources\OfficeExcelExport.png" />
+    <EmbeddedResource Include="Resources\OfficeFacebook.ico" />
+    <EmbeddedResource Include="Resources\OfficeFacebook.png" />
+    <EmbeddedResource Include="Resources\OfficeFax.ico" />
+    <EmbeddedResource Include="Resources\OfficeFax.png" />
+    <EmbeddedResource Include="Resources\OfficeFirefox.ico" />
+    <EmbeddedResource Include="Resources\OfficeFirefox.png" />
+    <EmbeddedResource Include="Resources\OfficeFlashDrive.ico" />
+    <EmbeddedResource Include="Resources\OfficeFlashDrive.png" />
+    <EmbeddedResource Include="Resources\OfficeGmail.ico" />
+    <EmbeddedResource Include="Resources\OfficeGmail.png" />
+    <EmbeddedResource Include="Resources\OfficeGoogle.ico" />
+    <EmbeddedResource Include="Resources\OfficeGoogle.png" />
+    <EmbeddedResource Include="Resources\OfficeGoogleDrive.ico" />
+    <EmbeddedResource Include="Resources\OfficeGoogleDrive.png" />
+    <EmbeddedResource Include="Resources\OfficeLinux.ico" />
+    <EmbeddedResource Include="Resources\OfficeLinux.png" />
+    <EmbeddedResource Include="Resources\OfficeOneDrive.ico" />
+    <EmbeddedResource Include="Resources\OfficeOneDrive.png" />
+    <EmbeddedResource Include="Resources\OfficeOneNote.ico" />
+    <EmbeddedResource Include="Resources\OfficeOneNote.png" />
+    <EmbeddedResource Include="Resources\OfficeOutlook.ico" />
+    <EmbeddedResource Include="Resources\OfficeOutlook.png" />
+    <EmbeddedResource Include="Resources\OfficePdf.ico" />
+    <EmbeddedResource Include="Resources\OfficePdf.png" />
+    <EmbeddedResource Include="Resources\OfficePowerPoint.ico" />
+    <EmbeddedResource Include="Resources\OfficePowerPoint.png" />
+    <EmbeddedResource Include="Resources\OfficePrint.ico" />
+    <EmbeddedResource Include="Resources\OfficePrint.png" />
+    <EmbeddedResource Include="Resources\OfficeProject.ico" />
+    <EmbeddedResource Include="Resources\OfficeProject.png" />
+    <EmbeddedResource Include="Resources\OfficePublisher.ico" />
+    <EmbeddedResource Include="Resources\OfficePublisher.png" />
+    <EmbeddedResource Include="Resources\OfficeSharePoint.ico" />
+    <EmbeddedResource Include="Resources\OfficeSharePoint.png" />
+    <EmbeddedResource Include="Resources\OfficeSkype.ico" />
+    <EmbeddedResource Include="Resources\OfficeSkype.png" />
+    <EmbeddedResource Include="Resources\OfficeWord.ico" />
+    <EmbeddedResource Include="Resources\OfficeWord.png" />
+    <EmbeddedResource Include="Resources\OfficeXlsx.ico" />
+    <EmbeddedResource Include="Resources\OfficeXlsx.png" />
+    <EmbeddedResource Include="Resources\OutlayAvailable.ico" />
+    <EmbeddedResource Include="Resources\OutlayAvailable.png" />
+    <EmbeddedResource Include="Resources\OutlayAvailableBalance.ico" />
+    <EmbeddedResource Include="Resources\OutlayAvailableBalance.png" />
+    <EmbeddedResource Include="Resources\OutlayAwards.ico" />
+    <EmbeddedResource Include="Resources\OutlayAwards.png" />
+    <EmbeddedResource Include="Resources\OutlayBankCardPurchase.ico" />
+    <EmbeddedResource Include="Resources\OutlayBankCardPurchase.png" />
+    <EmbeddedResource Include="Resources\OutlayCommitments.ico" />
+    <EmbeddedResource Include="Resources\OutlayCommitments.png" />
+    <EmbeddedResource Include="Resources\OutlayDeobligations.ico" />
+    <EmbeddedResource Include="Resources\OutlayDeobligations.png" />
+    <EmbeddedResource Include="Resources\OutlayExpenditures.ico" />
+    <EmbeddedResource Include="Resources\OutlayExpenditures.png" />
+    <EmbeddedResource Include="Resources\OutlayInvoice.ico" />
+    <EmbeddedResource Include="Resources\OutlayInvoice.png" />
+    <EmbeddedResource Include="Resources\OutlayLoans.ico" />
+    <EmbeddedResource Include="Resources\OutlayLoans.png" />
+    <EmbeddedResource Include="Resources\OutlayMoney.ico" />
+    <EmbeddedResource Include="Resources\OutlayMoney.png" />
+    <EmbeddedResource Include="Resources\OutlayObligations.ico" />
+    <EmbeddedResource Include="Resources\OutlayObligations.png" />
+    <EmbeddedResource Include="Resources\OutlayOpenCommitments.ico" />
+    <EmbeddedResource Include="Resources\OutlayOpenCommitments.png" />
+    <EmbeddedResource Include="Resources\OutlayPayments.ico" />
+    <EmbeddedResource Include="Resources\OutlayPayments.png" />
+    <EmbeddedResource Include="Resources\OutlayProcurements.ico" />
+    <EmbeddedResource Include="Resources\OutlayProcurements.png" />
+    <EmbeddedResource Include="Resources\OutlayPurchaseRequest.ico" />
+    <EmbeddedResource Include="Resources\OutlayPurchaseRequest.png" />
+    <EmbeddedResource Include="Resources\OutlayPurchases.ico" />
+    <EmbeddedResource Include="Resources\OutlayPurchases.png" />
+    <EmbeddedResource Include="Resources\OutlayTransit.ico" />
+    <EmbeddedResource Include="Resources\OutlayTransit.png" />
+    <EmbeddedResource Include="Resources\OutlayTravelObligations.ico" />
+    <EmbeddedResource Include="Resources\OutlayTravelObligations.png" />
+    <EmbeddedResource Include="Resources\OutlayVendor.ico" />
+    <EmbeddedResource Include="Resources\OutlayVendor.png" />
+    <EmbeddedResource Include="Resources\ProviderAccess.ico" />
+    <EmbeddedResource Include="Resources\ProviderAccess.png" />
+    <EmbeddedResource Include="Resources\ProviderCsv.ico" />
+    <EmbeddedResource Include="Resources\ProviderCsv.png" />
+    <EmbeddedResource Include="Resources\ProviderExcel.ico" />
+    <EmbeddedResource Include="Resources\ProviderExcel.png" />
+    <EmbeddedResource Include="Resources\ProviderOleDb.ico" />
+    <EmbeddedResource Include="Resources\ProviderOleDb.png" />
+    <EmbeddedResource Include="Resources\ProviderSqlCe.ico" />
+    <EmbeddedResource Include="Resources\ProviderSqlCe.png" />
+    <EmbeddedResource Include="Resources\ProviderSQLite.ico" />
+    <EmbeddedResource Include="Resources\ProviderSQLite.png" />
+    <EmbeddedResource Include="Resources\ProviderSqlServer.ico" />
+    <EmbeddedResource Include="Resources\ProviderSqlServer.png" />
+    <EmbeddedResource Include="Resources\ToolBarAccessDb.ico" />
+    <EmbeddedResource Include="Resources\ToolBarAccessDb.png" />
+    <EmbeddedResource Include="Resources\ToolBarAdd.ico" />
+    <EmbeddedResource Include="Resources\ToolBarAdd.png" />
+    <EmbeddedResource Include="Resources\ToolBarAddRow.ico" />
+    <EmbeddedResource Include="Resources\ToolBarAddRow.png" />
+    <EmbeddedResource Include="Resources\ToolBarClean.ico" />
+    <EmbeddedResource Include="Resources\ToolBarClean.png" />
+    <EmbeddedResource Include="Resources\ToolBarDataBrowse.ico" />
+    <EmbeddedResource Include="Resources\ToolBarDataBrowse.png" />
+    <EmbeddedResource Include="Resources\ToolBarDataEdit.ico" />
+    <EmbeddedResource Include="Resources\ToolBarDataEdit.png" />
+    <EmbeddedResource Include="Resources\ToolBarDataTable.ico" />
+    <EmbeddedResource Include="Resources\ToolBarDataTable.png" />
+    <EmbeddedResource Include="Resources\ToolBarDelete.ico" />
+    <EmbeddedResource Include="Resources\ToolBarDelete.png" />
+    <EmbeddedResource Include="Resources\ToolBarDirectoryBrowse.ico" />
+    <EmbeddedResource Include="Resources\ToolBarDirectoryBrowse.png" />
+    <EmbeddedResource Include="Resources\ToolBarEmail.ico" />
+    <EmbeddedResource Include="Resources\ToolBarEmail.png" />
+    <EmbeddedResource Include="Resources\ToolBarExcel.ico" />
+    <EmbeddedResource Include="Resources\ToolBarExcel.png" />
+    <EmbeddedResource Include="Resources\ToolBarFileBrowse.ico" />
+    <EmbeddedResource Include="Resources\ToolBarFileBrowse.png" />
+    <EmbeddedResource Include="Resources\ToolBarFirst.ico" />
+    <EmbeddedResource Include="Resources\ToolBarFirst.png" />
+    <EmbeddedResource Include="Resources\ToolBarInsert.ico" />
+    <EmbeddedResource Include="Resources\ToolBarInsert.png" />
+    <EmbeddedResource Include="Resources\ToolBarInsertColumn.ico" />
+    <EmbeddedResource Include="Resources\ToolBarInsertColumn.png" />
+    <EmbeddedResource Include="Resources\ToolBarLast.ico" />
+    <EmbeddedResource Include="Resources\ToolBarLast.png" />
+    <EmbeddedResource Include="Resources\ToolBarLogout.ico" />
+    <EmbeddedResource Include="Resources\ToolBarLogout.png" />
+    <EmbeddedResource Include="Resources\ToolBarNext.ico" />
+    <EmbeddedResource Include="Resources\ToolBarNext.png" />
+    <EmbeddedResource Include="Resources\ToolBarPdfExport.ico" />
+    <EmbeddedResource Include="Resources\ToolBarPdfExport.png" />
+    <EmbeddedResource Include="Resources\ToolBarPower.ico" />
+    <EmbeddedResource Include="Resources\ToolBarPower.png" />
+    <EmbeddedResource Include="Resources\ToolBarPrevious.ico" />
+    <EmbeddedResource Include="Resources\ToolBarPrevious.png" />
+    <EmbeddedResource Include="Resources\ToolBarSave.ico" />
+    <EmbeddedResource Include="Resources\ToolBarSave.png" />
+    <EmbeddedResource Include="Resources\ToolBarTrash.ico" />
+    <EmbeddedResource Include="Resources\ToolBarTrash.png" />
+    <EmbeddedResource Include="Resources\ToolBarWord.ico" />
+    <EmbeddedResource Include="Resources\ToolBarWord.png" />
+    <EmbeddedResource Include="Resources\USEPA.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SQL\ACCDB\CREATE\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Icons\EPA.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EPA.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Database.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Database.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Division.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Division.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Email.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Email.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Employee.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Employee.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\File.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>File.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Filter.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Filter.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Folder.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Folder.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Identification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Identification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Badger.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Badger.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\CloseBox.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseBox.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Data.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Data.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Database.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Database.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Dialog.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Dialog.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Division.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Division.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Email.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Email.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Employee.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Employee.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\EPA.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EPA.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\File.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>File.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Filter.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Filter.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Folder.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Folder.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Fund.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Fund.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Badger.Designer.cs">
+      <DependentUpon>Badger.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\CloseBox.Designer.cs">
+      <DependentUpon>CloseBox.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Data.Designer.cs">
+      <DependentUpon>Data.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Dialog.Designer.cs">
+      <DependentUpon>Dialog.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Fund.Designer.cs">
+      <DependentUpon>Fund.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Math.Designer.cs">
+      <DependentUpon>Math.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Ninja.Designer.cs">
+      <DependentUpon>Ninja.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Office.Designer.cs">
+      <DependentUpon>Office.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\Outlays.Designer.cs">
+      <DependentUpon>Outlays.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Images\Identification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Identification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Inteface.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Inteface.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Math.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Math.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Navigation.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Navigation.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Ninja.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Ninja.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Notification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Notification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Office.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Office.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Outlays.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Outlays.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\Provider.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Provider.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\ObjectClass.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ObjectClass.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\ObjectClass.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ObjectClass.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Provider.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Provider.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Navigation.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Navigation.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Notification.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Notification.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Interface.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Interface.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\ACCDB\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DELETE.Designer.cs">
+      <DependentUpon>DELETE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\ACCDB\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\DB\ALTER\RENAME.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RENAME.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\DATABASE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DATABASE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\TABLE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TABLE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\CREATE\VIEW.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>VIEW.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DETACH.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DETACH.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\DB\INSERT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>INSERT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\SELECT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SELECT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\TABLE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TABLE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\DB\UPDATE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UPDATE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CREATE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\CREATE\VIEW.Designer.cs">
+      <DependentUpon>VIEW.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDB\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDB\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\CREATE\VIEW.Designer.cs">
+      <DependentUpon>VIEW.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\DELETE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DELETE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDF\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\MDF\SELECT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SELECT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SQL\MDF\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\ALTER\RENAME.Designer.cs">
+      <DependentUpon>RENAME.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\CREATE\DATABASE.Designer.cs">
+      <DependentUpon>DATABASE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\CREATE\TABLE.Designer.cs">
+      <DependentUpon>TABLE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DELETE.Designer.cs">
+      <DependentUpon>DELETE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DETACH.Designer.cs">
+      <DependentUpon>DETACH.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\DROP.Designer.cs">
+      <DependentUpon>DROP.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\INSERT.Designer.cs">
+      <DependentUpon>INSERT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\SELECT.Designer.cs">
+      <DependentUpon>SELECT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SQL\SDF\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Icons\ToolBar.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToolBar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\ToolBar.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToolBar.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Icons\EPA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Database.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Database.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Division.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Division.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Email.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Email.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Employee.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Employee.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\File.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>File.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Filter.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Filter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Folder.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Folder.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Identification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Identification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Badger.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Badger.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\CloseBox.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Data.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Database.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Database.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Dialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Division.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Division.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Email.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Email.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Employee.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Employee.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\EPA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\File.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>File.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Filter.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Filter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Folder.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Folder.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Fund.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fund.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Badger.resx">
+      <LastGenOutput>Badger.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\CloseBox.resx">
+      <LastGenOutput>CloseBox.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Data.resx">
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Dialog.resx">
+      <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Fund.resx">
+      <LastGenOutput>Fund.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Math.resx">
+      <LastGenOutput>Math.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Ninja.resx">
+      <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Office.resx">
+      <LastGenOutput>Office.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Outlays.resx">
+      <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Identification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Identification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Inteface.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Inteface.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Math.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Math.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Navigation.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Ninja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ninja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Notification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Office.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Office.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Outlays.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Outlays.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Provider.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Provider.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ObjectClass.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ObjectClass.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\ObjectClass.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ObjectClass.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Provider.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Provider.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Navigation.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Navigation.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Notification.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notification.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Interface.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Interface.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DELETE.resx">
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\ACCDB\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\ALTER\RENAME.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\DATABASE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\TABLE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\CREATE\VIEW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DETACH.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\INSERT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\SELECT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\TABLE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\DB\UPDATE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CREATE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\CREATE\VIEW.resx">
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDB\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\CREATE\VIEW.resx">
+      <LastGenOutput>VIEW.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DELETE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\SELECT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\MDF\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\ALTER\RENAME.resx">
+      <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\CREATE\DATABASE.resx">
+      <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\CREATE\TABLE.resx">
+      <LastGenOutput>TABLE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DELETE.resx">
+      <LastGenOutput>DELETE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DETACH.resx">
+      <LastGenOutput>DETACH.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\DROP.resx">
+      <LastGenOutput>DROP.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\INSERT.resx">
+      <LastGenOutput>INSERT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\SELECT.resx">
+      <LastGenOutput>SELECT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SQL\SDF\UPDATE.resx">
+      <LastGenOutput>UPDATE.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ToolBar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\ToolBar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

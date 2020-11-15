@@ -121,11 +121,17 @@
   <data name="DialogArchive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogArchive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DialogBrowse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DialogBrowse.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DialogBrowseFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DialogBrowseFolder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogCaution" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogCaution.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DialogDataSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DialogDataSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DialogDataWarning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DialogDataWarning.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogDownload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,6 +144,9 @@
   </data>
   <data name="DialogFileSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogFileSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DialogFind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DialogFind.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogGroupMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogGroupMessage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +178,11 @@
   <data name="DialogSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DialogSearchFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DialogSearchFolder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DialogUpload" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DalogUpload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DialogUpload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DialogVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DialogVerify.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

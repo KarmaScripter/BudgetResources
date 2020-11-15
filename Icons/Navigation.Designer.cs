@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon BackUndo {
+        internal static System.Drawing.Icon NavigationBlock {
             get {
-                object obj = ResourceManager.GetObject("BackUndo", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBlock", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Block {
+        internal static System.Drawing.Icon NavigationBottomLeft {
             get {
-                object obj = ResourceManager.GetObject("Block", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBottomLeft", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleCheckBox {
+        internal static System.Drawing.Icon NavigationBottomRight {
             get {
-                object obj = ResourceManager.GetObject("CircleCheckBox", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBottomRight", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleDown {
+        internal static System.Drawing.Icon NavigationCircleCheckBox {
             get {
-                object obj = ResourceManager.GetObject("CircleDown", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleCheckBox", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleForward {
+        internal static System.Drawing.Icon NavigationCircleDown {
             get {
-                object obj = ResourceManager.GetObject("CircleForward", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleDown", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleLeft {
+        internal static System.Drawing.Icon NavigationCircleForward {
             get {
-                object obj = ResourceManager.GetObject("CircleLeft", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleForward", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleNext {
+        internal static System.Drawing.Icon NavigationCircleNext {
             get {
-                object obj = ResourceManager.GetObject("CircleNext", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleNext", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CirclePause {
+        internal static System.Drawing.Icon NavigationCirclePause {
             get {
-                object obj = ResourceManager.GetObject("CirclePause", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirclePause", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CirclePrevious {
+        internal static System.Drawing.Icon NavigationCirclePrevious {
             get {
-                object obj = ResourceManager.GetObject("CirclePrevious", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirclePrevious", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleRewind {
+        internal static System.Drawing.Icon NavigationCircleRewind {
             get {
-                object obj = ResourceManager.GetObject("CircleRewind", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleRewind", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleRight {
+        internal static System.Drawing.Icon NavigationCircleStop {
             get {
-                object obj = ResourceManager.GetObject("CircleRight", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleStop", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleStop {
+        internal static System.Drawing.Icon NavigationCircleUp {
             get {
-                object obj = ResourceManager.GetObject("CircleStop", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleUp", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CircleUp {
+        internal static System.Drawing.Icon NavigationCirlcePlay {
             get {
-                object obj = ResourceManager.GetObject("CircleUp", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirlcePlay", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CirlcePlay {
+        internal static System.Drawing.Icon NavigationDown {
             get {
-                object obj = ResourceManager.GetObject("CirlcePlay", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationDown", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FastForward {
+        internal static System.Drawing.Icon NavigationEnd {
             get {
-                object obj = ResourceManager.GetObject("FastForward", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationEnd", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon First {
+        internal static System.Drawing.Icon NavigationFirst {
             get {
-                object obj = ResourceManager.GetObject("First", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationFirst", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Home {
+        internal static System.Drawing.Icon NavigationForward {
             get {
-                object obj = ResourceManager.GetObject("Home", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationForward", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon InterfaceMenu {
+        internal static System.Drawing.Icon NavigationHome {
             get {
-                object obj = ResourceManager.GetObject("InterfaceMenu", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationHome", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Key {
+        internal static System.Drawing.Icon NavigationInterface {
             get {
-                object obj = ResourceManager.GetObject("Key", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationInterface", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Last {
+        internal static System.Drawing.Icon NavigationKey {
             get {
-                object obj = ResourceManager.GetObject("Last", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationKey", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Location {
+        internal static System.Drawing.Icon NavigationLast {
             get {
-                object obj = ResourceManager.GetObject("Location", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLast", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Map {
+        internal static System.Drawing.Icon NavigationLeft {
             get {
-                object obj = ResourceManager.GetObject("Map", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLeft", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon MenuInterface {
+        internal static System.Drawing.Icon NavigationLocation {
             get {
-                object obj = ResourceManager.GetObject("MenuInterface", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLocation", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Pause {
+        internal static System.Drawing.Icon NavigationMap {
             get {
-                object obj = ResourceManager.GetObject("Pause", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationMap", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Play {
+        internal static System.Drawing.Icon NavigationMenu {
             get {
-                object obj = ResourceManager.GetObject("Play", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationMenu", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Rewind {
+        internal static System.Drawing.Icon NavigationPause {
             get {
-                object obj = ResourceManager.GetObject("Rewind", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationPause", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -323,9 +323,89 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Stop {
+        internal static System.Drawing.Icon NavigationPlay {
             get {
-                object obj = ResourceManager.GetObject("Stop", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationPlay", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationRewind {
+            get {
+                object obj = ResourceManager.GetObject("NavigationRewind", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationRight {
+            get {
+                object obj = ResourceManager.GetObject("NavigationRight", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationStart {
+            get {
+                object obj = ResourceManager.GetObject("NavigationStart", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationStop {
+            get {
+                object obj = ResourceManager.GetObject("NavigationStop", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationTopLeft {
+            get {
+                object obj = ResourceManager.GetObject("NavigationTopLeft", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationTopRight {
+            get {
+                object obj = ResourceManager.GetObject("NavigationTopRight", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationUndo {
+            get {
+                object obj = ResourceManager.GetObject("NavigationUndo", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon NavigationUp {
+            get {
+                object obj = ResourceManager.GetObject("NavigationUp", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

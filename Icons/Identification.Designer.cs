@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdAdd {
+        internal static System.Drawing.Icon IdentificationAdd {
             get {
-                object obj = ResourceManager.GetObject("IdAdd", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationAdd", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdContact {
+        internal static System.Drawing.Icon IdentificationContact {
             get {
-                object obj = ResourceManager.GetObject("IdContact", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationContact", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdDelete {
+        internal static System.Drawing.Icon IdentificationDelete {
             get {
-                object obj = ResourceManager.GetObject("IdDelete", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationDelete", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdError {
+        internal static System.Drawing.Icon IdentificationError {
             get {
-                object obj = ResourceManager.GetObject("IdError", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationError", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdIdentification {
+        internal static System.Drawing.Icon IdentificationID {
             get {
-                object obj = ResourceManager.GetObject("IdIdentification", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationID", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdRemove {
+        internal static System.Drawing.Icon IdentificationRemove {
             get {
-                object obj = ResourceManager.GetObject("IdRemove", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationRemove", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdSearch {
+        internal static System.Drawing.Icon IdentificationSearch {
             get {
-                object obj = ResourceManager.GetObject("IdSearch", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationSearch", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IdVerify {
+        internal static System.Drawing.Icon IdentificationVerify {
             get {
-                object obj = ResourceManager.GetObject("IdVerify", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationVerify", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

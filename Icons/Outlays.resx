@@ -118,67 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Available" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Available.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAvailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAvailable.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Awards" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Awards.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAvailableBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAvailableBalance.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Balance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balance.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAwards" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAwards.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BankCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BankCard.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayBankCardPurchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayBankCardPurchase.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Commitment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Commitment.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayCommitments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayCommitments.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Deobligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Deobligations.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayDeobligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayDeobligations.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ex.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayExpenditures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayExpenditures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Expenditures" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Expenditures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayInvoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayInvoice.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Invoice.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayLoans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayLoans.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Loan.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayMoney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayMoney.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Money" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayObligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayObligations.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Obligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Obligations.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayOpenCommitments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayOpenCommitments.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OpenCommitment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OpenCommitment.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPayments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPayments.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Payment.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayProcurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayProcurements.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Procurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Procurements.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPurchaseRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPurchaseRequest.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PurchaseRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PurchaseRequest.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPurchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPurchases.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Purchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Purchases.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayTransit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayTransit.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Requisition" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Requisition.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayTravelObligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayTravelObligations.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Transit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transit.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TravelObligation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TravelObligation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vendor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayVendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayVendor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

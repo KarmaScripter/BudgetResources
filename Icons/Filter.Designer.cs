@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DbFilter {
+        internal static System.Drawing.Icon FiltersAdd {
             get {
-                object obj = ResourceManager.GetObject("DbFilter", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersAdd", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FilterAdd {
+        internal static System.Drawing.Icon FIltersDbFilter {
             get {
-                object obj = ResourceManager.GetObject("FilterAdd", resourceCulture);
+                object obj = ResourceManager.GetObject("FIltersDbFilter", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FilterDelete {
+        internal static System.Drawing.Icon FiltersDelete {
             get {
-                object obj = ResourceManager.GetObject("FilterDelete", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersDelete", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FilterNew {
+        internal static System.Drawing.Icon FiltersEmail {
             get {
-                object obj = ResourceManager.GetObject("FilterNew", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersEmail", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FilterSettings {
+        internal static System.Drawing.Icon FiltersNew {
             get {
-                object obj = ResourceManager.GetObject("FilterSettings", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersNew", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FilterSort {
+        internal static System.Drawing.Icon FiltersServer {
             get {
-                object obj = ResourceManager.GetObject("FilterSort", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersServer", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon MailFilter {
+        internal static System.Drawing.Icon FiltersSettings {
             get {
-                object obj = ResourceManager.GetObject("MailFilter", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersSettings", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon ServerFilter {
+        internal static System.Drawing.Icon FiltersSort {
             get {
-                object obj = ResourceManager.GetObject("ServerFilter", resourceCulture);
+                object obj = ResourceManager.GetObject("FiltersSort", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

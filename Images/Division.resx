@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="D6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\D6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionD6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionD6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ECAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ECAD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionECAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionECAD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionEJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionEJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LCARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LCARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionLCARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionLCARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LSASD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LSASD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionLSASD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionLSASD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MSD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MSD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionMSD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionMSD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MSR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionMSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionMSR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ORA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ORA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionORA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionORA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ORC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ORC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionORC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionORC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SEMD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SEMD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionSEMD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionSEMD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WCF_06G" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WCF-06G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionWCF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionWCF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionWD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionWD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WSA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WSA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionWSA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionWSA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="XA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DivisionXA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisionXA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

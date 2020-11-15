@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ARD {
+        internal static System.Drawing.Bitmap DivisionARD {
             get {
-                object obj = ResourceManager.GetObject("ARD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap D6 {
+        internal static System.Drawing.Bitmap DivisionD6 {
             get {
-                object obj = ResourceManager.GetObject("D6", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionD6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ECAD {
+        internal static System.Drawing.Bitmap DivisionECAD {
             get {
-                object obj = ResourceManager.GetObject("ECAD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionECAD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EJ {
+        internal static System.Drawing.Bitmap DivisionEJ {
             get {
-                object obj = ResourceManager.GetObject("EJ", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionEJ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap LCARD {
+        internal static System.Drawing.Bitmap DivisionLCARD {
             get {
-                object obj = ResourceManager.GetObject("LCARD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionLCARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap LSASD {
+        internal static System.Drawing.Bitmap DivisionLSASD {
             get {
-                object obj = ResourceManager.GetObject("LSASD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionLSASD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MSD {
+        internal static System.Drawing.Bitmap DivisionMSD {
             get {
-                object obj = ResourceManager.GetObject("MSD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionMSD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MSR {
+        internal static System.Drawing.Bitmap DivisionMSR {
             get {
-                object obj = ResourceManager.GetObject("MSR", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionMSR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ORA {
+        internal static System.Drawing.Bitmap DivisionORA {
             get {
-                object obj = ResourceManager.GetObject("ORA", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionORA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ORC {
+        internal static System.Drawing.Bitmap DivisionORC {
             get {
-                object obj = ResourceManager.GetObject("ORC", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionORC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SEMD {
+        internal static System.Drawing.Bitmap DivisionSEMD {
             get {
-                object obj = ResourceManager.GetObject("SEMD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionSEMD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WCF_06G {
+        internal static System.Drawing.Bitmap DivisionWCF {
             get {
-                object obj = ResourceManager.GetObject("WCF_06G", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionWCF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WD {
+        internal static System.Drawing.Bitmap DivisionWD {
             get {
-                object obj = ResourceManager.GetObject("WD", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionWD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WSA {
+        internal static System.Drawing.Bitmap DivisionWSA {
             get {
-                object obj = ResourceManager.GetObject("WSA", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionWSA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap XA {
+        internal static System.Drawing.Bitmap DivisionXA {
             get {
-                object obj = ResourceManager.GetObject("XA", resourceCulture);
+                object obj = ResourceManager.GetObject("DivisionXA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

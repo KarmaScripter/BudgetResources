@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Alpha {
+        internal static System.Drawing.Bitmap MathAlpha {
             get {
-                object obj = ResourceManager.GetObject("Alpha", resourceCulture);
+                object obj = ResourceManager.GetObject("MathAlpha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Approximate {
+        internal static System.Drawing.Bitmap MathApproximate {
             get {
-                object obj = ResourceManager.GetObject("Approximate", resourceCulture);
+                object obj = ResourceManager.GetObject("MathApproximate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Average {
+        internal static System.Drawing.Bitmap MathAverage {
             get {
-                object obj = ResourceManager.GetObject("Average", resourceCulture);
+                object obj = ResourceManager.GetObject("MathAverage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Beta {
+        internal static System.Drawing.Bitmap MathBeta {
             get {
-                object obj = ResourceManager.GetObject("Beta", resourceCulture);
+                object obj = ResourceManager.GetObject("MathBeta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Delta {
+        internal static System.Drawing.Bitmap MathDelta {
             get {
-                object obj = ResourceManager.GetObject("Delta", resourceCulture);
+                object obj = ResourceManager.GetObject("MathDelta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Division {
+        internal static System.Drawing.Bitmap MathDivision {
             get {
-                object obj = ResourceManager.GetObject("Division", resourceCulture);
+                object obj = ResourceManager.GetObject("MathDivision", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Exponent {
+        internal static System.Drawing.Bitmap MathExponent {
             get {
-                object obj = ResourceManager.GetObject("Exponent", resourceCulture);
+                object obj = ResourceManager.GetObject("MathExponent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Function {
+        internal static System.Drawing.Bitmap MathFunction {
             get {
-                object obj = ResourceManager.GetObject("Function", resourceCulture);
+                object obj = ResourceManager.GetObject("MathFunction", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GreaterThanEqualTo {
+        internal static System.Drawing.Bitmap MathGreaterThanEqualTo {
             get {
-                object obj = ResourceManager.GetObject("GreaterThanEqualTo", resourceCulture);
+                object obj = ResourceManager.GetObject("MathGreaterThanEqualTo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Inequality {
+        internal static System.Drawing.Bitmap MathInfinity {
             get {
-                object obj = ResourceManager.GetObject("Inequality", resourceCulture);
+                object obj = ResourceManager.GetObject("MathInfinity", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Infinity {
+        internal static System.Drawing.Bitmap MathIntegral {
             get {
-                object obj = ResourceManager.GetObject("Infinity", resourceCulture);
+                object obj = ResourceManager.GetObject("MathIntegral", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Integral {
+        internal static System.Drawing.Bitmap MathLessThanEqualTo {
             get {
-                object obj = ResourceManager.GetObject("Integral", resourceCulture);
+                object obj = ResourceManager.GetObject("MathLessThanEqualTo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap LessThanEqualTo {
+        internal static System.Drawing.Bitmap MathMu {
             get {
-                object obj = ResourceManager.GetObject("LessThanEqualTo", resourceCulture);
+                object obj = ResourceManager.GetObject("MathMu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mu {
+        internal static System.Drawing.Bitmap MathNotEqual {
             get {
-                object obj = ResourceManager.GetObject("Mu", resourceCulture);
+                object obj = ResourceManager.GetObject("MathNotEqual", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Number {
+        internal static System.Drawing.Bitmap MathNumber {
             get {
-                object obj = ResourceManager.GetObject("Number", resourceCulture);
+                object obj = ResourceManager.GetObject("MathNumber", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Omega {
+        internal static System.Drawing.Bitmap MathOmega {
             get {
-                object obj = ResourceManager.GetObject("Omega", resourceCulture);
+                object obj = ResourceManager.GetObject("MathOmega", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Percntage {
+        internal static System.Drawing.Bitmap MathPercntage {
             get {
-                object obj = ResourceManager.GetObject("Percntage", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPercntage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Phi {
+        internal static System.Drawing.Bitmap MathPhi {
             get {
-                object obj = ResourceManager.GetObject("Phi", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPhi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pi {
+        internal static System.Drawing.Bitmap MathPi {
             get {
-                object obj = ResourceManager.GetObject("Pi", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PlusMinus {
+        internal static System.Drawing.Bitmap MathPlusOrMinus {
             get {
-                object obj = ResourceManager.GetObject("PlusMinus", resourceCulture);
+                object obj = ResourceManager.GetObject("MathPlusOrMinus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ranking {
+        internal static System.Drawing.Bitmap MathRanking {
             get {
-                object obj = ResourceManager.GetObject("Ranking", resourceCulture);
+                object obj = ResourceManager.GetObject("MathRanking", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sample {
+        internal static System.Drawing.Bitmap MathSample {
             get {
-                object obj = ResourceManager.GetObject("Sample", resourceCulture);
+                object obj = ResourceManager.GetObject("MathSample", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sigma {
+        internal static System.Drawing.Bitmap MathSigma {
             get {
-                object obj = ResourceManager.GetObject("Sigma", resourceCulture);
+                object obj = ResourceManager.GetObject("MathSigma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Squared {
+        internal static System.Drawing.Bitmap MathStatistics {
             get {
-                object obj = ResourceManager.GetObject("Squared", resourceCulture);
+                object obj = ResourceManager.GetObject("MathStatistics", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,19 +303,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Statistics {
+        internal static System.Drawing.Bitmap MathVariance {
             get {
-                object obj = ResourceManager.GetObject("Statistics", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Variance {
-            get {
-                object obj = ResourceManager.GetObject("Variance", resourceCulture);
+                object obj = ResourceManager.GetObject("MathVariance", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

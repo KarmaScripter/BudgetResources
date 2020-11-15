@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DbFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DbFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FilterAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FIltersDbFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FIltersDbFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FilterDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FilterNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersEmail.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FilterSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterSettings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FilterSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterSort.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersServer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MailFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MailFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersSettings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ServerFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ServerFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FiltersSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiltersSort.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

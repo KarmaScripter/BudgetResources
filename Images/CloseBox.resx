@@ -118,25 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CloseForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CloseForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EnterApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EnterApp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExitApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitApp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FullScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FullScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxMaximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxMaximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MaximizeForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MaximizeForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxMinimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxMinimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MinimizeForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MinimizeForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PowerOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PowerOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CloseBoxShutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseBoxShutdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

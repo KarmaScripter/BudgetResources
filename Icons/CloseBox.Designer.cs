@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon CloseForm {
+        internal static System.Drawing.Icon CloseBoxClose {
             get {
-                object obj = ResourceManager.GetObject("CloseForm", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxClose", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon EnterApp {
+        internal static System.Drawing.Icon CloseBoxEnter {
             get {
-                object obj = ResourceManager.GetObject("EnterApp", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxEnter", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon ExitApp {
+        internal static System.Drawing.Icon CloseBoxExit {
             get {
-                object obj = ResourceManager.GetObject("ExitApp", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxExit", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon FullScreen {
+        internal static System.Drawing.Icon CloseBoxMaximize {
             get {
-                object obj = ResourceManager.GetObject("FullScreen", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxMaximize", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon MaximizeForm {
+        internal static System.Drawing.Icon CloseBoxMinimize {
             get {
-                object obj = ResourceManager.GetObject("MaximizeForm", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxMinimize", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,19 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon MinimizeForm {
+        internal static System.Drawing.Icon CloseBoxShutdown {
             get {
-                object obj = ResourceManager.GetObject("MinimizeForm", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon PowerOff {
-            get {
-                object obj = ResourceManager.GetObject("PowerOff", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseBoxShutdown", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

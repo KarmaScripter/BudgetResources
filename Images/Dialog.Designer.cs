@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DialogBrowse {
+        internal static System.Drawing.Bitmap DialogBrowseFolder {
             get {
-                object obj = ResourceManager.GetObject("DialogBrowse", resourceCulture);
+                object obj = ResourceManager.GetObject("DialogBrowseFolder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +86,26 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap DialogCaution {
             get {
                 object obj = ResourceManager.GetObject("DialogCaution", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DialogDataSearch {
+            get {
+                object obj = ResourceManager.GetObject("DialogDataSearch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DialogDataWarning {
+            get {
+                object obj = ResourceManager.GetObject("DialogDataWarning", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +146,16 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap DialogFileSearch {
             get {
                 object obj = ResourceManager.GetObject("DialogFileSearch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DialogFind {
+            get {
+                object obj = ResourceManager.GetObject("DialogFind", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +263,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DialogSearchDirectory {
+        internal static System.Drawing.Bitmap DialogSearchFolder {
             get {
-                object obj = ResourceManager.GetObject("DialogSearchDirectory", resourceCulture);
+                object obj = ResourceManager.GetObject("DialogSearchFolder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Access" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Access.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderAccess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderAccess.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CSV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CSV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderCsv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderCsv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderExcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderExcel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OleDb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OleDb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderOleDb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderOleDb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SqlCe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SqlCe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderSqlCe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderSqlCe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SQLite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SQLite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderSQLite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderSQLite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SqlServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SqlServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProviderSqlServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProviderSqlServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

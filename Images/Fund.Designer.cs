@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ARRA {
+        internal static System.Drawing.Bitmap FundARRA {
             get {
-                object obj = ResourceManager.GetObject("ARRA", resourceCulture);
+                object obj = ResourceManager.GetObject("FundARRA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BRAC {
+        internal static System.Drawing.Bitmap FundBRAC {
             get {
-                object obj = ResourceManager.GetObject("BRAC", resourceCulture);
+                object obj = ResourceManager.GetObject("FundBRAC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CaresAct {
+        internal static System.Drawing.Bitmap FundCaresAct {
             get {
-                object obj = ResourceManager.GetObject("CaresAct", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCaresAct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CategoricalGrants {
+        internal static System.Drawing.Bitmap FundCategoricalGrants {
             get {
-                object obj = ResourceManager.GetObject("CategoricalGrants", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCategoricalGrants", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CWSRF {
+        internal static System.Drawing.Bitmap FundCWSRF {
             get {
-                object obj = ResourceManager.GetObject("CWSRF", resourceCulture);
+                object obj = ResourceManager.GetObject("FundCWSRF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DWSRF {
+        internal static System.Drawing.Bitmap FundDWSRF {
             get {
-                object obj = ResourceManager.GetObject("DWSRF", resourceCulture);
+                object obj = ResourceManager.GetObject("FundDWSRF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Earmarks {
+        internal static System.Drawing.Bitmap FundEarmarks {
             get {
-                object obj = ResourceManager.GetObject("Earmarks", resourceCulture);
+                object obj = ResourceManager.GetObject("FundEarmarks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EPM {
+        internal static System.Drawing.Bitmap FundEPM {
             get {
-                object obj = ResourceManager.GetObject("EPM", resourceCulture);
+                object obj = ResourceManager.GetObject("FundEPM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OilSpill {
+        internal static System.Drawing.Bitmap FundLUST {
             get {
-                object obj = ResourceManager.GetObject("OilSpill", resourceCulture);
+                object obj = ResourceManager.GetObject("FundLUST", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SpecialProjects {
+        internal static System.Drawing.Bitmap FundOilSpill {
             get {
-                object obj = ResourceManager.GetObject("SpecialProjects", resourceCulture);
+                object obj = ResourceManager.GetObject("FundOilSpill", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap STAG {
+        internal static System.Drawing.Bitmap FundSpecialProjects {
             get {
-                object obj = ResourceManager.GetObject("STAG", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSpecialProjects", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Superfund {
+        internal static System.Drawing.Bitmap FundSTAG {
             get {
-                object obj = ResourceManager.GetObject("Superfund", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSTAG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Supplemental {
+        internal static System.Drawing.Bitmap FundSuperfund {
             get {
-                object obj = ResourceManager.GetObject("Supplemental", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSuperfund", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UST {
+        internal static System.Drawing.Bitmap FundSupplemental {
             get {
-                object obj = ResourceManager.GetObject("UST", resourceCulture);
+                object obj = ResourceManager.GetObject("FundSupplemental", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

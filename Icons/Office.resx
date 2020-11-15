@@ -118,100 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ACCDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACCDB.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeAccess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeAccess.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Admin.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeAdmin.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Adobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Adobe.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeAndroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeAndroid.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Android" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Android.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeContacts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeContacts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Contacts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Contacts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeCsv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeCsv.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CsvExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CsvExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeCsvExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeCsvExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CsvFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CsvFile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeDelve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeDelve.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Delve" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Delve.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeExcelExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeExcelExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DOC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DOC.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeFacebook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DOCX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DOCX.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeFax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeFax.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExcelExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExcelExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeFirefox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeFirefox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Facebook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeFlashDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeFlashDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fax" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fax.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeGmail.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Firefox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Firefox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeGoogle.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FlashDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FlashDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeGoogleDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeGoogleDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GMail.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeLinux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeLinux.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Google" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Google.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeOneDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeOneDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GoogleDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GoogleDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeOneNote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeOneNote.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Linux" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Linux.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeOutlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeOutlook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MDB.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficePdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficePdf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OneDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OneDrive.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficePowerPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficePowerPoint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OneNote" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OneNote.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficePrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficePrint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Outlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Outlook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeProject.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PowerPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PowerPoint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficePublisher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficePublisher.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Printer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeSharePoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeSharePoint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Project" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Project.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeSkype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeSkype.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Publisher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Publisher.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeWord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeWord.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SharePoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SharePoint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Skype" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Skype.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sway" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sway.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="XLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XLS.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="XLSX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XLSX.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OfficeXlsx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeXlsx.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

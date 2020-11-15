@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="IdAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdContact" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdContact.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationContact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationContact.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdError" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationError" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdIdentification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdIdentification.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationID.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdRemove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationRemove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IdVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IdVerify.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IdentificationVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentificationVerify.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

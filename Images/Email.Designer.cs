@@ -73,16 +73,6 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Email_Settings {
-            get {
-                object obj = ResourceManager.GetObject("Email_Settings", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap EmailAdd {
             get {
                 object obj = ResourceManager.GetObject("EmailAdd", resourceCulture);
@@ -276,6 +266,16 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap EmailSend {
             get {
                 object obj = ResourceManager.GetObject("EmailSend", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EmailSettings {
+            get {
+                object obj = ResourceManager.GetObject("EmailSettings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -63,9 +63,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Available {
+        internal static System.Drawing.Icon OutlayAvailable {
             get {
-                object obj = ResourceManager.GetObject("Available", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayAvailable", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Awards {
+        internal static System.Drawing.Icon OutlayAvailableBalance {
             get {
-                object obj = ResourceManager.GetObject("Awards", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayAvailableBalance", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Balance {
+        internal static System.Drawing.Icon OutlayAwards {
             get {
-                object obj = ResourceManager.GetObject("Balance", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayAwards", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon BankCard {
+        internal static System.Drawing.Icon OutlayBankCardPurchase {
             get {
-                object obj = ResourceManager.GetObject("BankCard", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayBankCardPurchase", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Commitment {
+        internal static System.Drawing.Icon OutlayCommitments {
             get {
-                object obj = ResourceManager.GetObject("Commitment", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayCommitments", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Deobligations {
+        internal static System.Drawing.Icon OutlayDeobligations {
             get {
-                object obj = ResourceManager.GetObject("Deobligations", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayDeobligations", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Ex {
+        internal static System.Drawing.Icon OutlayExpenditures {
             get {
-                object obj = ResourceManager.GetObject("Ex", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayExpenditures", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Expenditures {
+        internal static System.Drawing.Icon OutlayInvoice {
             get {
-                object obj = ResourceManager.GetObject("Expenditures", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayInvoice", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Invoice {
+        internal static System.Drawing.Icon OutlayLoans {
             get {
-                object obj = ResourceManager.GetObject("Invoice", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayLoans", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Loan {
+        internal static System.Drawing.Icon OutlayMoney {
             get {
-                object obj = ResourceManager.GetObject("Loan", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayMoney", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Money {
+        internal static System.Drawing.Icon OutlayObligations {
             get {
-                object obj = ResourceManager.GetObject("Money", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayObligations", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Obligations {
+        internal static System.Drawing.Icon OutlayOpenCommitments {
             get {
-                object obj = ResourceManager.GetObject("Obligations", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayOpenCommitments", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon OpenCommitment {
+        internal static System.Drawing.Icon OutlayPayments {
             get {
-                object obj = ResourceManager.GetObject("OpenCommitment", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayPayments", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Payment {
+        internal static System.Drawing.Icon OutlayProcurements {
             get {
-                object obj = ResourceManager.GetObject("Payment", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayProcurements", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Procurements {
+        internal static System.Drawing.Icon OutlayPurchaseRequest {
             get {
-                object obj = ResourceManager.GetObject("Procurements", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayPurchaseRequest", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon PurchaseRequest {
+        internal static System.Drawing.Icon OutlayPurchases {
             get {
-                object obj = ResourceManager.GetObject("PurchaseRequest", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayPurchases", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Purchases {
+        internal static System.Drawing.Icon OutlayTransit {
             get {
-                object obj = ResourceManager.GetObject("Purchases", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayTransit", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Requisition {
+        internal static System.Drawing.Icon OutlayTravelObligations {
             get {
-                object obj = ResourceManager.GetObject("Requisition", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayTravelObligations", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -243,29 +243,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Transit {
+        internal static System.Drawing.Icon OutlayVendor {
             get {
-                object obj = ResourceManager.GetObject("Transit", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon TravelObligation {
-            get {
-                object obj = ResourceManager.GetObject("TravelObligation", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Vendor {
-            get {
-                object obj = ResourceManager.GetObject("Vendor", resourceCulture);
+                object obj = ResourceManager.GetObject("OutlayVendor", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

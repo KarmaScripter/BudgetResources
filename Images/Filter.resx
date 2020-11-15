@@ -118,28 +118,4 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DbFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DbFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterMail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterSettings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FilterSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FilterSort.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

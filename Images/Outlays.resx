@@ -118,73 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Available" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAvailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAvailable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Awards" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Awards.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAvailableBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAvailableBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Balance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayAwards" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayAwards.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BankCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BankCard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayBankCardPurchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayBankCardPurchase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Commitment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Commitment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayCommitments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayCommitments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Deobligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Deobligations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayDeobligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayDeobligations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayExpenditures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayExpenditures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Expenditures" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Expenditures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayInvoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayInvoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayLoans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayLoans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Loan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayMoney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayMoney.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Money" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayObligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayObligations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Obligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Obligations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayOpenCommitments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayOpenCommitments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OpenCommitement" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OpenCommitement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPayments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPayments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Payrments" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Payrments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayProcurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayProcurements.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="POV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\POV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPurchaseRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPurchaseRequest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Procurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Procurements.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayPurchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayPurchases.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PurchaseActivity" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PurchaseActivity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayTransit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayTransit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PurchaseRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PurchaseRequest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayTravelObligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayTravelObligations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Purchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Purchases.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Requisition" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Requisition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TravelObligation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TravelObligation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vendor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OutlayVendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutlayVendor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

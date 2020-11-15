@@ -73,9 +73,9 @@ namespace BudgetExecution.Icons {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon DialogBrowse {
+        internal static System.Drawing.Icon DialogBrowseFolder {
             get {
-                object obj = ResourceManager.GetObject("DialogBrowse", resourceCulture);
+                object obj = ResourceManager.GetObject("DialogBrowseFolder", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -86,6 +86,26 @@ namespace BudgetExecution.Icons {
         internal static System.Drawing.Icon DialogCaution {
             get {
                 object obj = ResourceManager.GetObject("DialogCaution", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DialogDataSearch {
+            get {
+                object obj = ResourceManager.GetObject("DialogDataSearch", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DialogDataWarning {
+            get {
+                object obj = ResourceManager.GetObject("DialogDataWarning", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -126,6 +146,16 @@ namespace BudgetExecution.Icons {
         internal static System.Drawing.Icon DialogFileSearch {
             get {
                 object obj = ResourceManager.GetObject("DialogFileSearch", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DialogFind {
+            get {
+                object obj = ResourceManager.GetObject("DialogFind", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -226,6 +256,16 @@ namespace BudgetExecution.Icons {
         internal static System.Drawing.Icon DialogSearch {
             get {
                 object obj = ResourceManager.GetObject("DialogSearch", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon DialogSearchFolder {
+            get {
+                object obj = ResourceManager.GetObject("DialogSearchFolder", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

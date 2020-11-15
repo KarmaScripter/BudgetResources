@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EpaHorizontal {
+        internal static System.Drawing.Bitmap EpaCircle {
             get {
-                object obj = ResourceManager.GetObject("EpaHorizontal", resourceCulture);
+                object obj = ResourceManager.GetObject("EpaCircle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap USEPA {
+        internal static System.Drawing.Bitmap EpaHorizontal {
             get {
-                object obj = ResourceManager.GetObject("USEPA", resourceCulture);
+                object obj = ResourceManager.GetObject("EpaHorizontal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

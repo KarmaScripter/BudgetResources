@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdAdd {
+        internal static System.Drawing.Bitmap IdentificationAdd {
             get {
-                object obj = ResourceManager.GetObject("IdAdd", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationAdd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdContact {
+        internal static System.Drawing.Bitmap IdentificationContact {
             get {
-                object obj = ResourceManager.GetObject("IdContact", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationContact", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdDelete {
+        internal static System.Drawing.Bitmap IdentificationDelete {
             get {
-                object obj = ResourceManager.GetObject("IdDelete", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationDelete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdError {
+        internal static System.Drawing.Bitmap IdentificationError {
             get {
-                object obj = ResourceManager.GetObject("IdError", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationError", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdRemove {
+        internal static System.Drawing.Bitmap IdentificationID {
             get {
-                object obj = ResourceManager.GetObject("IdRemove", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationID", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdSearch {
+        internal static System.Drawing.Bitmap IdentificationRemove {
             get {
-                object obj = ResourceManager.GetObject("IdSearch", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationRemove", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,19 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdVerify {
+        internal static System.Drawing.Bitmap IdentificationSearch {
             get {
-                object obj = ResourceManager.GetObject("IdVerify", resourceCulture);
+                object obj = ResourceManager.GetObject("IdentificationSearch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IdentificationVerify {
+            get {
+                object obj = ResourceManager.GetObject("IdentificationVerify", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

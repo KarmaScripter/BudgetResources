@@ -73,16 +73,6 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DbFileSearch {
-            get {
-                object obj = ResourceManager.GetObject("DbFileSearch", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap FileAdd {
             get {
                 object obj = ResourceManager.GetObject("FileAdd", resourceCulture);
@@ -206,6 +196,16 @@ namespace BudgetExecution.Images {
         internal static System.Drawing.Bitmap FileSave {
             get {
                 object obj = ResourceManager.GetObject("FileSave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FileSearch {
+            get {
+                object obj = ResourceManager.GetObject("FileSearch", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

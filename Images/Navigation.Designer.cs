@@ -63,9 +63,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BackUndo {
+        internal static System.Drawing.Bitmap NavigationBlock {
             get {
-                object obj = ResourceManager.GetObject("BackUndo", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBlock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircledCheckBox {
+        internal static System.Drawing.Bitmap NavigationBottomLeft {
             get {
-                object obj = ResourceManager.GetObject("CircledCheckBox", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBottomLeft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleDown {
+        internal static System.Drawing.Bitmap NavigationBottomRight {
             get {
-                object obj = ResourceManager.GetObject("CircleDown", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationBottomRight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleForward {
+        internal static System.Drawing.Bitmap NavigationCircleCheckBox {
             get {
-                object obj = ResourceManager.GetObject("CircleForward", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleCheckBox", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleNext {
+        internal static System.Drawing.Bitmap NavigationCircleDown {
             get {
-                object obj = ResourceManager.GetObject("CircleNext", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleDown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CirclePause {
+        internal static System.Drawing.Bitmap NavigationCircleForward {
             get {
-                object obj = ResourceManager.GetObject("CirclePause", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleForward", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CirclePrevious {
+        internal static System.Drawing.Bitmap NavigationCircleNext {
             get {
-                object obj = ResourceManager.GetObject("CirclePrevious", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleNext", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleRewind {
+        internal static System.Drawing.Bitmap NavigationCirclePause {
             get {
-                object obj = ResourceManager.GetObject("CircleRewind", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirclePause", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleStop {
+        internal static System.Drawing.Bitmap NavigationCirclePrevious {
             get {
-                object obj = ResourceManager.GetObject("CircleStop", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirclePrevious", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CircleUp {
+        internal static System.Drawing.Bitmap NavigationCircleRewind {
             get {
-                object obj = ResourceManager.GetObject("CircleUp", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleRewind", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CirlcePlay {
+        internal static System.Drawing.Bitmap NavigationCircleStop {
             get {
-                object obj = ResourceManager.GetObject("CirlcePlay", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleStop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FastForward {
+        internal static System.Drawing.Bitmap NavigationCircleUp {
             get {
-                object obj = ResourceManager.GetObject("FastForward", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCircleUp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap First {
+        internal static System.Drawing.Bitmap NavigationCirlcePlay {
             get {
-                object obj = ResourceManager.GetObject("First", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationCirlcePlay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Home {
+        internal static System.Drawing.Bitmap NavigationDown {
             get {
-                object obj = ResourceManager.GetObject("Home", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationDown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Interface {
+        internal static System.Drawing.Bitmap NavigationEnd {
             get {
-                object obj = ResourceManager.GetObject("Interface", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationEnd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Key {
+        internal static System.Drawing.Bitmap NavigationFirst {
             get {
-                object obj = ResourceManager.GetObject("Key", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationFirst", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Last {
+        internal static System.Drawing.Bitmap NavigationForward {
             get {
-                object obj = ResourceManager.GetObject("Last", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationForward", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Location {
+        internal static System.Drawing.Bitmap NavigationHome {
             get {
-                object obj = ResourceManager.GetObject("Location", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationHome", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Map {
+        internal static System.Drawing.Bitmap NavigationInterface {
             get {
-                object obj = ResourceManager.GetObject("Map", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationInterface", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Menu {
+        internal static System.Drawing.Bitmap NavigationKey {
             get {
-                object obj = ResourceManager.GetObject("Menu", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationKey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Next {
+        internal static System.Drawing.Bitmap NavigationLast {
             get {
-                object obj = ResourceManager.GetObject("Next", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLast", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pause {
+        internal static System.Drawing.Bitmap NavigationLeft {
             get {
-                object obj = ResourceManager.GetObject("Pause", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLeft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Play {
+        internal static System.Drawing.Bitmap NavigationLocation {
             get {
-                object obj = ResourceManager.GetObject("Play", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationLocation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Previous {
+        internal static System.Drawing.Bitmap NavigationMap {
             get {
-                object obj = ResourceManager.GetObject("Previous", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationMap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Restricted {
+        internal static System.Drawing.Bitmap NavigationMenu {
             get {
-                object obj = ResourceManager.GetObject("Restricted", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Rewind {
+        internal static System.Drawing.Bitmap NavigationPause {
             get {
-                object obj = ResourceManager.GetObject("Rewind", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationPause", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,89 @@ namespace BudgetExecution.Images {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Stop {
+        internal static System.Drawing.Bitmap NavigationPlay {
             get {
-                object obj = ResourceManager.GetObject("Stop", resourceCulture);
+                object obj = ResourceManager.GetObject("NavigationPlay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationRewind {
+            get {
+                object obj = ResourceManager.GetObject("NavigationRewind", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationRight {
+            get {
+                object obj = ResourceManager.GetObject("NavigationRight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationStart {
+            get {
+                object obj = ResourceManager.GetObject("NavigationStart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationStop {
+            get {
+                object obj = ResourceManager.GetObject("NavigationStop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationTopLeft {
+            get {
+                object obj = ResourceManager.GetObject("NavigationTopLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationTopRight {
+            get {
+                object obj = ResourceManager.GetObject("NavigationTopRight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationUndo {
+            get {
+                object obj = ResourceManager.GetObject("NavigationUndo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NavigationUp {
+            get {
+                object obj = ResourceManager.GetObject("NavigationUp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

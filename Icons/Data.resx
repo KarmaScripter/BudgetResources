@@ -121,14 +121,11 @@
   <data name="DataAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataAddColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddColumn.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataColumnAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataColumnAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataAddFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataAddRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataAddRow.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataColumnDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataColumnDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataConnect.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -137,16 +134,10 @@
     <value>..\Resources\DataCopy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataDatabase.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Database.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataDeleteColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataDeleteColumn.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DataDeleteRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataDeleteRow.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataDownload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -155,25 +146,25 @@
     <value>..\Resources\DataEdit.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataEditFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataEditFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\EditFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataError" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Export.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataFilter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataFirstRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataFirstRow.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DataFilterAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataFilterAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataGrouping" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataGrouping.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataImport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Import.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataInsert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataInsert.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -189,6 +180,12 @@
   </data>
   <data name="DataRestricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataRestricted.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataRowAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataRowAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataRowDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataRowDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DataServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataServer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

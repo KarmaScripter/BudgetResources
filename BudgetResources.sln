@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "Resources.csproj", "{00FA8F4E-3774-489D-960A-76E7A33B8BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormResources", "FormResources.csproj", "{00FA8F4E-3774-489D-960A-76E7A33B8BAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
