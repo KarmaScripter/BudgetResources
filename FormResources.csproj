@@ -270,6 +270,56 @@
     <None Remove="Resources\EpaHorizontal.png" />
     <None Remove="Resources\Export.ico" />
     <None Remove="Resources\Export.png" />
+    <None Remove="Resources\ExtACCDB.ico" />
+    <None Remove="Resources\ExtACCDB.png" />
+    <None Remove="Resources\ExtBIN.ico" />
+    <None Remove="Resources\ExtBIN.png" />
+    <None Remove="Resources\ExtBMP.ico" />
+    <None Remove="Resources\ExtBMP.png" />
+    <None Remove="Resources\ExtCSV.ico" />
+    <None Remove="Resources\ExtCSV.png" />
+    <None Remove="Resources\ExtDAT.ico" />
+    <None Remove="Resources\ExtDAT.png" />
+    <None Remove="Resources\ExtDB.ico" />
+    <None Remove="Resources\ExtDB.png" />
+    <None Remove="Resources\ExtDLL.ico" />
+    <None Remove="Resources\ExtDLL.png" />
+    <None Remove="Resources\ExtDOC.ico" />
+    <None Remove="Resources\ExtDOC.png" />
+    <None Remove="Resources\ExtDOCX.ico" />
+    <None Remove="Resources\ExtDOCX.png" />
+    <None Remove="Resources\ExtEXE.ico" />
+    <None Remove="Resources\ExtEXE.png" />
+    <None Remove="Resources\ExtGIF.ico" />
+    <None Remove="Resources\ExtGIF.png" />
+    <None Remove="Resources\ExtMDB.ico" />
+    <None Remove="Resources\ExtMDB.png" />
+    <None Remove="Resources\ExtMDF.ico" />
+    <None Remove="Resources\ExtMDF.png" />
+    <None Remove="Resources\ExtNSF.ico" />
+    <None Remove="Resources\ExtNSF.png" />
+    <None Remove="Resources\ExtPDF.ico" />
+    <None Remove="Resources\ExtPDF.png" />
+    <None Remove="Resources\ExtPNG.ico" />
+    <None Remove="Resources\ExtPNG.png" />
+    <None Remove="Resources\ExtPPT.ico" />
+    <None Remove="Resources\ExtPPT.png" />
+    <None Remove="Resources\ExtSDF.ico" />
+    <None Remove="Resources\ExtSDF.png" />
+    <None Remove="Resources\ExtTXT.ico" />
+    <None Remove="Resources\ExtTXT.png" />
+    <None Remove="Resources\ExtXLS.ico" />
+    <None Remove="Resources\ExtXLS.png" />
+    <None Remove="Resources\ExtXLSB.ico" />
+    <None Remove="Resources\ExtXLSB.png" />
+    <None Remove="Resources\ExtXLST.ico" />
+    <None Remove="Resources\ExtXLST.png" />
+    <None Remove="Resources\ExtXLSX.ico" />
+    <None Remove="Resources\ExtXLSX.png" />
+    <None Remove="Resources\ExtXML.ico" />
+    <None Remove="Resources\ExtXML.png" />
+    <None Remove="Resources\ExtZIP.ico" />
+    <None Remove="Resources\ExtZIP.png" />
     <None Remove="Resources\FileAdd.ico" />
     <None Remove="Resources\FileAdd.png" />
     <None Remove="Resources\FileCopy.ico" />
@@ -1077,6 +1127,56 @@
     <EmbeddedResource Include="Resources\EpaHorizontal.png" />
     <EmbeddedResource Include="Resources\Export.ico" />
     <EmbeddedResource Include="Resources\Export.png" />
+    <EmbeddedResource Include="Resources\ExtACCDB.ico" />
+    <EmbeddedResource Include="Resources\ExtACCDB.png" />
+    <EmbeddedResource Include="Resources\ExtBIN.ico" />
+    <EmbeddedResource Include="Resources\ExtBIN.png" />
+    <EmbeddedResource Include="Resources\ExtBMP.ico" />
+    <EmbeddedResource Include="Resources\ExtBMP.png" />
+    <EmbeddedResource Include="Resources\ExtCSV.ico" />
+    <EmbeddedResource Include="Resources\ExtCSV.png" />
+    <EmbeddedResource Include="Resources\ExtDAT.ico" />
+    <EmbeddedResource Include="Resources\ExtDAT.png" />
+    <EmbeddedResource Include="Resources\ExtDB.ico" />
+    <EmbeddedResource Include="Resources\ExtDB.png" />
+    <EmbeddedResource Include="Resources\ExtDLL.ico" />
+    <EmbeddedResource Include="Resources\ExtDLL.png" />
+    <EmbeddedResource Include="Resources\ExtDOC.ico" />
+    <EmbeddedResource Include="Resources\ExtDOC.png" />
+    <EmbeddedResource Include="Resources\ExtDOCX.ico" />
+    <EmbeddedResource Include="Resources\ExtDOCX.png" />
+    <EmbeddedResource Include="Resources\ExtEXE.ico" />
+    <EmbeddedResource Include="Resources\ExtEXE.png" />
+    <EmbeddedResource Include="Resources\ExtGIF.ico" />
+    <EmbeddedResource Include="Resources\ExtGIF.png" />
+    <EmbeddedResource Include="Resources\ExtMDB.ico" />
+    <EmbeddedResource Include="Resources\ExtMDB.png" />
+    <EmbeddedResource Include="Resources\ExtMDF.ico" />
+    <EmbeddedResource Include="Resources\ExtMDF.png" />
+    <EmbeddedResource Include="Resources\ExtNSF.ico" />
+    <EmbeddedResource Include="Resources\ExtNSF.png" />
+    <EmbeddedResource Include="Resources\ExtPDF.ico" />
+    <EmbeddedResource Include="Resources\ExtPDF.png" />
+    <EmbeddedResource Include="Resources\ExtPNG.ico" />
+    <EmbeddedResource Include="Resources\ExtPNG.png" />
+    <EmbeddedResource Include="Resources\ExtPPT.ico" />
+    <EmbeddedResource Include="Resources\ExtPPT.png" />
+    <EmbeddedResource Include="Resources\ExtSDF.ico" />
+    <EmbeddedResource Include="Resources\ExtSDF.png" />
+    <EmbeddedResource Include="Resources\ExtTXT.ico" />
+    <EmbeddedResource Include="Resources\ExtTXT.png" />
+    <EmbeddedResource Include="Resources\ExtXLS.ico" />
+    <EmbeddedResource Include="Resources\ExtXLS.png" />
+    <EmbeddedResource Include="Resources\ExtXLSB.ico" />
+    <EmbeddedResource Include="Resources\ExtXLSB.png" />
+    <EmbeddedResource Include="Resources\ExtXLST.ico" />
+    <EmbeddedResource Include="Resources\ExtXLST.png" />
+    <EmbeddedResource Include="Resources\ExtXLSX.ico" />
+    <EmbeddedResource Include="Resources\ExtXLSX.png" />
+    <EmbeddedResource Include="Resources\ExtXML.ico" />
+    <EmbeddedResource Include="Resources\ExtXML.png" />
+    <EmbeddedResource Include="Resources\ExtZIP.ico" />
+    <EmbeddedResource Include="Resources\ExtZIP.png" />
     <EmbeddedResource Include="Resources\FileAdd.ico" />
     <EmbeddedResource Include="Resources\FileAdd.png" />
     <EmbeddedResource Include="Resources\FileCopy.ico" />
@@ -1621,6 +1721,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="EXE\DB.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DB.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\EXT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EXT.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Images\EXT.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EXT.resx</DependentUpon>
+    </Compile>
     <Compile Update="Icons\EPA.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -2101,9 +2216,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>ToolBar.resx</DependentUpon>
     </Compile>
+    <Compile Update="Images\Summary.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Summary.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="EXE\DB.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\EXT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EXT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\EXT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EXT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Icons\EPA.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>EPA.Designer.cs</LastGenOutput>
@@ -2487,6 +2619,10 @@
     <EmbeddedResource Update="Images\ToolBar.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ToolBar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Images\Summary.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Summary.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
