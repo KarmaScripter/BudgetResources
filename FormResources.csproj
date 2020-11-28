@@ -2061,11 +2061,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="SQL\MDB\CREATE.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>CREATE.resx</DependentUpon>
-    </Compile>
     <Compile Update="SQL\MDB\CREATE\DATABASE.Designer.cs">
       <DependentUpon>DATABASE.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -2495,10 +2490,6 @@
     <EmbeddedResource Update="SQL\MDB\ALTER\RENAME.resx">
       <LastGenOutput>RENAME.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="SQL\MDB\CREATE.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CREATE.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="SQL\MDB\CREATE\DATABASE.resx">
       <LastGenOutput>DATABASE.Designer.cs</LastGenOutput>
