@@ -1,2 +1,2 @@
 # BudgetResources
-Resources used in the Budget Execution tool.
+Resources used in Budget Execution.  Compiled separately and used as reference DLL.
