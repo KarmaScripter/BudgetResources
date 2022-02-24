@@ -1684,11 +1684,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Database.resx</DependentUpon>
     </Compile>
-    <Compile Update="Icons\Division.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Division.resx</DependentUpon>
-    </Compile>
     <Compile Update="Icons\Email.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -1743,11 +1738,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Dialog.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Images\Division.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Division.resx</DependentUpon>
     </Compile>
     <Compile Update="Images\Email.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -2177,10 +2167,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Database.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Icons\Division.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Division.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Update="Icons\Email.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Email.Designer.cs</LastGenOutput>
@@ -2224,10 +2210,6 @@
     <EmbeddedResource Update="Images\Dialog.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Dialog.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Images\Division.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Division.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Images\Email.resx">
       <Generator>ResXFileCodeGenerator</Generator>
