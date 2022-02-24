@@ -143,36 +143,6 @@
     <None Remove="Resources\DialogVerify.png" />
     <None Remove="Resources\DialogWarning.ico" />
     <None Remove="Resources\DialogWarning.png" />
-    <None Remove="Resources\DivisionARD.ico" />
-    <None Remove="Resources\DivisionARD.png" />
-    <None Remove="Resources\DivisionD6.ico" />
-    <None Remove="Resources\DivisionD6.png" />
-    <None Remove="Resources\DivisionECAD.ico" />
-    <None Remove="Resources\DivisionECAD.png" />
-    <None Remove="Resources\DivisionEJ.ico" />
-    <None Remove="Resources\DivisionEJ.png" />
-    <None Remove="Resources\DivisionLCARD.ico" />
-    <None Remove="Resources\DivisionLCARD.png" />
-    <None Remove="Resources\DivisionLSASD.ico" />
-    <None Remove="Resources\DivisionLSASD.png" />
-    <None Remove="Resources\DivisionMSD.ico" />
-    <None Remove="Resources\DivisionMSD.png" />
-    <None Remove="Resources\DivisionMSR.ico" />
-    <None Remove="Resources\DivisionMSR.png" />
-    <None Remove="Resources\DivisionORA.ico" />
-    <None Remove="Resources\DivisionORA.png" />
-    <None Remove="Resources\DivisionORC.ico" />
-    <None Remove="Resources\DivisionORC.png" />
-    <None Remove="Resources\DivisionSEMD.ico" />
-    <None Remove="Resources\DivisionSEMD.png" />
-    <None Remove="Resources\DivisionWCF.ico" />
-    <None Remove="Resources\DivisionWCF.png" />
-    <None Remove="Resources\DivisionWD.ico" />
-    <None Remove="Resources\DivisionWD.png" />
-    <None Remove="Resources\DivisionWSA.ico" />
-    <None Remove="Resources\DivisionWSA.png" />
-    <None Remove="Resources\DivisionXA.ico" />
-    <None Remove="Resources\DivisionXA.png" />
     <None Remove="Resources\EditFilter.ico" />
     <None Remove="Resources\EditFilter.png" />
     <None Remove="Resources\EmailAdd.ico" />
@@ -857,13 +827,11 @@
     <None Remove="Resources\ToolBarWord.ico" />
     <None Remove="Resources\ToolBarWord.png" />
     <None Remove="Resources\USEPA.ico" />
-    <None Remove="Templates\Budget\Control.xlsx" />
     <None Remove="Templates\Report\Report.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="PDF\FCO\FundsControlManual.pdf" />
-    <Content Include="Templates\Budget\Control.xlsx" />
     <Content Include="Templates\Report\Report.xlsx" />
   </ItemGroup>
 
@@ -1000,36 +968,6 @@
     <EmbeddedResource Include="Resources\DialogVerify.png" />
     <EmbeddedResource Include="Resources\DialogWarning.ico" />
     <EmbeddedResource Include="Resources\DialogWarning.png" />
-    <EmbeddedResource Include="Resources\DivisionARD.ico" />
-    <EmbeddedResource Include="Resources\DivisionARD.png" />
-    <EmbeddedResource Include="Resources\DivisionD6.ico" />
-    <EmbeddedResource Include="Resources\DivisionD6.png" />
-    <EmbeddedResource Include="Resources\DivisionECAD.ico" />
-    <EmbeddedResource Include="Resources\DivisionECAD.png" />
-    <EmbeddedResource Include="Resources\DivisionEJ.ico" />
-    <EmbeddedResource Include="Resources\DivisionEJ.png" />
-    <EmbeddedResource Include="Resources\DivisionLCARD.ico" />
-    <EmbeddedResource Include="Resources\DivisionLCARD.png" />
-    <EmbeddedResource Include="Resources\DivisionLSASD.ico" />
-    <EmbeddedResource Include="Resources\DivisionLSASD.png" />
-    <EmbeddedResource Include="Resources\DivisionMSD.ico" />
-    <EmbeddedResource Include="Resources\DivisionMSD.png" />
-    <EmbeddedResource Include="Resources\DivisionMSR.ico" />
-    <EmbeddedResource Include="Resources\DivisionMSR.png" />
-    <EmbeddedResource Include="Resources\DivisionORA.ico" />
-    <EmbeddedResource Include="Resources\DivisionORA.png" />
-    <EmbeddedResource Include="Resources\DivisionORC.ico" />
-    <EmbeddedResource Include="Resources\DivisionORC.png" />
-    <EmbeddedResource Include="Resources\DivisionSEMD.ico" />
-    <EmbeddedResource Include="Resources\DivisionSEMD.png" />
-    <EmbeddedResource Include="Resources\DivisionWCF.ico" />
-    <EmbeddedResource Include="Resources\DivisionWCF.png" />
-    <EmbeddedResource Include="Resources\DivisionWD.ico" />
-    <EmbeddedResource Include="Resources\DivisionWD.png" />
-    <EmbeddedResource Include="Resources\DivisionWSA.ico" />
-    <EmbeddedResource Include="Resources\DivisionWSA.png" />
-    <EmbeddedResource Include="Resources\DivisionXA.ico" />
-    <EmbeddedResource Include="Resources\DivisionXA.png" />
     <EmbeddedResource Include="Resources\EditFilter.ico" />
     <EmbeddedResource Include="Resources\EditFilter.png" />
     <EmbeddedResource Include="Resources\EmailAdd.ico" />
