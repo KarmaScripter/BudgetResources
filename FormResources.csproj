@@ -13,6 +13,9 @@
     <Product>BudgetResources</Product>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/KarmaScripter/BudgetResources</RepositoryUrl>
+    <PackageIcon>BudExNinja.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +31,6 @@
     <None Remove="Resources\BlueNinja.ico" />
     <None Remove="Resources\BlueNinja.png" />
     <None Remove="Resources\BudExNinja.ico" />
-    <None Remove="Resources\BudExNinja.png" />
     <None Remove="Resources\CloseBoxClose.ico" />
     <None Remove="Resources\CloseBoxClose.png" />
     <None Remove="Resources\CloseBoxEnter.ico" />
@@ -2539,6 +2541,21 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Summary.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Resources\BudExNinja.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
