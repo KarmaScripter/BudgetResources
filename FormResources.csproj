@@ -2,12 +2,24 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>BudgetExecution</RootNamespace>
     <ApplicationIcon>DbNinja.ico</ApplicationIcon>
     <AssemblyName>BudgetResources</AssemblyName>
+    <Nullable>disable</Nullable>
+    <Authors>Terry D. Eppler</Authors>
+    <Company>US EPA</Company>
+    <Product>BudgetResources</Product>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KarmaScripter/BudgetResources</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SQL\ACCDB\CREATE\**" />
+    <EmbeddedResource Remove="SQL\ACCDB\CREATE\**" />
+    <None Remove="SQL\ACCDB\CREATE\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Remove="PDF\FCO\FundsControlManual.pdf" />
@@ -773,11 +785,9 @@
     <None Remove="Resources\ProviderOleDb.ico" />
     <None Remove="Resources\ProviderOleDb.png" />
     <None Remove="Resources\ProviderSqlCe.ico" />
-    <None Remove="Resources\ProviderSqlCe.png" />
     <None Remove="Resources\ProviderSQLite.ico" />
     <None Remove="Resources\ProviderSQLite.png" />
     <None Remove="Resources\ProviderSqlServer.ico" />
-    <None Remove="Resources\ProviderSqlServer.png" />
     <None Remove="Resources\ToolBarAccessDb.ico" />
     <None Remove="Resources\ToolBarAccessDb.png" />
     <None Remove="Resources\ToolBarAdd.ico" />
@@ -1598,11 +1608,9 @@
     <EmbeddedResource Include="Resources\ProviderOleDb.ico" />
     <EmbeddedResource Include="Resources\ProviderOleDb.png" />
     <EmbeddedResource Include="Resources\ProviderSqlCe.ico" />
-    <EmbeddedResource Include="Resources\ProviderSqlCe.png" />
     <EmbeddedResource Include="Resources\ProviderSQLite.ico" />
     <EmbeddedResource Include="Resources\ProviderSQLite.png" />
     <EmbeddedResource Include="Resources\ProviderSqlServer.ico" />
-    <EmbeddedResource Include="Resources\ProviderSqlServer.png" />
     <EmbeddedResource Include="Resources\ToolBarAccessDb.ico" />
     <EmbeddedResource Include="Resources\ToolBarAccessDb.png" />
     <EmbeddedResource Include="Resources\ToolBarAdd.ico" />
@@ -1652,10 +1660,6 @@
     <EmbeddedResource Include="Resources\ToolBarWord.ico" />
     <EmbeddedResource Include="Resources\ToolBarWord.png" />
     <EmbeddedResource Include="Resources\USEPA.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="SQL\ACCDB\CREATE\" />
   </ItemGroup>
 
   <ItemGroup>
