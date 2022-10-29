@@ -5,7 +5,7 @@
     <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>BudgetExecution</RootNamespace>
-    <ApplicationIcon>DbNinja.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\BudExNinja.ico</ApplicationIcon>
     <AssemblyName>BudgetResources</AssemblyName>
     <Nullable>disable</Nullable>
     <Authors>Terry D. Eppler</Authors>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="PDF\FCO\FundsControlManual.pdf" />
+    <None Remove="Documents\ResourceManagementDirectives\FundsControlManual.pdf" />
     <None Remove="Resources\BadgerIcon.ico" />
     <None Remove="Resources\BadgerIcon.png" />
     <None Remove="Resources\BlueNinja.ico" />
@@ -839,12 +839,13 @@
     <None Remove="Resources\ToolBarWord.ico" />
     <None Remove="Resources\ToolBarWord.png" />
     <None Remove="Resources\USEPA.ico" />
-    <None Remove="Templates\Report\Report.xlsx" />
+    <None Remove="Report\Report.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="PDF\FCO\FundsControlManual.pdf" />
-    <Content Include="Templates\Report\Report.xlsx" />
+    <Content Include="Documents\ResourceManagementDirectives\FundsControlManual.pdf" />
+    <Content Include="Report\Report.xlsx" />
+    <Content Include="Resources\BudExNinja.ico" />
   </ItemGroup>
 
   <ItemGroup>
